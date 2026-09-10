@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1840" viewBox="0 0 1800 1840">
+<rect width="100%" height="100%" fill="white"/>
+<polyline points="360,786.667 440,786.667 440,190 530,190" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,165 980,165 980,90 1080,90" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,190 980,190 980,190 1080,190" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,215 980,215 980,290 1080,290" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="360,813.333 440,813.333 440,530 530,530" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,500 980,500 980,380 1080,380" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,520 980,520 980,480 1080,480" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,540 980,540 980,580 1080,580" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,560 980,560 980,680 1080,680" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="360,840 440,840 440,870 530,870" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,845 980,845 980,770 1080,770" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,870 980,870 980,870 1080,870" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,895 980,895 980,970 1080,970" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="360,866.667 440,866.667 440,1210 530,1210" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,1185 980,1185 980,1110 1080,1110" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,1210 980,1210 980,1210 1080,1210" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,1235 980,1235 980,1310 1080,1310" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="360,893.333 440,893.333 440,1550 530,1550" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,1533.33 980,1533.33 980,1500 1080,1500" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="880,1566.67 980,1566.67 980,1600 1080,1600" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<rect x="40" y="760" width="320" height="160" rx="14" fill="#244F78" stroke="#6C8EBF" stroke-width="2"/>
+<text x="200" y="833" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">豆包工作</text>
+<text x="200" y="868" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">AI智能办公实战手册</text>
+<rect x="530" y="140" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="705" y="198.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第一篇  认识与上手</text>
+<rect x="1080" y="50" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="98.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第1章  产品定位与能力边界</text>
+<rect x="1080" y="150" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="198.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第2章  完成首个办公任务</text>
+<rect x="1080" y="250" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="298.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第3章  理解Agent工作方式</text>
+<rect x="530" y="480" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="705" y="538.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第二篇  核心交付</text>
+<rect x="1080" y="340" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="388.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第4章  文档写作</text>
+<rect x="1080" y="440" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="488.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第5章  PPT制作</text>
+<rect x="1080" y="540" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="588.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第6章  表格与数据分析</text>
+<rect x="1080" y="640" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="688.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第7章  深度调研与专业分析</text>
+<rect x="530" y="820" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="705" y="878.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第三篇  进阶执行与创作</text>
+<rect x="1080" y="730" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="778.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第8章  电脑与浏览器操作</text>
+<rect x="1080" y="830" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="878.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第9章  定时任务与自动化</text>
+<rect x="1080" y="930" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="978.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第10章  创意内容生成</text>
+<rect x="530" y="1160" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="705" y="1218.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第四篇  组织协作与治理</text>
+<rect x="1080" y="1070" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="1118.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第11章  飞书与企业上下文</text>
+<rect x="1080" y="1170" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="1218.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第12章  技能与生态扩展</text>
+<rect x="1080" y="1270" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="1318.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第13章  安全与隐私</text>
+<rect x="530" y="1500" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="705" y="1558.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第五篇  岗位实践与展望</text>
+<rect x="1080" y="1460" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="1508.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第14章  岗位与业务场景</text>
+<rect x="1080" y="1560" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1405" y="1608.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第15章  工作流程与成效复盘</text>
+<text x="40" y="1812" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#627383">豆包工作：AI智能办公实战手册  /  全书学习路径</text></svg>

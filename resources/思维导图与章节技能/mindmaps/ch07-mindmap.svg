@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="960" viewBox="0 0 1800 960">
+<rect width="100%" height="100%" fill="white"/>
+<polyline points="740,445 690,445 690,240 640,240" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="400,226.667 360,226.667 360,180 320,180" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="400,253.333 360,253.333 360,300 320,300" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="740,515 690,515 690,720 640,720" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="400,706.667 360,706.667 360,660 320,660" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="400,733.333 360,733.333 360,780 320,780" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1060,445 1110,445 1110,240 1160,240" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1400,226.667 1440,226.667 1440,180 1480,180" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1400,253.333 1440,253.333 1440,300 1480,300" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1060,515 1110,515 1110,720 1160,720" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1400,706.667 1440,706.667 1440,660 1480,660" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1400,733.333 1440,733.333 1440,780 1480,780" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
+<rect x="740" y="410" width="320" height="140" rx="14" fill="#244F78" stroke="#6C8EBF" stroke-width="2"/>
+<text x="900" y="473" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">第7章</text>
+<text x="900" y="508" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">深度调研与专业分析</text>
+<rect x="400" y="200" width="240" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="520" y="248.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">定义问题</text>
+<rect x="30" y="140" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="175" y="188.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">明确专业与报考年度</text>
+<rect x="30" y="260" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="175" y="308.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">把问题变成字段</text>
+<rect x="400" y="680" width="240" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="520" y="728.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">采集证据</text>
+<rect x="30" y="620" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="175" y="668.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">优先核对官方资料</text>
+<rect x="30" y="740" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="175" y="788.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">记录页面与日期</text>
+<rect x="1160" y="200" width="240" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1280" y="248.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">检查口径</text>
+<rect x="1480" y="140" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1625" y="188.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">区分计划与实际录取</text>
+<rect x="1480" y="260" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1625" y="308.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">处理冲突和缺失</text>
+<rect x="1160" y="680" width="240" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1280" y="728.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">形成报告</text>
+<rect x="1480" y="620" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1625" y="668.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">结论对应来源</text>
+<rect x="1480" y="740" width="290" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
+<text x="1625" y="788.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">保留不确定性与核验项</text>
+<text x="40" y="932" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#627383">豆包工作：AI智能办公实战手册  /  章节知识结构</text></svg>

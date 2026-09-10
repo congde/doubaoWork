@@ -1,0 +1,3489 @@
+{
+  "id": "book",
+  "title": "豆包工作 · 全面能力与使用地图",
+  "children": {
+    "attached": [
+      {
+        "id": "8a54db9e400e55fab820adebad",
+        "title": "01 产品定位与入口",
+        "children": {
+          "attached": [
+            {
+              "id": "5a7748193b0550259eb5d4e7aa",
+              "title": "面向目标的办公 Agent",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜接收工作目标，组织步骤并调用工具，产出可继续使用的成果。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "550ffaa5a73f5f8780e6377c3a",
+                    "title": "个人任务与团队任务",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜接收工作目标，组织步骤并调用工具，产出可继续使用的成果。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5228d9f35ecb54af8a79a7916e",
+                    "title": "一次问答与多步骤交付",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜接收工作目标，组织步骤并调用工具，产出可继续使用的成果。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5ae2898d260b525ba4d61e1d1e",
+                    "title": "成果可以继续修改",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜接收工作目标，组织步骤并调用工具，产出可继续使用的成果。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "edf5dc0cd80f54bf81acf0220e",
+                    "title": "能力受环境与权限约束",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜接收工作目标，组织步骤并调用工具，产出可继续使用的成果。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "d90003fda8b4570d8f7efa0d46",
+              "title": "选择使用入口",
+              "evidence": "社区参考",
+              "source_ids": [
+                "S7"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "社区参考｜社区介绍独立电脑版和豆包电脑版入口；安装渠道及名称以官网、当前客户端为准。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "09e40867a0d254838f28cb2754",
+                    "title": "核对Windows或Mac版本",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区介绍独立电脑版和豆包电脑版入口；安装渠道及名称以官网、当前客户端为准。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3092ef67def0571d97d3267e41",
+                    "title": "确认登录账号",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区介绍独立电脑版和豆包电脑版入口；安装渠道及名称以官网、当前客户端为准。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6b86be6aa99e546d845eacce39",
+                    "title": "查看本地与云端选项",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区介绍独立电脑版和豆包电脑版入口；安装渠道及名称以官网、当前客户端为准。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "eccc08e9de805c9d956617956e",
+                    "title": "首次用小任务验证",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区介绍独立电脑版和豆包电脑版入口；安装渠道及名称以官网、当前客户端为准。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "d33cf69421e359df9fc86f9ecb",
+              "title": "厘清相近名称",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜阅读资料时分别核对产品名称、版本与入口，不把同名或关联产品功能直接互换。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "ce9c6d80d67d59e39553126811",
+                    "title": "豆包日常对话与工作任务",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜阅读资料时分别核对产品名称、版本与入口，不把同名或关联产品功能直接互换。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "dc15ae8b60b751699466365bc2",
+                    "title": "豆包工作与飞书内入口",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜阅读资料时分别核对产品名称、版本与入口，不把同名或关联产品功能直接互换。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "47e22b8c0476580e9070e91906",
+                    "title": "工作伙伴与飞书aily关联产品",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜阅读资料时分别核对产品名称、版本与入口，不把同名或关联产品功能直接互换。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "756c78e091665b1893f90e33c7",
+                    "title": "产品整合新闻不等于能力已迁移",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜阅读资料时分别核对产品名称、版本与入口，不把同名或关联产品功能直接互换。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "6bb75273c3975333bc9885caf3",
+        "title": "02 项目与任务组织",
+        "children": {
+          "attached": [
+            {
+              "id": "ff79f51d5d775f3ca3dff02f76",
+              "title": "项目归集能力",
+              "evidence": "用户供稿·待核",
+              "source_ids": [
+                "U1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "用户供稿·待核｜供稿提及历史对话拖入项目、旧任务加入项目及隐藏对话；具体操作尚待客户端核验。\n\n来源：一个人开始带一支AI团队了（用户粘贴）\n用户本次对话供稿，无原始网址。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "504b96d3af9e50b98ad716a821",
+                    "title": "建立项目",
+                    "evidence": "用户供稿·待核",
+                    "source_ids": [
+                      "U1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "用户供稿·待核｜供稿提及历史对话拖入项目、旧任务加入项目及隐藏对话；具体操作尚待客户端核验。\n\n来源：一个人开始带一支AI团队了（用户粘贴）\n用户本次对话供稿，无原始网址。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "076e996d26665a4487d5ba6ab7",
+                    "title": "归集历史对话〔待核〕",
+                    "evidence": "用户供稿·待核",
+                    "source_ids": [
+                      "U1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "用户供稿·待核｜供稿提及历史对话拖入项目、旧任务加入项目及隐藏对话；具体操作尚待客户端核验。\n\n来源：一个人开始带一支AI团队了（用户粘贴）\n用户本次对话供稿，无原始网址。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5a222283b0e153f1855e958229",
+                    "title": "归集历史任务〔待核〕",
+                    "evidence": "用户供稿·待核",
+                    "source_ids": [
+                      "U1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "用户供稿·待核｜供稿提及历史对话拖入项目、旧任务加入项目及隐藏对话；具体操作尚待客户端核验。\n\n来源：一个人开始带一支AI团队了（用户粘贴）\n用户本次对话供稿，无原始网址。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "95b38d55af395962a79e9a363b",
+                    "title": "隐藏对话〔待核〕",
+                    "evidence": "用户供稿·待核",
+                    "source_ids": [
+                      "U1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "用户供稿·待核｜供稿提及历史对话拖入项目、旧任务加入项目及隐藏对话；具体操作尚待客户端核验。\n\n来源：一个人开始带一支AI团队了（用户粘贴）\n用户本次对话供稿，无原始网址。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "b9b5e4031a9c5c608ee94aa26a",
+              "title": "项目资料组织方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜按工作目标整理输入、过程和交付，避免多个版本混用。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "e59e07f2be3b5daba97cb93598",
+                    "title": "项目目标与范围",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按工作目标整理输入、过程和交付，避免多个版本混用。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "8f5fb6a307b758aa9d9b3d364d",
+                    "title": "当前资料与历史参考",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按工作目标整理输入、过程和交付，避免多个版本混用。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9fbbc184547058b4a24d67c31e",
+                    "title": "任务命名与日期",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按工作目标整理输入、过程和交付，避免多个版本混用。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "975b5b78ed725ae0b0fdc90210",
+                    "title": "最终成果与过程草稿",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按工作目标整理输入、过程和交付，避免多个版本混用。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "c5b747ec6edb5072865968c74c",
+              "title": "跨任务交接方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜同一项目的归属关系不应被当作上下文自动共享的保证。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "2c78d8b9ea34538ab1e9b3d63c",
+                    "title": "写明已确认结论",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜同一项目的归属关系不应被当作上下文自动共享的保证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "05bd662d24fb575e8edb4003b3",
+                    "title": "列出文件与来源位置",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜同一项目的归属关系不应被当作上下文自动共享的保证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "db2966994a0a5c61be7c4953bc",
+                    "title": "记录未解决问题",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜同一项目的归属关系不应被当作上下文自动共享的保证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ca7799b73139525488c8c95a4e",
+                    "title": "新任务主动带入交接摘要",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜同一项目的归属关系不应被当作上下文自动共享的保证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "8ebbfeae36775983b8d07ca471",
+        "title": "03 任务委托与过程控制",
+        "children": {
+          "attached": [
+            {
+              "id": "b9c3585eafb85a73b97eb16e68",
+              "title": "写清工作委托",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜以下为本导图建议的任务说明结构，可按实际工作精简。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "b6a7e42d4784595eac65184714",
+                    "title": "背景与目标",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为本导图建议的任务说明结构，可按实际工作精简。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9cd13b0cb50a5bef907968040a",
+                    "title": "输入材料与时间范围",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为本导图建议的任务说明结构，可按实际工作精简。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "bd46218af8e25032be85e34ada",
+                    "title": "输出格式与读者",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为本导图建议的任务说明结构，可按实际工作精简。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3e2e389a81395e598cb22590aa",
+                    "title": "验收标准与截止时间",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为本导图建议的任务说明结构，可按实际工作精简。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "0497b03d1442554186a4cbe8a9",
+              "title": "选择执行方式",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜依据任务复杂度与操作影响安排介入时点。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "2a1ea7e2febd5a8f9c56f8776e",
+                    "title": "只讨论方案",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜依据任务复杂度与操作影响安排介入时点。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "583c01407cbe554e9940696fb5",
+                    "title": "先审计划再执行",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜依据任务复杂度与操作影响安排介入时点。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d97bd2e514be53bb85ecd1d23e",
+                    "title": "明确范围后直接处理",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜依据任务复杂度与操作影响安排介入时点。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "32b77f17fd2a5e6297ee587fc8",
+                    "title": "关键节点补充反馈",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜依据任务复杂度与操作影响安排介入时点。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "769f844dcdf45dc3a08447373b",
+              "title": "任务异常处理",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜针对阻塞原因修复，保留已经确认的中间成果。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "40144295ae11535c96127941c2",
+                    "title": "资料不足先列缺口",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜针对阻塞原因修复，保留已经确认的中间成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "0beca4332ae758e193adbd5d86",
+                    "title": "权限不足找资料负责人",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜针对阻塞原因修复，保留已经确认的中间成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3d1d495e4f7c5104a748960e34",
+                    "title": "界面变化重新定位",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜针对阻塞原因修复，保留已经确认的中间成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "10bc0985010b5dbcbcb5250fe6",
+                    "title": "恢复前核对已完成步骤",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜针对阻塞原因修复，保留已经确认的中间成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "cfeceef2a851512192587a4470",
+        "title": "04 侧边工作台与局部编辑",
+        "children": {
+          "attached": [
+            {
+              "id": "5621de02da6152e4a370cbfbac",
+              "title": "同屏查看工作资源",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S5"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道介绍侧栏工作区，将对话和工作资源放在同一界面。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "a96068242aeb59e982eae4896e",
+                    "title": "查看相关文件",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍侧栏工作区，将对话和工作资源放在同一界面。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2febed9e18e15e3a872d87fc18",
+                    "title": "查看网页资源",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍侧栏工作区，将对话和工作资源放在同一界面。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3ae209546d8455a994bfbb461a",
+                    "title": "核对中间成果",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍侧栏工作区，将对话和工作资源放在同一界面。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3eae8d0390e6543bb3c36db3bd",
+                    "title": "观察任务是否被阻塞",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍侧栏工作区，将对话和工作资源放在同一界面。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "d7245d6521d0574986be78cd44",
+              "title": "局部修改能力",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方说明可对文档、PPT、网页或应用的指定位置提出修改。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "08638695bd32545eb40b673164",
+                    "title": "定位具体段落或页面",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明可对文档、PPT、网页或应用的指定位置提出修改。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6161fe8814445066bbcc6e4559",
+                    "title": "描述修改目标",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明可对文档、PPT、网页或应用的指定位置提出修改。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "0b28836d0c9e5ba78609fcc645",
+                    "title": "明确保留内容",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明可对文档、PPT、网页或应用的指定位置提出修改。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "45e7e5e7513b54248f8a0b7097",
+                    "title": "修改后复查关联部分",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明可对文档、PPT、网页或应用的指定位置提出修改。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "b59c2052a86452cdbdfd2161bd",
+              "title": "结果检查方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜预览便于发现问题，但仍需检查最终交付文件。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "919ba42ab2aa52779e09bbe715",
+                    "title": "预览与下载版本一致",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜预览便于发现问题，但仍需检查最终交付文件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a51ce4d1bd4c5010aad21dc114",
+                    "title": "文件打开后无缺页",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜预览便于发现问题，但仍需检查最终交付文件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "fbef4cbacea95ce1ab748fa69c",
+                    "title": "表格公式与数字正确",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜预览便于发现问题，但仍需检查最终交付文件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ebfc825301b158b183629353c5",
+                    "title": "网页按钮与链接可用",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜预览便于发现问题，但仍需检查最终交付文件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "428b0073603e5e298ddf388e1e",
+        "title": "05 资料输入与研究分析",
+        "children": {
+          "attached": [
+            {
+              "id": "fc625f9341ec50d892c1cf6c73",
+              "title": "公开资料研究",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜支持搜索、阅读多份材料并比较信息。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "f4a70717f9505ef4af83cc42b2",
+                    "title": "限定研究问题",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持搜索、阅读多份材料并比较信息。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c901626f00d35f238532c85d12",
+                    "title": "确定比较维度",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持搜索、阅读多份材料并比较信息。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "797b68ea810f5b46a63f583bcb",
+                    "title": "保留出处与日期",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持搜索、阅读多份材料并比较信息。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2c30cbae87a2597ea023065baf",
+                    "title": "区分事实和推断",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持搜索、阅读多份材料并比较信息。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "981b16dbf3db597fa276d912c5",
+              "title": "多份材料处理方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜先整理资料范围和版本，再提取信息。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "0aa9d0d99d4b5f399658c2cb9a",
+                    "title": "建立资料清单",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先整理资料范围和版本，再提取信息。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "1cb219bbc1715568913d8fc4ba",
+                    "title": "标记扫描件与缺页",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先整理资料范围和版本，再提取信息。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d3e89dd75e135418b73ba317bf",
+                    "title": "统一术语和口径",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先整理资料范围和版本，再提取信息。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "b8be67f712fc588e85f739e6c0",
+                    "title": "整理矛盾与证据缺口",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先整理资料范围和版本，再提取信息。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "eab187dc9e3e5a478ce4af491c",
+              "title": "研究交付方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜建议把结论与证据放在可逐项复查的结构中。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "698249cedefc583ea36c050239",
+                    "title": "一页结论摘要",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜建议把结论与证据放在可逐项复查的结构中。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "369ec1e5c60a5ccc859c151215",
+                    "title": "关键事实依据表",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜建议把结论与证据放在可逐项复查的结构中。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4aa3f44499315374990e04835e",
+                    "title": "方案与适用条件",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜建议把结论与证据放在可逐项复查的结构中。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5340af2d063c5864915ff2a707",
+                    "title": "仍需确认的问题",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜建议把结论与证据放在可逐项复查的结构中。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "cbd9b1289a175c32a6580739b8",
+        "title": "06 文档、PPT与表格",
+        "children": {
+          "attached": [
+            {
+              "id": "6829b6e59c195e86b7b2499179",
+              "title": "办公文件生产",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜支持文档、PPT和表格的生成或修改，以及数据计算、图表与异常分析。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "d4ba81a3dbb35c90ae5f91c237",
+                    "title": "文档",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持文档、PPT和表格的生成或修改，以及数据计算、图表与异常分析。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2aa225aa11fd5daaad8bddf973",
+                    "title": "演示文稿",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持文档、PPT和表格的生成或修改，以及数据计算、图表与异常分析。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "cb628fd24f225e3c9fedf7d319",
+                    "title": "电子表格",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持文档、PPT和表格的生成或修改，以及数据计算、图表与异常分析。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9c396db5604b56948d67b7805a",
+                    "title": "数据图表",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜支持文档、PPT和表格的生成或修改，以及数据计算、图表与异常分析。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "e3bf4394206d5041bd1267f499",
+              "title": "文档与PPT工作方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜先确认内容，再检查表达与版式。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "67e1a82786d85889a459ade2a9",
+                    "title": "确定读者和目的",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先确认内容，再检查表达与版式。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5bf28959ff98576fb94827d35b",
+                    "title": "审定提纲与论点",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先确认内容，再检查表达与版式。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "e3c30c6667ea580bb75b438507",
+                    "title": "补齐依据与图表",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先确认内容，再检查表达与版式。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "947d8b0081705bf6bcbc7ab506",
+                    "title": "逐页检查排版",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先确认内容，再检查表达与版式。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "62b4c706a88d570fa68ebbe6d1",
+              "title": "表格工作方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜从原始数据到分析结果保留复查路径。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "eec29b85b11d5cd391169ec249",
+                    "title": "备份原始数据",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜从原始数据到分析结果保留复查路径。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3117fc16011a5058b13a7e2a90",
+                    "title": "处理缺失与重复",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜从原始数据到分析结果保留复查路径。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "72cf3aad535e5575bdd9decff2",
+                    "title": "统一单位和统计范围",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜从原始数据到分析结果保留复查路径。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "eca4cc2dfc7c513d9920c8ea28",
+                    "title": "抽查公式与图表源数据",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜从原始数据到分析结果保留复查路径。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "516bdd2ec04850b9864f8ed17a",
+        "title": "07 图片、视频与应用",
+        "children": {
+          "attached": [
+            {
+              "id": "9dee4700e6505a409de4b4e7f6",
+              "title": "多种内容形态",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S1"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方列出图片与视频生成编辑、网页及轻量应用或系统生成。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "5735226ab3ae5c739697275b02",
+                    "title": "图片生成与修改",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列出图片与视频生成编辑、网页及轻量应用或系统生成。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9c93e934b749585da14670ab00",
+                    "title": "视频生成与修改",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列出图片与视频生成编辑、网页及轻量应用或系统生成。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "0110e49cb829546ebb3603c139",
+                    "title": "网页",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列出图片与视频生成编辑、网页及轻量应用或系统生成。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "7c6007ca1fb55dce90208ae79e",
+                    "title": "轻量应用",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S1"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列出图片与视频生成编辑、网页及轻量应用或系统生成。\n\n来源：飞书：能力范围\nhttps://www.feishu.cn/content/article/7680041409667157172\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "14beaa9428c95d4ea18c40a1a5",
+              "title": "视觉内容工作方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜按传播用途准备需求和验收条件。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "9301cb368cf35f9fa1d616c8a3",
+                    "title": "尺寸与使用位置",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按传播用途准备需求和验收条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "fc515edd77ae505ca3b1b615a3",
+                    "title": "风格与参考素材",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按传播用途准备需求和验收条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "51536cfd8c5b501c941c01f1e5",
+                    "title": "文字与品牌规范",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按传播用途准备需求和验收条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a09283721fed5109b39ff9ce10",
+                    "title": "素材来源与使用授权",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按传播用途准备需求和验收条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "0d93222d4b5d532bbccc8d6f95",
+              "title": "网页应用交付方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜可生成原型不等于业务系统已具备上线条件。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "df08c13d41d85eb1bf029cf556",
+                    "title": "页面与操作流程",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可生成原型不等于业务系统已具备上线条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "45c201af57e15a14a26c05869b",
+                    "title": "使用示例数据试跑",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可生成原型不等于业务系统已具备上线条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "142f9eaff239563e9c8c7074fb",
+                    "title": "验证保存与异常反馈",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可生成原型不等于业务系统已具备上线条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "7b3cf6a2b6c85f5593234d8e7b",
+                    "title": "确定发布方式和维护责任",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可生成原型不等于业务系统已具备上线条件。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "7363f33f12c358a59a5d8c9c25",
+        "title": "08 本地电脑、云电脑与GUI",
+        "children": {
+          "attached": [
+            {
+              "id": "a4ee204cd1cb522f95eb3fa502",
+              "title": "本地和云端执行",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S5"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道介绍本地电脑与云电脑两种环境；本地资源处理与云端持续任务各有适用范围。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "c00c6cae667754c68d70369c3f",
+                    "title": "本机文件与软件",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍本地电脑与云电脑两种环境；本地资源处理与云端持续任务各有适用范围。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "7a85bf6fa8fb5a8f8cf5b5b30d",
+                    "title": "云端工作资源",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍本地电脑与云电脑两种环境；本地资源处理与云端持续任务各有适用范围。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "789783d6d9945ce7b2d0389609",
+                    "title": "手机查看或发起任务",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍本地电脑与云电脑两种环境；本地资源处理与云端持续任务各有适用范围。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "01acee913ea455368c56506c3f",
+                    "title": "环境切换前检查资源",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S5"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍本地电脑与云电脑两种环境；本地资源处理与云端持续任务各有适用范围。\n\n来源：国是直通车／新浪：云电脑与远程操作（2026-08-21）\nhttps://finance.sina.com.cn/wm/2026-08-21/doc-inipaens1380641.shtml\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "9ea93520456758ddbb7961ac5c",
+              "title": "跨系统电脑操作",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S4"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道确认Windows之后增加Mac本地电脑界面操作；实际软件适配需验证。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "c4b4f300b04e5285845da4c3e4",
+                    "title": "识别页面与界面",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道确认Windows之后增加Mac本地电脑界面操作；实际软件适配需验证。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f0f2270b861954ce9cb3c7c951",
+                    "title": "点击和输入",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道确认Windows之后增加Mac本地电脑界面操作；实际软件适配需验证。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5cbccfde9879559198e61d79b0",
+                    "title": "文件整理",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道确认Windows之后增加Mac本地电脑界面操作；实际软件适配需验证。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "bb2ca2809d155bd6909fb259e7",
+                    "title": "浏览器中的连续操作",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道确认Windows之后增加Mac本地电脑界面操作；实际软件适配需验证。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "55660e77de605f98ba2d1bf5ee",
+              "title": "环境选择方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜先判断数据在哪里、需要什么软件，再决定执行环境。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "a058a1ce876e529999d742044f",
+                    "title": "本地任务核对开机联网",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先判断数据在哪里、需要什么软件，再决定执行环境。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6ed9842c871a5747bef12d9061",
+                    "title": "云端核对文件与登录状态",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先判断数据在哪里、需要什么软件，再决定执行环境。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "cf67e82d5554536f9ef9e7c762",
+                    "title": "虚拟桌面不等于云电脑",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先判断数据在哪里、需要什么软件，再决定执行环境。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c77a591ebf5c5f3fb07030b042",
+                    "title": "本地执行不等于数据不出设备",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先判断数据在哪里、需要什么软件，再决定执行环境。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "37c0ee645d88504d8637d64401",
+              "title": "GUI操作检查方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜界面变化、登录验证与状态不明都可能中断操作。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "96b41837c4c55bf685f90715e0",
+                    "title": "小批量验证操作路径",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜界面变化、登录验证与状态不明都可能中断操作。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c2904d0363035d5dbcdeef87c6",
+                    "title": "验证码由用户处理",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜界面变化、登录验证与状态不明都可能中断操作。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "70a7a01c682e58539aa0d4bf1b",
+                    "title": "保存前确认目标位置",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜界面变化、登录验证与状态不明都可能中断操作。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "aed56fe49d685c5c9734ccca68",
+                    "title": "失败时检查是否已部分写入",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜界面变化、登录验证与状态不明都可能中断操作。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "d1ba4a83a27a57f7adb0847584",
+        "title": "09 工作伙伴与多Agent",
+        "children": {
+          "attached": [
+            {
+              "id": "45347f9973fa546eb2fdaac1c5",
+              "title": "专业工作伙伴",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S8"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道介绍数据、研究、设计等角色参与工作；角色清单与接入方式依当前版本。\n\n来源：新黄河／凤凰：企业级权限与工作伙伴\nhttps://i.ifeng.com/c/8vsfKSTynNt"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "3b90fa20e1225c678e994a86b4",
+                    "title": "选择专业角色",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S8"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍数据、研究、设计等角色参与工作；角色清单与接入方式依当前版本。\n\n来源：新黄河／凤凰：企业级权限与工作伙伴\nhttps://i.ifeng.com/c/8vsfKSTynNt\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "dc89e83e5b9e5e2ebe0e3fefc9",
+                    "title": "说明职责",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S8"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍数据、研究、设计等角色参与工作；角色清单与接入方式依当前版本。\n\n来源：新黄河／凤凰：企业级权限与工作伙伴\nhttps://i.ifeng.com/c/8vsfKSTynNt\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "87ebaa7ca3ae5e62bd41fd35eb",
+                    "title": "给足必要资料",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S8"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍数据、研究、设计等角色参与工作；角色清单与接入方式依当前版本。\n\n来源：新黄河／凤凰：企业级权限与工作伙伴\nhttps://i.ifeng.com/c/8vsfKSTynNt\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "996d2feab5f256acb8a2238c58",
+                    "title": "检查角色产出",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S8"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道介绍数据、研究、设计等角色参与工作；角色清单与接入方式依当前版本。\n\n来源：新黄河／凤凰：企业级权限与工作伙伴\nhttps://i.ifeng.com/c/8vsfKSTynNt\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ad47e3825961534d8b92040432",
+              "title": "多Agent并行",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S4"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道描述主Agent拆分独立子任务并汇总；当时入口为电脑端本地环境，指令要求使用多个子Agent。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "efc6863b00c25aa48be721a441",
+                    "title": "独立对象批量处理",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道描述主Agent拆分独立子任务并汇总；当时入口为电脑端本地环境，指令要求使用多个子Agent。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6b40edcb87d851d8bcf51e23ff",
+                    "title": "不同维度同步调研",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道描述主Agent拆分独立子任务并汇总；当时入口为电脑端本地环境，指令要求使用多个子Agent。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5daa80db48185476bba96bca33",
+                    "title": "不同模块分别产出",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道描述主Agent拆分独立子任务并汇总；当时入口为电脑端本地环境，指令要求使用多个子Agent。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6e091d316292583d90959f83ed",
+                    "title": "主任务统一汇总",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S4"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道描述主Agent拆分独立子任务并汇总；当时入口为电脑端本地环境，指令要求使用多个子Agent。\n\n来源：新京报：多 Agent 与 Mac 更新（2026-09-04）\nhttps://www.bjnews.com.cn/detail/1788503487129181.html\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "88d91cfd55305f90a7e9810049",
+              "title": "协作设计方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜并行适合独立子任务，接力适合前后依赖；伙伴市场与系统子Agent不可简单画等号。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "5f43b1557c2952fb8894c4eb1f",
+                    "title": "拆分独立与依赖部分",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜并行适合独立子任务，接力适合前后依赖；伙伴市场与系统子Agent不可简单画等号。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "0ab4695a1ff956b4bc6674f83f",
+                    "title": "统一输入和统计口径",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜并行适合独立子任务，接力适合前后依赖；伙伴市场与系统子Agent不可简单画等号。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "36215eaa13ab5473864a50fd4a",
+                    "title": "约定交付字段",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜并行适合独立子任务，接力适合前后依赖；伙伴市场与系统子Agent不可简单画等号。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "e23fe37f973651e191bde53681",
+                    "title": "汇总时处理冲突与遗漏",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜并行适合独立子任务，接力适合前后依赖；伙伴市场与系统子Agent不可简单画等号。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "a17073b2682054bebb9abe564c",
+              "title": "行业调研分工示例",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜教学设计：先独立采集，再统一分析，最后依据确认的结论制作不同成果。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "a840333c0cdd54008910202268",
+                    "title": "调研员按对象取证",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜教学设计：先独立采集，再统一分析，最后依据确认的结论制作不同成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ef332647455d5b47b8f54b306a",
+                    "title": "分析者对齐比较维度",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜教学设计：先独立采集，再统一分析，最后依据确认的结论制作不同成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2190fd6e28e756c6bcbd7f0c0e",
+                    "title": "撰稿者组织报告",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜教学设计：先独立采集，再统一分析，最后依据确认的结论制作不同成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6e12703d50205533a298b25ee2",
+                    "title": "审阅者复核事实",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜教学设计：先独立采集，再统一分析，最后依据确认的结论制作不同成果。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "b8ac8728d6ac563c83d94786c2",
+        "title": "10 技能的选择与复用",
+        "children": {
+          "attached": [
+            {
+              "id": "e55ef8545dba5547a994f252b7",
+              "title": "技能扩展入口",
+              "evidence": "社区参考",
+              "source_ids": [
+                "S7"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "社区参考｜社区资料介绍技能商店与任务扩展；实际可安装格式、触发方式需按当前平台确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "7233b2a70fe85657881d19c151",
+                    "title": "查找适用技能",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍技能商店与任务扩展；实际可安装格式、触发方式需按当前平台确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "e3724cbcb5b35f3eac9ec5d87d",
+                    "title": "阅读使用条件",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍技能商店与任务扩展；实际可安装格式、触发方式需按当前平台确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "63ad9aea7a0d54e78363b39737",
+                    "title": "安装或加载",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍技能商店与任务扩展；实际可安装格式、触发方式需按当前平台确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "8e5de5e5ecb65fb28a11effb8e",
+                    "title": "先用样例试运行",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍技能商店与任务扩展；实际可安装格式、触发方式需按当前平台确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "d4a11712178b5b108b320737c4",
+              "title": "技能使用路径",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜让用户知道准备什么、如何启动、最后检查什么。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "d2f0a5dc45275186a423ab2854",
+                    "title": "一句话说明用途",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜让用户知道准备什么、如何启动、最后检查什么。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9551c7aa42fb5883b628488059",
+                    "title": "列清所需材料",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜让用户知道准备什么、如何启动、最后检查什么。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "926e77865a86541da900a898c2",
+                    "title": "提供启动示例",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜让用户知道准备什么、如何启动、最后检查什么。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "163d8359f30753168374cbe8a8",
+                    "title": "说明输出与验收",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜让用户知道准备什么、如何启动、最后检查什么。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "79ffb166c00650449c3e5be032",
+              "title": "自建技能设计",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜以下为通用技能编写建议，并非豆包已验证的导入协议。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "7ad465c8a3f45274bdc35d2820",
+                    "title": "任务范围和触发条件",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为通用技能编写建议，并非豆包已验证的导入协议。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "0291f65d6e9b524d94e8371670",
+                    "title": "可重复的操作步骤",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为通用技能编写建议，并非豆包已验证的导入协议。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "7825e197a6ec57caaa49be22f7",
+                    "title": "工具依赖与权限",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为通用技能编写建议，并非豆包已验证的导入协议。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "1f902fa554ea5bbe8b470c2ed4",
+                    "title": "示例与失败处理",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为通用技能编写建议，并非豆包已验证的导入协议。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "a5825d697dc55fda826285f153",
+              "title": "避免技能交付障碍",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜可复制提示词、技能文件与平台安装包应明确区分。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "c1f7dbb6f7b859b2954c5cf97a",
+                    "title": "下载包标注适用平台",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可复制提示词、技能文件与平台安装包应明确区分。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f4eddbb52d37506da011304e2b",
+                    "title": "安装说明就近可见",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可复制提示词、技能文件与平台安装包应明确区分。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a9ba2216827458efa45a44130b",
+                    "title": "缺材料一次问清",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可复制提示词、技能文件与平台安装包应明确区分。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "da0afc16085e57fc8c0645115f",
+                    "title": "版本更新后重新试跑",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜可复制提示词、技能文件与平台安装包应明确区分。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "0f3abf21bd3b5ef0ab3364a619",
+        "title": "11 连接器与外部系统",
+        "children": {
+          "attached": [
+            {
+              "id": "3f63cc90342858699e331ba645",
+              "title": "外部工具接入",
+              "evidence": "社区参考",
+              "source_ids": [
+                "S7"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "社区参考｜社区资料介绍通过连接器扩展外部工具；具体服务和可执行动作要在当前列表确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "20f081eef80d5348b41e9f9637",
+                    "title": "查看可用连接器",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍通过连接器扩展外部工具；具体服务和可执行动作要在当前列表确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5159bcee69c35dd9be121d712a",
+                    "title": "选择工作账号",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍通过连接器扩展外部工具；具体服务和可执行动作要在当前列表确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "92430515e8ea5c18a1ec7f545a",
+                    "title": "确认授权范围",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍通过连接器扩展外部工具；具体服务和可执行动作要在当前列表确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c97254d2b6d35ae7a5767f86a6",
+                    "title": "测试所需动作",
+                    "evidence": "社区参考",
+                    "source_ids": [
+                      "S7"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "社区参考｜社区资料介绍通过连接器扩展外部工具；具体服务和可执行动作要在当前列表确认。\n\n来源：阿星AI工作室／火山引擎社区：上手介绍\nhttps://developer.volcengine.com/articles/7678191962070974500\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ca8b6f35edf058a99cae26bc3e",
+              "title": "接入前检查方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜连接成功只代表接通某个入口，不代表获得该服务的全部功能。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "02e395a4b6ca528d8e10f38152",
+                    "title": "区分读取与写入",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜连接成功只代表接通某个入口，不代表获得该服务的全部功能。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5672f38f784e5dbc9d9d6c6392",
+                    "title": "核对目标文档或表",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜连接成功只代表接通某个入口，不代表获得该服务的全部功能。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c48a9194706b5b4ba0234c24ae",
+                    "title": "检查第三方会员限制",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜连接成功只代表接通某个入口，不代表获得该服务的全部功能。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "90ee54360f995d7e87e4a65098",
+                    "title": "记录授权失效处理",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜连接成功只代表接通某个入口，不代表获得该服务的全部功能。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "2aed47767e3d597995bde06ee9",
+              "title": "跨系统交付方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜将数据映射与写入确认单独作为检查步骤。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "9421afd20492576f9defc59ca9",
+                    "title": "字段对应与类型一致",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜将数据映射与写入确认单独作为检查步骤。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "88dd6158155f5dff8993251d62",
+                    "title": "重复写入前查重",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜将数据映射与写入确认单独作为检查步骤。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a39314d5b22e591b9dcba22858",
+                    "title": "先小样本再批量",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜将数据映射与写入确认单独作为检查步骤。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "77f77b8838db52daa311c816ee",
+                    "title": "写入后回到目标系统检查",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜将数据映射与写入确认单独作为检查步骤。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "f397a468171c542cb260c77193",
+        "title": "12 飞书知识与团队协作",
+        "children": {
+          "attached": [
+            {
+              "id": "d2e9a08ba7855b8aac91cf5431",
+              "title": "企业知识参与任务",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S2"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方说明有权限的文档、组织信息和OKR可提供任务背景。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "aa948ef1f41d506fbd0236d4e8",
+                    "title": "项目背景",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明有权限的文档、组织信息和OKR可提供任务背景。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3aacaf191d5550d7b2f1579d8d",
+                    "title": "团队业务口径",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明有权限的文档、组织信息和OKR可提供任务背景。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "82410125a882516fa8fea7d973",
+                    "title": "组织与协作关系",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明有权限的文档、组织信息和OKR可提供任务背景。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4ed40c995fd853be9324e92088",
+                    "title": "目标与历史资料",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明有权限的文档、组织信息和OKR可提供任务背景。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "46874323c2d250bd9d280fed30",
+              "title": "成果回到团队",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S2"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方说明办公成果可带入飞书继续分享、评论和编辑。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "64f6cb78684f53778f97b2fab3",
+                    "title": "确定接收人",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明办公成果可带入飞书继续分享、评论和编辑。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f11b408b7f305c0892aafdcbef",
+                    "title": "核对访问范围",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明办公成果可带入飞书继续分享、评论和编辑。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f4de6bc6689752788b752162c0",
+                    "title": "业务人员复核",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明办公成果可带入飞书继续分享、评论和编辑。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "16d9e467636c5d99819352a4db",
+                    "title": "确认后沉淀知识",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S2"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明办公成果可带入飞书继续分享、评论和编辑。\n\n来源：飞书：企业知识与任务协作\nhttps://www.feishu.cn/content/article/7680041109057178898\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "48f268e9907050c89ce4264c42",
+              "title": "团队推广方法",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜先把一种可验收的工作跑通，再扩展人员与场景。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "bc9339035412541d96130f0018",
+                    "title": "挑选小范围试点",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先把一种可验收的工作跑通，再扩展人员与场景。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "da36901d1a965b63861891c9b7",
+                    "title": "明确资料负责人",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先把一种可验收的工作跑通，再扩展人员与场景。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "37a7c903a529585d8f93dd0df9",
+                    "title": "建立交付模板",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先把一种可验收的工作跑通，再扩展人员与场景。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4cb0fc6b7769599f9790ba7372",
+                    "title": "记录效果与问题",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜先把一种可验收的工作跑通，再扩展人员与场景。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "b4a69ad2b40150c3aad1cb358d",
+        "title": "13 定时任务与远程工作",
+        "children": {
+          "attached": [
+            {
+              "id": "d35f95ed32005e35a73be1ea89",
+              "title": "定时执行线索",
+              "evidence": "媒体报道",
+              "source_ids": [
+                "S6"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "媒体报道｜报道给出信息监测和周期汇总案例；可用频率与通知方式需客户端核对。\n\n来源：鲁网：记者工作场景（2026-08-25）\nhttps://shangye.sdnews.com.cn/xwjj/202608/t20260825_4727999.htm"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "80906264bf635cbeb8e738f0b6",
+                    "title": "周期信息简报",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S6"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道给出信息监测和周期汇总案例；可用频率与通知方式需客户端核对。\n\n来源：鲁网：记者工作场景（2026-08-25）\nhttps://shangye.sdnews.com.cn/xwjj/202608/t20260825_4727999.htm\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "3622cf9406c259459b898f09fc",
+                    "title": "公开动态监测",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S6"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道给出信息监测和周期汇总案例；可用频率与通知方式需客户端核对。\n\n来源：鲁网：记者工作场景（2026-08-25）\nhttps://shangye.sdnews.com.cn/xwjj/202608/t20260825_4727999.htm\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f6d21a4cc6d25797ba041d3ce5",
+                    "title": "周月工作汇总",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S6"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道给出信息监测和周期汇总案例；可用频率与通知方式需客户端核对。\n\n来源：鲁网：记者工作场景（2026-08-25）\nhttps://shangye.sdnews.com.cn/xwjj/202608/t20260825_4727999.htm\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "e3db468c1c145b2a9f5262097e",
+                    "title": "运行后查看结果",
+                    "evidence": "媒体报道",
+                    "source_ids": [
+                      "S6"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "媒体报道｜报道给出信息监测和周期汇总案例；可用频率与通知方式需客户端核对。\n\n来源：鲁网：记者工作场景（2026-08-25）\nhttps://shangye.sdnews.com.cn/xwjj/202608/t20260825_4727999.htm\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "f49f85a528855a2d81acd1f4b7",
+              "title": "定时任务设计",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜把触发条件、运行环境与异常处理写清楚。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "980c5fee681457968e94863d51",
+                    "title": "时间时区与周期",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜把触发条件、运行环境与异常处理写清楚。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9a2ae5fe31d856d99e00a91373",
+                    "title": "查询对象和范围",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜把触发条件、运行环境与异常处理写清楚。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a091b38d5c4d5e5aad2e32a679",
+                    "title": "结果存放位置",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜把触发条件、运行环境与异常处理写清楚。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "b8fa50dfba5c54dbb0f7f8caff",
+                    "title": "失败时处理办法",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜把触发条件、运行环境与异常处理写清楚。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "0833f3a824e651e6a5622193fa",
+              "title": "稳定运行检查",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜不能把云端运行理解为不限时、免费或永不掉线。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "87bc9f68453156f78bb3291f0d",
+                    "title": "先手动试运行",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜不能把云端运行理解为不限时、免费或永不掉线。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "bb7182651f2d5d1eabaa8c8a31",
+                    "title": "检查下一次执行时间",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜不能把云端运行理解为不限时、免费或永不掉线。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d0db0d3d794d55bfbe580e7805",
+                    "title": "核对额度和登录状态",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜不能把云端运行理解为不限时、免费或永不掉线。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4e172327bf165d4aa08ad7d2f4",
+                    "title": "不再需要时暂停或删除",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜不能把云端运行理解为不限时、免费或永不掉线。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "3dbe29c8a5be514f9d572fb47e",
+        "title": "14 典型岗位场景",
+        "children": {
+          "attached": [
+            {
+              "id": "48436c3e27f45100b48eca2b24",
+              "title": "行政与项目工作〔设计示例〕",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜以下为可尝试的任务设计，不代表本次已在产品内完成实测。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "9e47ca6591bc54cc9b47e972c3",
+                    "title": "会议记录到行动表",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为可尝试的任务设计，不代表本次已在产品内完成实测。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "459925b3af0d5f2890564e7730",
+                    "title": "多份资料到评审稿",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为可尝试的任务设计，不代表本次已在产品内完成实测。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d69ec1d8e71b5fe89ea6c396aa",
+                    "title": "项目进展到周报",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为可尝试的任务设计，不代表本次已在产品内完成实测。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "152324d213ba5f1c8da0ffcef3",
+                    "title": "制度材料到常见问题",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜以下为可尝试的任务设计，不代表本次已在产品内完成实测。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "1b07b6da6f7a5241a13191aded",
+              "title": "运营与商业工作〔设计示例〕",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜有实际材料和可用权限时，再验证相应流程。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "27535d0b81ab587383cae25d23",
+                    "title": "经营数据到复盘",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜有实际材料和可用权限时，再验证相应流程。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "c512a9ff63c65f2d887cbd1386",
+                    "title": "客户资料到沟通提纲",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜有实际材料和可用权限时，再验证相应流程。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "11f48242fc965312addb84c340",
+                    "title": "竞品研究到比较表",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜有实际材料和可用权限时，再验证相应流程。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d1cb838711ee5e0b9f5d0b9c6f",
+                    "title": "内容素材到发布草稿",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜有实际材料和可用权限时，再验证相应流程。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "a4423222ac9a527db746a558eb",
+              "title": "教育与个人工作〔设计示例〕",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜根据目标读者和真实材料调整成果要求。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "44b9ab0f75675d12bdc18eaf9e",
+                    "title": "学习资料到知识提纲",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜根据目标读者和真实材料调整成果要求。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "5c3e4aa330275d84a6432c040a",
+                    "title": "研究材料到文献比较",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜根据目标读者和真实材料调整成果要求。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "52b72afb574c5610bb07f92ca0",
+                    "title": "个人经历到简历初稿",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜根据目标读者和真实材料调整成果要求。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "1ef21d375489517198a4145571",
+                    "title": "活动需求到方案与物料",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜根据目标读者和真实材料调整成果要求。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "edbe884f9a8e57f0bbf6bb3088",
+        "title": "15 验收、权限与治理",
+        "children": {
+          "attached": [
+            {
+              "id": "a47b371e541052788d87244418",
+              "title": "企业数据官方口径",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S3"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方说明租户隔离与密钥保护、沿用飞书对象权限；未经客户授权企业数据不用于基础模型训练。适用范围为该企业产品说明。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "5431cb006b425e5db50ab761e8",
+                    "title": "核对账号与租户",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明租户隔离与密钥保护、沿用飞书对象权限；未经客户授权企业数据不用于基础模型训练。适用范围为该企业产品说明。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ec9b6e341f145530bad6c812e6",
+                    "title": "核对资料访问权限",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明租户隔离与密钥保护、沿用飞书对象权限；未经客户授权企业数据不用于基础模型训练。适用范围为该企业产品说明。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "bd693304589e5d3fb3d1856cee",
+                    "title": "核对数据使用授权",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明租户隔离与密钥保护、沿用飞书对象权限；未经客户授权企业数据不用于基础模型训练。适用范围为该企业产品说明。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "a0cb7d851a5a5f4bbb5f6d8820",
+                    "title": "核对成果共享范围",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方说明租户隔离与密钥保护、沿用飞书对象权限；未经客户授权企业数据不用于基础模型训练。适用范围为该企业产品说明。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "f4611456706a52a7bb510ff37d",
+              "title": "治理能力范围",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S3"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜官方列有境内存储，以及部分点位的水印、DLP和行为审计；不应外推为所有操作均覆盖。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "b86d650de70f557b9366503837",
+                    "title": "数据存储位置",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列有境内存储，以及部分点位的水印、DLP和行为审计；不应外推为所有操作均覆盖。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "4936e7ef8281553fa13eb5dafc",
+                    "title": "对话和文件水印",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列有境内存储，以及部分点位的水印、DLP和行为审计；不应外推为所有操作均覆盖。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "77f08863fdee5eed80315037b3",
+                    "title": "云文档等DLP点位",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列有境内存储，以及部分点位的水印、DLP和行为审计；不应外推为所有操作均覆盖。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "d11df5e7def05eedaa660e4201",
+                    "title": "主对话高优审计点位",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S3"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜官方列有境内存储，以及部分点位的水印、DLP和行为审计；不应外推为所有操作均覆盖。\n\n来源：飞书：数据与权限边界\nhttps://www.feishu.cn/content/article/7680042598047763739\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "c98b12791a785f3bad5fe84af8",
+              "title": "实际任务验收",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜完成提示只是检查的起点，应检查文件和目标系统中的实际状态。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "e69694f9544552db9e37eeee1f",
+                    "title": "事实和来源可复查",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜完成提示只是检查的起点，应检查文件和目标系统中的实际状态。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "528c5c75253a5250a549fe028d",
+                    "title": "文件能打开和编辑",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜完成提示只是检查的起点，应检查文件和目标系统中的实际状态。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "350d7f3613485c11a7b6421e3d",
+                    "title": "流程结果确实落地",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜完成提示只是检查的起点，应检查文件和目标系统中的实际状态。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "660801d7fcd85f52951454021c",
+                    "title": "人工判断与责任明确",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜完成提示只是检查的起点，应检查文件和目标系统中的实际状态。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "0e852c1bebfb5e96b744e8c82e",
+              "title": "敏感操作安排",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜按任务影响制定确认节点，而非所有步骤都反复确认。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "468fabbc61155f80913ea4e3f4",
+                    "title": "外发核对对象和内容",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按任务影响制定确认节点，而非所有步骤都反复确认。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "44322b43dd9355d4bb5a8e19c5",
+                    "title": "删除覆盖先留备份",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按任务影响制定确认节点，而非所有步骤都反复确认。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "7fd4608a52e856979ecc904c3a",
+                    "title": "业务提交核对关键字段",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按任务影响制定确认节点，而非所有步骤都反复确认。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "ef5308cb79ad5ac9a1c13a1655",
+                    "title": "重要决策由负责人确认",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜按任务影响制定确认节点，而非所有步骤都反复确认。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      },
+      {
+        "id": "424f7562938a59db9cf306948c",
+        "title": "16 版本、成本与更新",
+        "children": {
+          "attached": [
+            {
+              "id": "6f5e3de374d1555baa3079cda7",
+              "title": "核对当前权益",
+              "evidence": "官方说明",
+              "source_ids": [
+                "S9"
+              ],
+              "notes": {
+                "plain": {
+                  "content": "官方说明｜飞书AI服务页有不同套餐和额度；这些信息不可替代豆包个人订阅条款。\n\n来源：飞书：AI 服务与额度\nhttps://www.feishu.cn/service/ai"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "aad8b1e5bfb35728ba9b0955f8",
+                    "title": "区分个人和企业权益",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S9"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜飞书AI服务页有不同套餐和额度；这些信息不可替代豆包个人订阅条款。\n\n来源：飞书：AI 服务与额度\nhttps://www.feishu.cn/service/ai\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "1834b58535ad5f5e866b58010a",
+                    "title": "检查当前可用模型",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S9"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜飞书AI服务页有不同套餐和额度；这些信息不可替代豆包个人订阅条款。\n\n来源：飞书：AI 服务与额度\nhttps://www.feishu.cn/service/ai\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "47ee6a1fea57533a892ad5b34a",
+                    "title": "查看任务额度与限制",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S9"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜飞书AI服务页有不同套餐和额度；这些信息不可替代豆包个人订阅条款。\n\n来源：飞书：AI 服务与额度\nhttps://www.feishu.cn/service/ai\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "525b85de5a3159688fb341e030",
+                    "title": "按实际账号确认功能",
+                    "evidence": "官方说明",
+                    "source_ids": [
+                      "S9"
+                    ],
+                    "notes": {
+                      "plain": {
+                        "content": "官方说明｜飞书AI服务页有不同套餐和额度；这些信息不可替代豆包个人订阅条款。\n\n来源：飞书：AI 服务与额度\nhttps://www.feishu.cn/service/ai\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dd3b4b42b11e532f9a70afe9ad",
+              "title": "计算真实使用成本",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜评估一个可交付结果所需的总投入，而非只看生成时间。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "288d8042e2cf5df89feccda03a",
+                    "title": "材料准备时间",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜评估一个可交付结果所需的总投入，而非只看生成时间。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "2f7ca94c4cda5e5ba2a613555a",
+                    "title": "执行和订阅成本",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜评估一个可交付结果所需的总投入，而非只看生成时间。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "fc0bb4240d1b5e009a886296ba",
+                    "title": "核验返工时间",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜评估一个可交付结果所需的总投入，而非只看生成时间。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "9054ebee00155547819c3f85f1",
+                    "title": "交接维护成本",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜评估一个可交付结果所需的总投入，而非只看生成时间。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": "b81ca4526e6150b895a19912f0",
+              "title": "更新与待核事项",
+              "evidence": "实践建议",
+              "source_ids": [],
+              "notes": {
+                "plain": {
+                  "content": "实践建议｜本导图检索日期为2026-09-08；保留不确定项便于后续客户端验证。"
+                }
+              },
+              "children": {
+                "attached": [
+                  {
+                    "id": "f7d6c9f7df6b56fe9ad47e9dd2",
+                    "title": "项目拖入与同步细节",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜本导图检索日期为2026-09-08；保留不确定项便于后续客户端验证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f3fbcf4586d25066a34e271ba7",
+                    "title": "技能导入格式与触发",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜本导图检索日期为2026-09-08；保留不确定项便于后续客户端验证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "6d2c6918cf8850cf960b025894",
+                    "title": "连接器名单与写入动作",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜本导图检索日期为2026-09-08；保留不确定项便于后续客户端验证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  },
+                  {
+                    "id": "f1b46d63ea00551ba3646899e3",
+                    "title": "活动期限与端侧差异",
+                    "evidence": "实践建议",
+                    "source_ids": [],
+                    "notes": {
+                      "plain": {
+                        "content": "实践建议｜本导图检索日期为2026-09-08；保留不确定项便于后续客户端验证。\n\n本节点为所属主题的展开要点；具体使用条件请与当前账号核对。"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "notes": {
+          "plain": {
+            "content": "展开查看功能、使用方法与待核条件。点击具体节点查看来源。"
+          }
+        }
+      }
+    ]
+  },
+  "notes": {
+    "plain": {
+      "content": "检索日期：2026-09-08。16个主题，兼顾产品能力、操作方法和场景。标签：官方说明／媒体报道／社区参考／用户供稿待核／实践建议。实践建议由本导图编写，不代表平台功能或本次产品实测。"
+    }
+  }
+}
