@@ -1,20 +1,22 @@
-# 豆包工作 · 读者配套资源
+# 《豆包工作：14天玩转AI办公》
 
-《豆包工作：AI智能办公实战手册》及相关文章的附件入口。这里提供离线 HTML、章节技能、示例和可编辑思维导图。
+本书独立站点。提供阅读指南、章节导航、随书技能、指令模板、常见问题和可编辑思维导图。
 
-在线阅读：<http://plccodeinfo.com/doubaoWork/>
+在线阅读：<http://agentc.com.cn/>
 
 源文件仓库：<https://github.com/congde/doubaoWork>
 
-GitHub 仓库名不区分大小写。`https://github.com/congde/doubaowork` 与上面是同一个仓库。网页路径 `/doubaoWork/` 与 `/doubaowork/` 打开同一页。
+站点部署在 `agentc.com.cn` 根路径。Nginx 配置见 [deploy/nginx-agentc.conf](deploy/nginx-agentc.conf)。
+
+GitHub 仓库名不区分大小写。`https://github.com/congde/doubaowork` 与上面是同一个仓库。
 
 ## 怎样打开
 
-1. 直接打开 [在线阅读地址](http://plccodeinfo.com/doubaoWork/)：
+1. 直接打开 [http://agentc.com.cn/](http://agentc.com.cn/)：
    - **阅读指南**：怎么用本书学知识、提效率、看排版、用材料
    - **章节导航**：每章概括、主干提要和概念列表
    - **概念检索**：点击概念，查看所属章节
-   - **配套材料**：导图、技能和附录
+   - **随书材料**：导图、技能和附录
 2. 如需离线使用，在仓库页面点击 **Code → Download ZIP**，解压后根据下表双击 HTML。
 3. HTML 与同目录的配套文件请一起保留，避免下载、图片或导航链接失效。
 
@@ -38,14 +40,14 @@ GitHub 仓库名不区分大小写。`https://github.com/congde/doubaowork` 与�
 
 ## 更新与反馈
 
-2026-09-10：首次归集四组已有配套资源，建立统一下载入口和文章附件目录。
+2026-09-10：首次归集四组已有资源，建立统一入口和文章附件目录。
 
-2026-09-10：补充附录A、B、C及全书导图配图，提供在线阅读入口。
+2026-09-10：补充附录 A、B、C 及全书导图配图，提供在线阅读入口。
 
-2026-09-10：在 http://plccodeinfo.com/doubaoWork/ 部署 HTML，可直接在线打开配套页面。
+2026-09-11：独立站点部署到 http://agentc.com.cn/；书名改为《豆包工作：14天玩转AI办公》。
 
-2026-09-11：标明仓库入口不区分大小写，`doubaowork` 与 `doubaoWork` 指向同一仓库和同一网页。
+2026-09-11：标明 GitHub 仓库入口不区分大小写，`doubaowork` 与 `doubaoWork` 指向同一仓库。
 
 发现问题时，可在本仓库 Issues 中提供资源名称、文件名、操作步骤和现象。请勿提交个人隐私、账号凭据或未经授权的业务资料。
 
-后续附件维护规则见 [资源维护说明](CONTRIBUTING.md)。
+后续维护规则见 [资源维护说明](CONTRIBUTING.md)。

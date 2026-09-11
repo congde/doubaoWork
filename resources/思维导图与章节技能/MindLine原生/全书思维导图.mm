@@ -3,7 +3,7 @@
   "root": {
     "objectClass": "MindNode",
     "ID": "6c079261de0c523f9a648c5d9f",
-    "text": "豆包工作\nAI智能办公实战手册",
+    "text": "豆包工作\n14天玩转AI办公",
     "lineColor": "#244F78",
     "children": {
       "objectClass": "NSArray",

@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>豆包工作 · 配套网页</title>
-  <meta name="description" content="《豆包工作：AI智能办公实战手册》配套网页：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
-  <link rel="canonical" href="http://plccodeinfo.com/doubaoWork/">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>豆包工作：14天玩转AI办公</title>
+  <meta name="description" content="《豆包工作：14天玩转AI办公》：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
+  <link rel="canonical" href="http://agentc.com.cn/">
   <style>
     :root{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--line:#e3e6eb;--muted:#6e6e73;--text:#1d1d1f;--accent:#0071e3}
     *{box-sizing:border-box}
@@ -15,11 +16,11 @@
     button,a{-webkit-tap-highlight-color:transparent}
     button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #0088ee80;outline-offset:4px}
     a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-    .top{height:76px;border-bottom:1px solid #dedee580;display:flex;align-items:center;justify-content:space-between;padding:0 max(4vw,24px);gap:20px;background:#ffffffdb;backdrop-filter:blur(22px);position:sticky;top:0;z-index:5}
-    .brand{display:flex;align-items:center;gap:13px}
-    .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(145deg,#0651a2,#36a3ed);display:grid;place-items:center;color:#fff;font-size:18px;font-weight:700}
-    .brand strong{font-size:20px;letter-spacing:2px;display:block}
-    .brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2.1px;line-height:1.3}
+    .top{min-height:76px;border-bottom:1px solid #dedee580;display:flex;align-items:center;justify-content:space-between;padding:12px max(4vw,24px);gap:20px;background:#ffffffdb;backdrop-filter:blur(22px);position:sticky;top:0;z-index:5}
+    .brand{display:flex;align-items:center;gap:13px;min-width:0}
+    .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(145deg,#0651a2,#36a3ed);display:grid;place-items:center;color:#fff;font-size:18px;font-weight:700;flex:none}
+    .brand strong{font-size:20px;letter-spacing:.4px;display:block}
+    .brand small{display:block;color:var(--muted);font-size:12px;letter-spacing:.2px;line-height:1.45}
     .top-actions a{color:#515157;font-size:14px}
     main{max-width:1510px;margin:auto;padding:48px 4vw 76px}
     .intro{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:28px;flex-wrap:wrap}
@@ -124,7 +125,7 @@
     .book-guide-notice>strong{font-size:17px;font-weight:600;color:#355571}
     footer{max-width:1510px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:space-between;border-top:1px solid #dddfe6}
     @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}.stats{display:none}}
-    @media(max-width:800px){.top{height:66px;padding:0 20px}main{padding:29px 20px 50px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.kit-list{gap:14px 20px}.application-intro{display:block;padding:21px 23px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}}
+    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:29px 20px 50px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.kit-list{gap:14px 20px}.application-intro{display:block;padding:21px 23px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}}
   </style>
 </head>
 <body>
@@ -133,7 +134,7 @@
       <div class="mark" aria-hidden="true">豆</div>
       <div>
         <strong>豆包工作</strong>
-        <small>BOOK COMPANION</small>
+        <small>《豆包工作：14天玩转AI办公》</small>
       </div>
     </div>
     <div class="top-actions">
@@ -143,7 +144,7 @@
   <main>
     <div class="intro">
       <div>
-        <div class="eyebrow">《豆包工作：AI智能办公实战手册》</div>
+        <div class="eyebrow">《豆包工作：14天玩转AI办公》</div>
         <h1>把办公任务，做得可验收。</h1>
         <p>先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
         <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
@@ -261,7 +262,7 @@
   </main>
   <footer>
     <span>依据全书前言、各章导读和附录 C 核心术语整理</span>
-    <span>豆包工作 · 配套网页</span>
+    <span>《豆包工作：14天玩转AI办公》</span>
   </footer>
   <div id="backdrop" class="detail-backdrop hidden"></div>
   <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
@@ -319,11 +320,15 @@
       }
     };
 
+    function viewUrl(name) {
+      if (name === 'guide') return location.pathname + location.search;
+      return '#' + name + (name === 'chapters' ? '-' + chN : '');
+    }
     function setView(name) {
       view = name;
       document.querySelectorAll('.view-nav button').forEach(b => b.classList.toggle('active', b.dataset.view === name));
       document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'view-' + name));
-      history.replaceState(null, '', '#' + name + (name === 'chapters' ? '-' + chN : ''));
+      history.replaceState(null, '', viewUrl(name));
       if (name === 'chapters') { renderParts(); renderChList(); renderChapter(); }
       if (name === 'concepts') renderConcepts($('concept-q').value);
       if (name === 'skills') renderSkills();
@@ -539,9 +544,10 @@
     });
 
     function bootFromHash() {
-      const h = (location.hash || '#guide').slice(1);
+      const h = location.hash.replace(/^#/, '');
       const m = h.match(/^chapters-(\d+)/);
       if (m) { chN = Math.min(15, Math.max(1, Number(m[1]))); setView('chapters'); return; }
+      if (!h || h === 'guide') { setView('guide'); return; }
       if (VIEWS.includes(h)) { setView(h); return; }
     }
     renderGuide();

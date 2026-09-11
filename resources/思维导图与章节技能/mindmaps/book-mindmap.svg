@@ -22,7 +22,7 @@
 <polyline points="880,1566.67 980,1566.67 980,1600 1080,1600" fill="none" stroke="#6C8EBF" stroke-width="3" stroke-linejoin="round"/>
 <rect x="40" y="760" width="320" height="160" rx="14" fill="#244F78" stroke="#6C8EBF" stroke-width="2"/>
 <text x="200" y="833" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">豆包工作</text>
-<text x="200" y="868" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">AI智能办公实战手册</text>
+<text x="200" y="868" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#FFFFFF">14天玩转AI办公</text>
 <rect x="530" y="140" width="350" height="100" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
 <text x="705" y="198.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第一篇  认识与上手</text>
 <rect x="1080" y="50" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
@@ -63,4 +63,4 @@
 <text x="1405" y="1508.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第14章  岗位与业务场景</text>
 <rect x="1080" y="1560" width="650" height="80" rx="14" fill="#EDF4FA" stroke="#6C8EBF" stroke-width="2"/>
 <text x="1405" y="1608.5" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" fill="#20384E">第15章  工作流程与成效复盘</text>
-<text x="40" y="1812" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#627383">豆包工作：AI智能办公实战手册  /  全书学习路径</text></svg>
+<text x="40" y="1812" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#627383">豆包工作：14天玩转AI办公  /  全书学习路径</text></svg>

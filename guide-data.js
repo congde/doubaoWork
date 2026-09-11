@@ -1,5 +1,5 @@
 window.BOOK_DATA = {
-  "book": "豆包工作：AI智能办公实战手册",
+  "book": "豆包工作：14天玩转AI办公",
   "chapters": [
     {
       "n": 1,
