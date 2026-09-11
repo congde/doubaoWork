@@ -4,7 +4,9 @@
 
 仓库入口：<https://github.com/congde/doubaoWork>
 
-GitHub 仓库名不区分大小写。`https://github.com/congde/doubaowork` 与上面是同一个仓库，大小写任意组合都会打开这里，不必另建镜像。
+网页入口：<http://plccodeinfo.com/doubaoWork/>
+
+GitHub 仓库名和网页路径都不区分大小写。`https://github.com/congde/doubaowork` 与 `http://plccodeinfo.com/doubaowork/` 分别打开同一仓库和同一配套网页，大小写任意组合均可，不必另建镜像。
 
 ## 下载后怎样打开
 
@@ -39,6 +41,8 @@ GitHub 文件页面用于查看源文件；直接点击仓库中的 HTML 通常�
 2026-09-10：补充附录A、B、C及全书导图配图，提供在线阅读入口。
 
 2026-09-11：标明仓库入口不区分大小写，`doubaowork` 与 `doubaoWork` 指向同一仓库。
+
+2026-09-11：网页入口 `http://plccodeinfo.com/doubaoWork/` 同样不区分大小写。
 
 发现问题时，可在本仓库 Issues 中提供资源名称、文件名、操作步骤和现象。请勿提交个人隐私、账号凭据或未经授权的业务资料。
 
