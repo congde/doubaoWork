@@ -1,20 +1,22 @@
 # 豆包工作 · 读者配套资源
 
-《豆包工作：AI智能办公实战手册》及相关文章的附件下载入口。这里提供离线 HTML、章节技能、示例和可编辑思维导图。
+《豆包工作：AI智能办公实战手册》及相关文章的附件入口。这里提供离线 HTML、章节技能、示例和可编辑思维导图。
 
-仓库入口：<https://github.com/congde/doubaoWork>
+在线阅读：<http://plccodeinfo.com/doubaoWork/>
 
-网页入口：<http://plccodeinfo.com/doubaoWork/>
+源文件仓库：<https://github.com/congde/doubaoWork>
 
-GitHub 仓库名和网页路径都不区分大小写。`https://github.com/congde/doubaowork` 与 `http://plccodeinfo.com/doubaowork/` 分别打开同一仓库和同一配套网页，大小写任意组合均可，不必另建镜像。
+GitHub 仓库名不区分大小写。`https://github.com/congde/doubaowork` 与上面是同一个仓库。网页路径 `/doubaoWork/` 与 `/doubaowork/` 打开同一页。
 
-## 下载后怎样打开
+## 怎样打开
 
-1. 在仓库页面点击 **Code → Download ZIP**，下载并解压整个压缩包。
-2. 根据下表找到对应文件夹，双击其中的 HTML 文件，用浏览器打开。
+1. 直接打开 [在线阅读地址](http://plccodeinfo.com/doubaoWork/)：
+   - **阅读指南**：怎么用本书学知识、提效率、看排版、用材料
+   - **章节导航**：每章概括、主干提要和概念列表
+   - **概念检索**：点击概念，查看所属章节
+   - **配套材料**：导图、技能和附录
+2. 如需离线使用，在仓库页面点击 **Code → Download ZIP**，解压后根据下表双击 HTML。
 3. HTML 与同目录的配套文件请一起保留，避免下载、图片或导航链接失效。
-
-GitHub 文件页面用于查看源文件；直接点击仓库中的 HTML 通常显示源码。请下载后打开。本仓库目前采用文件下载方式提供资源。
 
 ## 资源目录
 
@@ -40,9 +42,9 @@ GitHub 文件页面用于查看源文件；直接点击仓库中的 HTML 通常�
 
 2026-09-10：补充附录A、B、C及全书导图配图，提供在线阅读入口。
 
-2026-09-11：标明仓库入口不区分大小写，`doubaowork` 与 `doubaoWork` 指向同一仓库。
+2026-09-10：在 http://plccodeinfo.com/doubaoWork/ 部署 HTML，可直接在线打开配套页面。
 
-2026-09-11：网页入口 `http://plccodeinfo.com/doubaoWork/` 同样不区分大小写。
+2026-09-11：标明仓库入口不区分大小写，`doubaowork` 与 `doubaoWork` 指向同一仓库和同一网页。
 
 发现问题时，可在本仓库 Issues 中提供资源名称、文件名、操作步骤和现象。请勿提交个人隐私、账号凭据或未经授权的业务资料。
 

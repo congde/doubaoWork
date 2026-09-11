@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>豆包工作 · 配套网页</title>
+  <meta name="description" content="《豆包工作：AI智能办公实战手册》配套网页：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
+  <link rel="canonical" href="http://plccodeinfo.com/doubaoWork/">
+  <style>
+    :root{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--line:#e3e6eb;--muted:#6e6e73;--text:#1d1d1f;--accent:#0071e3}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif;-webkit-font-smoothing:antialiased}
+    button,input{font:inherit}button{color:inherit;cursor:pointer;border:0;background:none}
+    button,a{-webkit-tap-highlight-color:transparent}
+    button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #0088ee80;outline-offset:4px}
+    a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+    .top{height:76px;border-bottom:1px solid #dedee580;display:flex;align-items:center;justify-content:space-between;padding:0 max(4vw,24px);gap:20px;background:#ffffffdb;backdrop-filter:blur(22px);position:sticky;top:0;z-index:5}
+    .brand{display:flex;align-items:center;gap:13px}
+    .mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(145deg,#0651a2,#36a3ed);display:grid;place-items:center;color:#fff;font-size:18px;font-weight:700}
+    .brand strong{font-size:20px;letter-spacing:2px;display:block}
+    .brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2.1px;line-height:1.3}
+    .top-actions a{color:#515157;font-size:14px}
+    main{max-width:1510px;margin:auto;padding:48px 4vw 76px}
+    .intro{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:28px;flex-wrap:wrap}
+    .eyebrow{font-size:13px;letter-spacing:1px;color:var(--accent);font-weight:600}
+    h1{font-size:40px;line-height:1.35;margin:9px 0 13px;letter-spacing:-1.2px}
+    h2{font-size:30px;line-height:1.4;letter-spacing:-.6px;margin:0 0 16px}
+    h3{font-size:20px;line-height:1.5;margin:0 0 12px}
+    p{margin:0 0 18px}
+    .intro p{font-size:16px;color:var(--muted);margin:0;max-width:640px}
+    .intro-scope{max-width:660px;font-size:13px;line-height:1.9;color:#7a8794;margin-top:13px}
+    .stats{display:flex;gap:34px;text-align:right}
+    .stats b{display:block;font-size:29px;line-height:1.4;letter-spacing:-1px;font-weight:500}
+    .stats span{font-size:12px;color:var(--muted)}
+    .view-nav{display:flex;border-bottom:1px solid #d8dce3;margin-bottom:28px;gap:28px;overflow:auto;white-space:nowrap;scrollbar-width:none}
+    .view-nav::-webkit-scrollbar{display:none}
+    .view-nav button{color:var(--muted);font-size:15px;padding:14px 0;border-bottom:2px solid transparent;flex:none}
+    .view-nav button.active{color:var(--text);border-color:var(--text);font-weight:600}
+    .panel{display:none}.panel.active{display:block}
+    .application-intro{display:flex;align-items:center;justify-content:space-between;gap:26px;background:#f0f5fb;border:1px solid #e0eaf4;border-radius:17px;padding:23px 27px;margin:0 0 28px}
+    .application-intro p{font-size:17px;line-height:1.9;color:#4a647d;margin:0;max-width:900px}
+    .kit-list{display:flex;flex-wrap:wrap;gap:18px 28px}
+    .kit-list button{text-align:left}
+    .kit-list b{display:block;color:var(--accent);font-size:22px;font-weight:500;letter-spacing:-.6px}
+    .kit-list span{font-size:13px;color:var(--muted)}
+    .workspace{display:grid;grid-template-columns:370px minmax(0,1fr);gap:32px;align-items:start}
+    .loop-panel{border:1px solid #e6e9ee;border-radius:26px;background:radial-gradient(ellipse at 50% 40%,#e8f3ff,transparent 68%),#fff;overflow:hidden;position:sticky;top:100px;box-shadow:0 6px 24px #21365505}
+    .panel-label{padding:22px 24px 0;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+    .panel-label span:first-child{color:#34363b;font-weight:600}
+    .orbit{position:relative;height:345px}
+    .orbit-center{position:absolute;left:50%;top:49%;transform:translate(-50%,-50%);text-align:center;pointer-events:none}
+    .orbit-center strong{font-size:21px;letter-spacing:3px;display:block;color:#174e84}
+    .orbit-center span{font-size:12px;color:var(--muted);letter-spacing:1px}
+    .node{position:absolute;background:#ffffffed;border:1px solid #dde4eb;border-radius:13px;padding:11px 10px;min-width:108px;transform:translate(-50%,-50%);box-shadow:0 5px 14px #19385808;transition:background .2s,border-color .2s,box-shadow .2s}
+    .node span{display:block;font:11px/1.4 ui-monospace,monospace;color:#7b8da0;margin-bottom:5px}
+    .node strong{font-size:15px;font-weight:500;white-space:nowrap}
+    .node:hover{border-color:#86baff}
+    .node.active{background:#0071e3;border-color:#0071e3;box-shadow:0 7px 24px #0071e326}
+    .node.active span{color:#d9ecff}.node.active strong{color:#fff}
+    .node:nth-of-type(1){left:50%;top:16%}
+    .node:nth-of-type(2){left:82%;top:50%}
+    .node:nth-of-type(3){left:50%;top:84%}
+    .node:nth-of-type(4){left:18%;top:50%}
+    .loop-note{border-top:1px solid #e7ecf1;padding:18px 24px;font-size:14px;color:var(--muted);background:#fff9}
+    .loop-note b{font-weight:500;color:var(--accent)}
+    .reading{min-width:0}
+    .stage-top{padding-bottom:24px;margin-bottom:24px;border-bottom:1px solid var(--line)}
+    .stage-number{font-size:12px;color:var(--accent);letter-spacing:1.2px;font-weight:600}
+    .stage-top h2{margin-top:9px}
+    .stage-top p{color:var(--muted);font-size:17px;margin:0;max-width:850px}
+    .step-list{list-style:none;padding:0;margin:0 0 32px;display:grid;gap:22px}
+    .step-list li{display:grid;grid-template-columns:29px 1fr;gap:12px}
+    .step-list .num{color:var(--accent);font:14px/29px ui-monospace,monospace}
+    .step-list strong{font-size:17px;font-weight:600}
+    .step-list p{color:var(--muted);font-size:15px;margin:6px 0 0}
+    .group{margin:28px 0}
+    .chips{display:flex;flex-wrap:wrap;gap:9px}
+    .concept-chip,.chip{background:#fff;border:1px solid #e1e6ed;border-radius:10px;padding:8px 12px;display:inline-flex;align-items:center;gap:12px;font-size:14px;text-align:left;line-height:1.6;min-height:40px}
+    .concept-chip:hover,.chip:hover{border-color:#91b8ea;background:#f6faff}
+    .concept-chip small,.chip small{color:#78818d;font-size:12px;white-space:nowrap}
+    .next{margin-top:24px;width:100%;padding:16px 19px;text-align:left;display:flex;justify-content:space-between;border-radius:13px;background:#eaf3fd;color:var(--accent);font-size:15px;gap:15px;text-decoration:none}
+    .next:hover{background:#deedff;text-decoration:none}
+    .count{font-size:13px;color:var(--muted);margin:0 0 20px}
+    .chapter-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+    .chapter-btn{background:#fff;border:1px solid #e4e8ef;border-radius:17px;padding:21px;text-align:left;font-size:16px}
+    .chapter-btn b{display:block;color:var(--accent);font-size:13px;margin-bottom:8px;font-weight:500}
+    .chapter-btn:hover{border-color:#93bde8;box-shadow:0 6px 18px #345b8010}
+    .chapter-btn.on{border-color:#afcae5;background:#f8fbff}
+    .chapter-btn .count{margin:8px 0 0;font-size:12px}
+    .part-row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+    .part-row button{background:#fff;border:1px solid #e4e8ef;border-radius:999px;padding:7px 14px;font-size:13px;color:#55677a}
+    .part-row button.on{background:#0071e3;border-color:#0071e3;color:#fff}
+    .detail-card{background:#fff;border:1px solid #e7ebf1;border-radius:20px;padding:28px;margin-top:28px}
+    .item-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:15px}
+    .item,.m-card{background:#fff;border:1px solid #e4e8ef;border-radius:17px;padding:21px;display:flex;flex-direction:column;gap:8px}
+    .item h3,.m-card h3{margin:0;font-size:18px}
+    .item p,.m-card p{margin:0;color:var(--muted);font-size:15px;flex:1}
+    .meta{font-size:13px;color:var(--muted)}
+    .prompt{white-space:pre-wrap;background:#f4f8fc;border-radius:12px;padding:14px 16px;font-size:15px;color:#394554;line-height:1.8}
+    .method{padding:28px;border:1px solid #e6e9ee;border-radius:23px;margin:20px 0;background:#fff}
+    .method .direction{font-size:13px;color:var(--accent);margin-bottom:10px}
+    .faq-item{background:#fff;border:1px solid #e4e8ef;border-radius:17px;margin-bottom:10px;overflow:hidden}
+    .faq-item button.q{width:100%;text-align:left;padding:18px 22px;font-size:16px}
+    .faq-item .a{display:none;padding:0 22px 20px;color:#515c69;line-height:1.9}
+    .faq-item.open{border-color:#afcae5}
+    .faq-item.open .a{display:block}
+    .cat{font-size:13px;color:#5880a5;margin:28px 0 12px;font-weight:600}
+    .status{display:inline-block;background:#eaf3fd;color:var(--accent);border-radius:999px;padding:3px 10px;font-size:12px}
+    .search{width:100%;border:1px solid #e1e6ed;border-radius:14px;padding:13px 16px;margin-bottom:18px;background:#fff}
+    .btn,.download-btn{display:inline-flex;align-items:center;border-radius:24px;background:var(--accent);color:#fff;padding:8px 19px;font-size:14px;text-decoration:none}
+    .btn:hover,.download-btn:hover{background:#0077ed;color:#fff;text-decoration:none}
+    .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--muted)}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    .detail-backdrop{position:fixed;inset:0;background:#17223640;z-index:8;backdrop-filter:blur(8px)}
+    .drawer{position:fixed;right:0;top:0;bottom:0;width:min(660px,100%);padding:36px;background:#fff;border-left:1px solid #e3e7ed;z-index:9;overflow:auto;box-shadow:-20px 0 80px #243a5618}
+    .close{float:right;background:#f0f1f4;border-radius:50%;width:38px;height:38px;font-size:23px;line-height:1}
+    .drawer h2{padding-right:35px;margin-top:16px;font-size:30px}
+    .definition{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}
+    .definition label{font-size:13px;color:var(--accent)}
+    .definition p{font-size:17px;line-height:1.9;margin:12px 0;color:#394554}
+    .hidden{display:none!important}
+    .book-guide-notice{padding:22px 25px;background:#f4f8fc;border:1px solid #e0eaf4;border-radius:17px;margin:0 0 26px;color:#607386}
+    .book-guide-notice>strong{font-size:17px;font-weight:600;color:#355571}
+    footer{max-width:1510px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:space-between;border-top:1px solid #dddfe6}
+    @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}.stats{display:none}}
+    @media(max-width:800px){.top{height:66px;padding:0 20px}main{padding:29px 20px 50px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.kit-list{gap:14px 20px}.application-intro{display:block;padding:21px 23px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true">豆</div>
+      <div>
+        <strong>豆包工作</strong>
+        <small>BOOK COMPANION</small>
+      </div>
+    </div>
+    <div class="top-actions">
+      <a href="https://github.com/congde/doubaoWork">源文件仓库</a>
+    </div>
+  </header>
+  <main>
+    <div class="intro">
+      <div>
+        <div class="eyebrow">《豆包工作：AI智能办公实战手册》</div>
+        <h1>把办公任务，做得可验收。</h1>
+        <p>先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
+        <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
+      </div>
+      <div class="stats">
+        <div><b>05</b><span>全书篇目</span></div>
+        <div><b>15</b><span>全书章节</span></div>
+        <div><b>24</b><span>核心术语</span></div>
+      </div>
+    </div>
+    <nav class="view-nav" aria-label="内容视图">
+      <button data-view="guide" class="active">阅读指南</button>
+      <button data-view="chapters">章节导航</button>
+      <button data-view="skills">随书技能</button>
+      <button data-view="videos">讲解视频</button>
+      <button data-view="templates">指令模板</button>
+      <button data-view="faq">常见问题</button>
+      <button data-view="concepts">术语速查</button>
+      <button data-view="materials">其他材料</button>
+    </nav>
+
+    <section id="view-guide" class="panel active">
+      <div class="application-intro kit">
+        <p>1 个配套网页，内含随书技能、讲解视频、指令模板、常见问题和核心术语。点击数字进入对应栏目，材料持续更新。</p>
+        <div class="kit-list">
+          <button data-view="skills"><b id="n-skills">15</b><span>个随书技能</span></button>
+          <button data-view="videos"><b>14</b><span>个讲解视频</span></button>
+          <button data-view="templates"><b>20</b><span>条指令模板</span></button>
+          <button data-view="faq"><b>20</b><span>个常见问题</span></button>
+          <button data-view="concepts"><b>24</b><span>个核心术语</span></button>
+        </div>
+      </div>
+      <div class="workspace">
+        <aside class="loop-panel">
+          <div class="panel-label"><span>阅读指南</span><span>四种用法</span></div>
+          <div class="orbit" id="guide-orbit">
+            <svg viewBox="0 0 410 355" width="100%" height="100%" style="position:absolute;inset:0;opacity:.75" aria-hidden="true"><ellipse cx="205" cy="175" rx="118" ry="118" fill="none" stroke="#c7d8e9" stroke-width="1.5"/></svg>
+            <div class="orbit-center"><strong>阅读</strong><span>用法</span></div>
+            <button class="node active" data-guide="learn"><span>01 · LEARN</span><strong>学知识</strong></button>
+            <button class="node" data-guide="speed"><span>02 · SPEED</span><strong>提效率</strong></button>
+            <button class="node" data-guide="layout"><span>03 · LAYOUT</span><strong>看排版</strong></button>
+            <button class="node" data-guide="stuff"><span>04 · USE</span><strong>用材料</strong></button>
+          </div>
+          <div class="loop-note"><b>常规回路</b>　学知识 → 提效率 → 看排版 → 用材料<br>不必按顺序走完。从当前任务需要的那一步进入即可。</div>
+        </aside>
+        <section class="reading" id="guide-body"></section>
+      </div>
+    </section>
+
+    <section id="view-chapters" class="panel">
+      <div class="book-guide-notice">
+        <strong>章节导航</strong>
+        <p>每张卡片给出本章概括入口。点开后可看主干提要和概念列表；概念可继续点进所属章节。</p>
+      </div>
+      <div class="part-row" id="part-row"></div>
+      <div class="chapter-grid" id="ch-list"></div>
+      <article class="detail-card" id="ch-detail"></article>
+    </section>
+
+    <section id="view-skills" class="panel">
+      <p class="count">封面收录 11 个技能，本页已按 15 章补全。点开即用页可复制示例。</p>
+      <div class="item-grid" id="skill-grid"></div>
+    </section>
+
+    <section id="view-videos" class="panel">
+      <p class="count">14 个章节讲解按第 1—14 章排列。片源持续更新，更新后可在本页观看。</p>
+      <div class="item-grid" id="video-grid"></div>
+    </section>
+
+    <section id="view-templates" class="panel">
+      <p class="count">附录 A · 20 条指令模板。先替换【】占位符，再补数据来源、权限和验收标准。</p>
+      <div id="tpl-box"></div>
+    </section>
+
+    <section id="view-faq" class="panel">
+      <input class="search" id="faq-q" type="search" placeholder="搜索问题，例如：安装、飞书、套餐、卡住" aria-label="搜索常见问题">
+      <div id="faq-box"></div>
+    </section>
+
+    <section id="view-concepts" class="panel">
+      <p class="count">附录 C · 24 个核心术语。点击即可查看通俗解释和所属章节。</p>
+      <input class="search" id="concept-q" type="search" placeholder="输入概念名称，例如：办公Agent、证据链、最小权限" aria-label="检索概念">
+      <div class="chips" id="concept-grid"></div>
+    </section>
+
+    <section id="view-materials" class="panel">
+      <div class="item-grid" id="materials-grid">
+        <article class="m-card">
+          <h3>全面思维导图</h3>
+          <p>概念关系、产品功能和全书 15 章技能在同一页。</p>
+          <a class="next" href="resources/豆包工作全面思维导图/打开全面思维导图.html"><span>打开全面导图</span><span>↗</span></a>
+        </article>
+        <article class="m-card">
+          <h3>章节技能 · 即用版</h3>
+          <p>选一个任务，复制示例马上试用；也可换成自己的材料。</p>
+          <a class="next" href="resources/章节技能_即用版/打开这里.html"><span>打开技能入口</span><span>↗</span></a>
+        </article>
+        <article class="m-card">
+          <h3>思维导图与章节技能</h3>
+          <p>完整配套文件，含 WPS / MindLine 可编辑格式。</p>
+          <a class="next" href="resources/思维导图与章节技能/打开这里.html"><span>打开完整配套</span><span>↗</span></a>
+        </article>
+        <article class="m-card">
+          <h3>全书整体思维导图</h3>
+          <p>覆盖 5 篇 15 章结构，点击标题查看正文摘录。</p>
+          <a class="next" href="resources/豆包Word整体思维导图/打开全书思维导图.html"><span>打开全书导图</span><span>↗</span></a>
+        </article>
+        <article class="m-card">
+          <h3>书籍附录</h3>
+          <p>附录 A 指令模板、附录 B 常见问题、附录 C 实践路线与术语。</p>
+          <a class="next" href="appendices/"><span>查看三个附录</span><span>↗</span></a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>依据全书前言、各章导读和附录 C 核心术语整理</span>
+    <span>豆包工作 · 配套网页</span>
+  </footer>
+  <div id="backdrop" class="detail-backdrop hidden"></div>
+  <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
+  <script src="guide-data.js"></script>
+  <script src="kit-data.js"></script>
+  <script>
+    const D = window.BOOK_DATA;
+    const K = window.KIT_DATA;
+    const $ = id => document.getElementById(id);
+    const chapterByN = n => D.chapters.find(c => c.n === n);
+    const conceptById = id => D.concepts.find(c => c.id === id);
+    const CORE_TERMS = D.concepts.filter(c => Number(c.id.slice(1)) <= 24);
+    const VIEWS = ['guide','chapters','skills','videos','templates','faq','concepts','materials'];
+    let view = 'guide';
+    let guide = 'learn';
+    let chN = 1;
+    let partFilter = 'all';
+
+    const GUIDES = {
+      learn: {
+        num: '01 / LEARN', title: '学知识',
+        lead: '先看方法，再回查概念。不要只记按钮和术语。',
+        steps: [
+          ['始终追问四件事', '输入材料是否可信，系统可以操作到哪里，哪个节点必须由人决定，最终成果怎样验收。'],
+          ['按读者路径进入', '初次接触读第1—3章并完成会议纪要练习；已有任务则从第4—7、8—9、11—13或14—15章直接进入。'],
+          ['用概念回到章节', '先看主干提要和导图，再读正文。术语速查只建立直觉，真正理解仍要回到场景和边界。']
+        ]
+      },
+      speed: {
+        num: '02 / SPEED', title: '提效率',
+        lead: '效率来自可验收的小任务，而不是一次开放全部权限。',
+        steps: [
+          ['用 14 天路线选练习', '附录 C.2 提供可选路线，不要求连续打卡，也不承诺速成。'],
+          ['先跑通技能示例', '每章一个即用技能：复制示例，再换成允许使用的自己的材料。'],
+          ['把模板当骨架', '附录 A 只提供任务骨架。仍要补真实材料、权限范围和验收标准，并在发送、发布、覆盖前确认。']
+        ]
+      },
+      layout: {
+        num: '03 / LAYOUT', title: '看排版',
+        lead: '一章通常按“要完成什么 → 案例与方法 → 边界与验收 → 章末收拢”展开。',
+        steps: [
+          ['认章首', '章首说明本章要解决什么工作问题，以及不该期待系统自动完成什么。'],
+          ['认主干', '1.1、1.2 这类标题就是本章逻辑链条，对应本页“主干提要”。'],
+          ['认章末', '思维导图收拢结构；技能给出可复制规则、试用输入和核对点。表和检查表用于核对，不是装饰。']
+        ]
+      },
+      stuff: {
+        num: '04 / USE', title: '用材料',
+        lead: '材料跟着当前任务走，不必一次读完。',
+        steps: [
+          ['先定位章节', '用章节导航确认任务落在哪一章，再打开概括和主干提要。'],
+          ['再取导图和技能', '本章导图看结构；即用技能复制示例或填写自己的材料。'],
+          ['附录按需取用', '附录 A 取指令骨架，附录 B 排查版本和故障，附录 C 回查术语与 14 天路线。']
+        ]
+      }
+    };
+
+    function setView(name) {
+      view = name;
+      document.querySelectorAll('.view-nav button').forEach(b => b.classList.toggle('active', b.dataset.view === name));
+      document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'view-' + name));
+      history.replaceState(null, '', '#' + name + (name === 'chapters' ? '-' + chN : ''));
+      if (name === 'chapters') { renderParts(); renderChList(); renderChapter(); }
+      if (name === 'concepts') renderConcepts($('concept-q').value);
+      if (name === 'skills') renderSkills();
+      if (name === 'videos') renderVideos();
+      if (name === 'templates') renderTemplates();
+      if (name === 'faq') renderFaq($('faq-q').value);
+    }
+    function renderGuide() {
+      document.querySelectorAll('#guide-orbit .node').forEach(b => b.classList.toggle('active', b.dataset.guide === guide));
+      const g = GUIDES[guide];
+      $('guide-body').innerHTML = `
+        <div class="stage-top">
+          <div class="stage-number">${g.num}</div>
+          <h2>${g.title}</h2>
+          <p>${g.lead}</p>
+        </div>
+        <ol class="step-list">${g.steps.map((s,i)=>`<li><span class="num">0${i+1}</span><div><strong>${s[0]}</strong><p>${s[1]}</p></div></li>`).join('')}</ol>
+        <button class="next" data-view="${guide==='learn'?'chapters':guide==='speed'?'skills':guide==='layout'?'chapters':'templates'}"><span>下一步：${guide==='learn'?'进入章节导航':guide==='speed'?'打开随书技能':guide==='layout'?'对照一章结构':'使用指令模板'}</span><span>→</span></button>`;
+    }
+    function renderParts() {
+      const parts = ['all', ...Array.from(new Set(D.chapters.map(c => c.part)))];
+      $('part-row').innerHTML = parts.map(p => `<button data-part="${p}" class="${partFilter===p?'on':''}">${p==='all'?'全部':p.replace('　',' ')}</button>`).join('');
+    }
+    function renderChList() {
+      const list = D.chapters.filter(c => partFilter==='all' || c.part===partFilter);
+      $('ch-list').innerHTML = list.map(c => `
+        <button class="chapter-btn ${c.n===chN?'on':''}" data-n="${c.n}">
+          <b>第${String(c.n).padStart(2,'0')}章</b>
+          ${c.short}
+          <div class="count">${c.skill}</div>
+        </button>`).join('');
+    }
+    function renderChapter() {
+      const c = chapterByN(chN);
+      const concepts = (c.conceptIds || []).map(conceptById).filter(Boolean);
+      $('ch-detail').innerHTML = `
+        <div class="stage-number">${c.part}</div>
+        <h2>${c.title}</h2>
+        <p class="stage-top" style="border:0;padding:0;margin:0 0 8px">${c.summary}</p>
+        <div class="group"><h3>主干提要</h3><ol class="step-list">${c.spine.map((s,i)=>`<li><span class="num">${String(i+1).padStart(2,'0')}</span><div><strong>${s}</strong></div></li>`).join('')}</ol></div>
+        <div class="group"><h3>概念列表</h3>
+          <div class="chips">${concepts.length ? concepts.map(x => `<button class="concept-chip" data-concept="${x.id}">${x.name}${x.aka ? ' · ' + x.aka : ''}</button>`).join('') : '<span class="meta">可到术语速查查看相关概念。</span>'}</div>
+        </div>
+        <p class="meta">${c.skill} · ${c.skillBrief}</p>
+        <div class="actions">
+          <a class="btn" href="${c.map}">本章导图</a>
+          <a class="btn ghost" href="${c.skillPage}">打开技能入口</a>
+        </div>`;
+      document.querySelectorAll('#ch-list .chapter-btn').forEach(b => b.classList.toggle('on', Number(b.dataset.n) === chN));
+    }
+    function renderConcepts(q) {
+      const key = (q || '').trim().toLowerCase();
+      const list = CORE_TERMS.filter(c => {
+        if (!key) return true;
+        return [c.name, c.aka, ...(c.aliases || [])].join(' ').toLowerCase().includes(key);
+      });
+      $('concept-grid').innerHTML = list.map(c => {
+        const chs = c.chapters.map(n => '第' + n + '章').join('、');
+        return `<button class="concept-chip" data-concept="${c.id}">${c.name}${c.aka ? ' · ' + c.aka : ''} <small>${chs}</small></button>`;
+      }).join('') || '<p class="meta">没有匹配的术语。</p>';
+    }
+    function renderSkills() {
+      $('skill-grid').innerHTML = K.skills.map(s => `
+        <article class="item">
+          <div class="meta">第${String(s.n).padStart(2,'0')}章</div>
+          <h3>${s.name}</h3>
+          <p>${s.brief}</p>
+          <a class="next" href="${s.page}"><span>打开即用页</span><span>↗</span></a>
+        </article>`).join('');
+    }
+    function renderVideos() {
+      $('video-grid').innerHTML = K.videos.map(v => `
+        <article class="item">
+          <div class="meta">第${String(v.chapter).padStart(2,'0')}章</div>
+          <h3>${v.title}</h3>
+          <p>${v.url ? '点击观看本章讲解。' : '片源准备中，更新后可在本页直接观看。'}</p>
+          ${v.url ? `<a class="next" href="${v.url}" target="_blank" rel="noopener"><span>观看视频</span><span>↗</span></a>` : '<span class="status">' + v.status + '</span>'}
+          <button class="next secondary" data-goto="${v.chapter}" style="background:transparent;border:1px solid var(--line);color:var(--muted)"><span>查看本章</span><span>→</span></button>
+        </article>`).join('');
+    }
+    function renderTemplates() {
+      $('tpl-box').innerHTML = K.templates.map(cat => `
+        <div class="cat">${cat.id}　${cat.name}</div>
+        ${cat.items.map(it => `
+          <article class="method">
+            <div class="direction">${it.n}　${cat.name}</div>
+            <h3>${it.title}</h3>
+            <p>${it.scene}</p>
+            <div class="prompt">${it.prompt}</div>
+            <p class="meta" style="margin-top:12px">${it.tip}</p>
+            <div class="actions"><button class="btn" data-copy="${it.n}">复制指令</button></div>
+          </article>`).join('')}
+      `).join('');
+    }
+    function renderFaq(q) {
+      const key = (q || '').trim().toLowerCase();
+      $('faq-box').innerHTML = K.faqs.map(cat => {
+        const items = cat.items.filter(it => !key || (it.q + it.a).toLowerCase().includes(key));
+        if (!items.length) return '';
+        return `<div class="cat">${cat.id}　${cat.name}</div>` + items.map(it => `
+          <div class="faq-item">
+            <button class="q" data-faq="${it.n}">${it.n}. ${it.q}</button>
+            <div class="a">${it.a}</div>
+          </div>`).join('');
+      }).join('') || '<p class="meta">没有匹配的问题。</p>';
+    }
+    function copyPrompt(n) {
+      let text = '';
+      K.templates.forEach(cat => cat.items.forEach(it => { if (it.n === n) text = it.prompt; }));
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
+      } else fallbackCopy(text);
+      const btn = document.querySelector('[data-copy="'+n+'"]');
+      if (btn) { const old = btn.textContent; btn.textContent = '已复制'; setTimeout(() => btn.textContent = old, 1600); }
+    }
+    function fallbackCopy(text) {
+      const t = document.createElement('textarea'); t.value = text; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      t.remove();
+    }
+    function openConcept(id) {
+      const c = conceptById(id);
+      if (!c) return;
+      $('drawer').innerHTML = `
+        <button type="button" class="close" id="close-drawer" aria-label="关闭">×</button>
+        <div class="eyebrow">概念详情</div>
+        <h2>${c.name}${c.aka ? ' · ' + c.aka : ''}</h2>
+        <div class="definition">
+          <label>通俗解释</label>
+          <p>${c.text}</p>
+        </div>
+        <div class="definition">
+          <label>所属章节</label>
+          <div class="chips" style="margin-top:12px">${c.chapters.map(n => {
+            const ch = chapterByN(n);
+            return `<button class="concept-chip" data-goto="${n}">第${n}章 <small>${ch ? ch.short : ''}</small></button>`;
+          }).join('')}</div>
+        </div>`;
+      $('drawer').classList.remove('hidden');
+      $('backdrop').classList.remove('hidden');
+    }
+    function closeDrawer() {
+      $('drawer').classList.add('hidden');
+      $('backdrop').classList.add('hidden');
+    }
+    function gotoChapter(n) {
+      chN = n;
+      closeDrawer();
+      setView('chapters');
+      $('ch-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    document.querySelector('.view-nav').addEventListener('click', e => {
+      const b = e.target.closest('button[data-view]');
+      if (b) setView(b.dataset.view);
+    });
+    document.querySelector('.kit').addEventListener('click', e => {
+      const b = e.target.closest('button[data-view]');
+      if (b) setView(b.dataset.view);
+    });
+    $('guide-orbit').addEventListener('click', e => {
+      const b = e.target.closest('[data-guide]');
+      if (!b) return;
+      guide = b.dataset.guide;
+      renderGuide();
+    });
+    $('guide-body').addEventListener('click', e => {
+      const b = e.target.closest('[data-view]');
+      if (b) setView(b.dataset.view);
+    });
+    $('part-row').addEventListener('click', e => {
+      const b = e.target.closest('[data-part]');
+      if (!b) return;
+      partFilter = b.dataset.part;
+      renderParts();
+      renderChList();
+    });
+    $('ch-list').addEventListener('click', e => {
+      const b = e.target.closest('[data-n]');
+      if (!b) return;
+      chN = Number(b.dataset.n);
+      renderChapter();
+      history.replaceState(null, '', '#chapters-' + chN);
+      $('ch-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    $('ch-detail').addEventListener('click', e => {
+      const b = e.target.closest('[data-concept]');
+      if (b) openConcept(b.dataset.concept);
+    });
+    $('concept-grid').addEventListener('click', e => {
+      const b = e.target.closest('[data-concept]');
+      if (b) openConcept(b.dataset.concept);
+    });
+    $('concept-q').addEventListener('input', e => renderConcepts(e.target.value));
+    $('faq-q').addEventListener('input', e => renderFaq(e.target.value));
+    $('tpl-box').addEventListener('click', e => {
+      const b = e.target.closest('[data-copy]');
+      if (b) copyPrompt(Number(b.dataset.copy));
+    });
+    $('faq-box').addEventListener('click', e => {
+      const b = e.target.closest('[data-faq]');
+      if (b) b.parentElement.classList.toggle('open');
+    });
+    $('video-grid').addEventListener('click', e => {
+      const g = e.target.closest('[data-goto]');
+      if (g) gotoChapter(Number(g.dataset.goto));
+    });
+    $('backdrop').addEventListener('click', closeDrawer);
+    $('drawer').addEventListener('click', e => {
+      if (e.target.id === 'close-drawer') closeDrawer();
+      const g = e.target.closest('[data-goto]');
+      if (g) gotoChapter(Number(g.dataset.goto));
+    });
+
+    function bootFromHash() {
+      const h = (location.hash || '#guide').slice(1);
+      const m = h.match(/^chapters-(\d+)/);
+      if (m) { chN = Math.min(15, Math.max(1, Number(m[1]))); setView('chapters'); return; }
+      if (VIEWS.includes(h)) { setView(h); return; }
+    }
+    renderGuide();
+    renderParts();
+    renderChList();
+    renderChapter();
+    renderConcepts('');
+    renderSkills();
+    renderVideos();
+    renderTemplates();
+    renderFaq('');
+    $('n-skills').textContent = String(K.skills.length);
+    bootFromHash();
+  </script>
+</body>
+</html>
