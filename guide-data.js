@@ -16,7 +16,7 @@ window.BOOK_DATA = {
       ],
       "skill": "办公任务试点筛选",
       "skillBrief": "根据材料、频率和错误后果，选出适合AI辅助的首个试点。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch01-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch01.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c01",
@@ -41,7 +41,7 @@ window.BOOK_DATA = {
       ],
       "skill": "首次会议纪要交付",
       "skillBrief": "把会议文字记录整理为带来源的决议、行动项和待确认事项。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch02-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch02.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c05"
@@ -63,7 +63,7 @@ window.BOOK_DATA = {
       ],
       "skill": "可执行任务书整理",
       "skillBrief": "把含糊需求改写成有输入、交付标准和检查点的任务书。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch03-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch03.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c01",
@@ -95,7 +95,7 @@ window.BOOK_DATA = {
       ],
       "skill": "材料驱动的报告起草",
       "skillBrief": "依据给定材料起草有事实依据和修改记录的内部报告。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch04-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch04.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c02",
@@ -118,7 +118,7 @@ window.BOOK_DATA = {
       ],
       "skill": "汇报页面脚本制作",
       "skillBrief": "按汇报目标制作逐页标题、证据、视觉建议和讲述要点。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch05-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch05.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c25"
@@ -140,7 +140,7 @@ window.BOOK_DATA = {
       ],
       "skill": "订单清洗与销售汇总",
       "skillBrief": "在保留原件的前提下清洗样本订单并核对汇总口径。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch06-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch06.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c24"
@@ -160,7 +160,7 @@ window.BOOK_DATA = {
       ],
       "skill": "择校资料证据核查",
       "skillBrief": "给择校结论补来源、区分事实与推断，标出无法核验项。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch07-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch07.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c02",
@@ -183,7 +183,7 @@ window.BOOK_DATA = {
       ],
       "skill": "网页资料登记与断点交接",
       "skillBrief": "把一次网页查阅整理成可交接的来源登记和断点说明。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch08-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch08.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c08",
@@ -210,7 +210,7 @@ window.BOOK_DATA = {
       ],
       "skill": "竞品更新监控单次执行",
       "skillBrief": "按既定来源跑一轮监控，区分新增、重复和待核信息。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch09-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch09.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c09",
@@ -233,7 +233,7 @@ window.BOOK_DATA = {
       ],
       "skill": "活动多模态创作任务单",
       "skillBrief": "把活动目标写成可核验的多产物任务书和验收口径。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch10-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch10.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c02",
@@ -255,7 +255,7 @@ window.BOOK_DATA = {
       ],
       "skill": "团队行动项增量整理",
       "skillBrief": "在授权范围内合并行动项，不覆盖已确认结论。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch11-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch11.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c06"
@@ -276,7 +276,7 @@ window.BOOK_DATA = {
       ],
       "skill": "项目周报校验",
       "skillBrief": "按固定字段检查周报缺项、口径冲突和待确认事项。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch12-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch12.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c16",
@@ -302,7 +302,7 @@ window.BOOK_DATA = {
       ],
       "skill": "任务最小权限核对",
       "skillBrief": "只保留完成本次任务所需的账号、目录和操作。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch13-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch13.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c15",
@@ -326,7 +326,7 @@ window.BOOK_DATA = {
       ],
       "skill": "岗位任务流程卡",
       "skillBrief": "把高频工作拆成输入、执行、检查和交付，标明人机职责。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch14-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch14.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c09",
@@ -349,7 +349,7 @@ window.BOOK_DATA = {
       ],
       "skill": "AI流程试点成效复盘",
       "skillBrief": "对照基线记录质量、风险和是否值得继续使用。",
-      "map": "resources/思维导图与章节技能/mindmaps/ch15-mindmap.svg",
+      "map": "resources/chapter-mindmaps/ch15.png",
       "skillPage": "resources/章节技能_即用版/打开这里.html",
       "conceptIds": [
         "c01",

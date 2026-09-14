@@ -282,7 +282,7 @@
   </footer>
   <div id="backdrop" class="detail-backdrop hidden"></div>
   <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
-  <script src="guide-data.js"></script>
+  <script src="guide-data.js?v=20260914-mindmaps"></script>
   <script src="kit-data.js"></script>
   <script>
     const D = window.BOOK_DATA;
@@ -388,6 +388,7 @@
         <div class="group"><h3>概念列表</h3>
           <div class="chips">${concepts.length ? concepts.map(x => `<button class="concept-chip" data-concept="${x.id}">${x.name}${x.aka ? ' · ' + x.aka : ''}</button>`).join('') : '<span class="meta">可到术语速查查看相关概念。</span>'}</div>
         </div>
+        <figure style="margin:24px 0"><a href="${c.map}" target="_blank" rel="noopener" aria-label="放大查看${c.title}导图"><img src="${c.map}" alt="${c.title}思维导图" loading="lazy" style="display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line)"></a><figcaption class="meta" style="margin-top:8px">本章知识导图 · 点击图片放大查看</figcaption></figure>
         <p class="meta">${c.skill} · ${c.skillBrief}</p>
         <div class="actions">
           <a class="btn" href="${c.map}">本章导图</a>
