@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <title>豆包工作：14天玩转AI办公</title>
-  <meta name="description" content="《豆包工作：14天玩转AI办公》：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
+  <title>豆包工作14天玩转AI办公</title>
+  <meta name="description" content="《豆包工作14天玩转AI办公》：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
   <link rel="canonical" href="http://agentc.com.cn/">
   <style>
     :root{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--line:#e3e6eb;--muted:#6e6e73;--text:#1d1d1f;--accent:#0071e3}
@@ -107,7 +107,7 @@
     .faq-item.open{border-color:#afcae5}
     .faq-item.open .a{display:block}
     .cat{font-size:13px;color:#5880a5;margin:28px 0 12px;font-weight:600}
-    .status{display:inline-block;background:#eaf3fd;color:var(--accent);border-radius:999px;padding:3px 10px;font-size:12px}
+    .status{align-self:flex-start;width:fit-content;display:inline-block;background:#eaf3fd;color:var(--accent);border-radius:999px;padding:3px 10px;font-size:12px}
     .search{width:100%;border:1px solid #e1e6ed;border-radius:14px;padding:13px 16px;margin-bottom:18px;background:#fff}
     .btn,.download-btn{display:inline-flex;align-items:center;border-radius:24px;background:var(--accent);color:#fff;padding:8px 19px;font-size:14px;text-decoration:none}
     .btn:hover,.download-btn:hover{background:#0077ed;color:#fff;text-decoration:none}
@@ -125,9 +125,37 @@
     .book-guide-notice>strong{font-size:17px;font-weight:600;color:#355571}
     .appendix-toolbar{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 22px}
     .pdf-frame{width:100%;height:min(78vh,920px);border:1px solid #e4e8ef;border-radius:18px;background:#fff}
-    footer{max-width:1510px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:space-between;border-top:1px solid #dddfe6}
+    footer{max-width:1510px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:flex-end;border-top:1px solid #dddfe6}
     @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}.stats{display:none}}
     @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:29px 20px 50px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.kit-list{gap:14px 20px}.application-intro{display:block;padding:21px 23px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}}
+
+    .item-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+    .item,.m-card,.chapter-btn,.step-list li>div{min-width:0;overflow-wrap:anywhere}
+    .top-actions{flex:none}.brand small{overflow-wrap:anywhere}
+    .orbit{max-width:410px;margin-inline:auto}
+    .chapter-map{margin:24px 0}.chapter-map img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:16px;background:white}
+    .map-outline{display:none}.map-outline summary{cursor:pointer;font-weight:600;padding:14px 0;line-height:1.6}
+    .map-outline details{border-bottom:1px solid var(--line)}.map-outline ul{padding-left:24px;margin:0 0 16px;color:#516276}
+    @media(max-width:600px){
+      .top{padding:10px 16px;gap:10px}.brand{gap:9px}.top-actions a{font-size:12px}
+      main{padding:26px 16px 40px}h1{font-size:30px}h2{font-size:25px}
+      .view-nav{gap:22px;scrollbar-width:thin}.view-nav button{min-height:48px}
+      .chapter-grid{grid-template-columns:1fr}.detail-card,.method{padding:20px}
+      .concept-chip{flex-wrap:wrap;gap:4px 10px;max-width:100%}.concept-chip small{white-space:normal}
+      .loop-panel{border-radius:20px}.panel-label,.loop-note{padding-left:18px;padding-right:18px}
+      .orbit{height:auto;padding:20px 16px;display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:none}
+      .orbit svg,.orbit-center{display:none}.orbit .node{position:static;transform:none;min-width:0;padding:16px 8px}
+      .node strong{font-size:16px}.node span{font-size:10px}.node{min-height:76px}
+      .map-outline{display:block}.chapter-map>a{display:none}
+      .pdf-frame{height:65vh}.next{min-height:48px}.btn{min-height:44px}
+    }
+    .guide-options{display:grid;gap:10px;padding:20px}
+    .guide-options .node{position:static;transform:none;min-width:0;width:100%;text-align:left;padding:14px 16px;border-radius:12px}
+    .guide-options .node strong{display:block;font-size:17px;font-weight:600}
+    .guide-options .node span{font-family:inherit;font-size:13px;line-height:1.6;margin:4px 0 0}
+    @media(max-width:1120px){.guide-options{grid-template-columns:1fr 1fr}}
+    @media(max-width:360px){.guide-options{grid-template-columns:1fr}}
+    .chapter-map.generated-map>a{display:block}
   </style>
 </head>
 <body>
@@ -136,7 +164,7 @@
       <div class="mark" aria-hidden="true">豆</div>
       <div>
         <strong>豆包工作</strong>
-        <small>《豆包工作：14天玩转AI办公》</small>
+        <small>《豆包工作14天玩转AI办公》</small>
       </div>
     </div>
     <div class="top-actions">
@@ -146,7 +174,7 @@
   <main>
     <div class="intro">
       <div>
-        <div class="eyebrow">《豆包工作：14天玩转AI办公》</div>
+        <div class="eyebrow">《豆包工作14天玩转AI办公》</div>
         <h1>把办公任务，做得可验收。</h1>
         <p>先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
         <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
@@ -182,16 +210,13 @@
       </div>
       <div class="workspace">
         <aside class="loop-panel">
-          <div class="panel-label"><span>阅读指南</span><span>四种用法</span></div>
-          <div class="orbit" id="guide-orbit">
-            <svg viewBox="0 0 410 355" width="100%" height="100%" style="position:absolute;inset:0;opacity:.75" aria-hidden="true"><ellipse cx="205" cy="175" rx="118" ry="118" fill="none" stroke="#c7d8e9" stroke-width="1.5"/></svg>
-            <div class="orbit-center"><strong>阅读</strong><span>用法</span></div>
-            <button class="node active" data-guide="learn"><span>01 · LEARN</span><strong>学知识</strong></button>
-            <button class="node" data-guide="speed"><span>02 · SPEED</span><strong>提效率</strong></button>
-            <button class="node" data-guide="layout"><span>03 · LAYOUT</span><strong>看排版</strong></button>
-            <button class="node" data-guide="stuff"><span>04 · USE</span><strong>用材料</strong></button>
+          <div class="panel-label"><span>你现在想做什么？</span></div>
+          <div class="guide-options" id="guide-orbit">
+            <button class="node active" data-guide="learn"><strong>第一次使用</strong><span>从入门章节开始</span></button>
+            <button class="node" data-guide="layout"><strong>按任务选章</strong><span>找到当前工作对应的方法</span></button>
+            <button class="node" data-guide="speed"><strong>跟着示例练习</strong><span>复制示例，完成一次小任务</span></button>
+            <button class="node" data-guide="stuff"><strong>获取配套材料</strong><span>查找导图、模板和常见问题</span></button>
           </div>
-          <div class="loop-note"><b>常规回路</b>　学知识 → 提效率 → 看排版 → 用材料<br>不必按顺序走完。从当前任务需要的那一步进入即可。</div>
         </aside>
         <section class="reading" id="guide-body"></section>
       </div>
@@ -277,13 +302,12 @@
     </section>
   </main>
   <footer>
-    <span>依据全书前言、各章导读和附录 C 核心术语整理</span>
-    <span>《豆包工作：14天玩转AI办公》</span>
+    <span>《豆包工作14天玩转AI办公》</span>
   </footer>
   <div id="backdrop" class="detail-backdrop hidden"></div>
   <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
-  <script src="guide-data.js?v=20260914-mindmaps"></script>
-  <script src="kit-data.js"></script>
+  <script src="guide-data.js?v=20260916-imagegen-all"></script>
+  <script src="kit-data.js?v=20260915-proof"></script>
   <script>
     const D = window.BOOK_DATA;
     const K = window.KIT_DATA;
@@ -299,16 +323,16 @@
 
     const GUIDES = {
       learn: {
-        num: '01 / LEARN', title: '学知识',
+        num: '入门', title: '第一次使用，从第1—3章开始',
         lead: '先看方法，再回查概念。不要只记按钮和术语。',
         steps: [
           ['始终追问四件事', '输入材料是否可信，系统可以操作到哪里，哪个节点必须由人决定，最终成果怎样验收。'],
-          ['按读者路径进入', '初次接触读第1—3章并完成会议纪要练习；已有任务则从第4—7、8—9、11—13或14—15章直接进入。'],
+          ['按读者路径进入', '初次接触可按顺序阅读；已有经验可根据当前任务选读。'],
           ['用概念回到章节', '先看主干提要和导图，再读正文。术语速查只建立直觉，真正理解仍要回到场景和边界。']
         ]
       },
       speed: {
-        num: '02 / SPEED', title: '提效率',
+        num: '练习', title: '跟着示例，完成一次小任务',
         lead: '效率来自可验收的小任务，而不是一次开放全部权限。',
         steps: [
           ['用 14 天路线选练习', '附录 C.2 提供可选路线，不要求连续打卡，也不承诺速成。'],
@@ -317,16 +341,16 @@
         ]
       },
       layout: {
-        num: '03 / LAYOUT', title: '看排版',
-        lead: '一章通常按“要完成什么 → 案例与方法 → 边界与验收 → 章末收拢”展开。',
+        num: '选章', title: '你要做什么，就读对应的章节',
+        lead: '例如，要写会议纪要就看第4章，要做汇报PPT就看第5章。已有具体任务时，可以直接选读。',
         steps: [
-          ['认章首', '章首说明本章要解决什么工作问题，以及不该期待系统自动完成什么。'],
-          ['认主干', '1.1、1.2 这类标题就是本章逻辑链条，对应本页“主干提要”。'],
-          ['认章末', '思维导图收拢结构；技能给出可复制规则、试用输入和核对点。表和检查表用于核对，不是装饰。']
+          ['找到当前任务', '在下方选择要做的工作，进入对应章节。其他任务可到“章节导航”查找。'],
+          ['带着材料看方法', '先看本章提要，再对照纸书中的案例，确认要准备哪些材料、怎样完成任务。'],
+          ['照着方法做一次', '换成自己的材料，完成一份成果，再按本章的检查项核对。']
         ]
       },
       stuff: {
-        num: '04 / USE', title: '用材料',
+        num: '材料', title: '获取导图、模板和常见问题',
         lead: '材料跟着当前任务走，不必一次读完。',
         steps: [
           ['先定位章节', '用章节导航确认任务落在哪一章，再打开概括和主干提要。'],
@@ -353,7 +377,7 @@
       if (name === 'faq') renderFaq($('faq-q').value);
     }
     function renderGuide() {
-      document.querySelectorAll('#guide-orbit .node').forEach(b => b.classList.toggle('active', b.dataset.guide === guide));
+      document.querySelectorAll('#guide-orbit .node').forEach(b => { b.classList.toggle('active', b.dataset.guide === guide); b.setAttribute('aria-pressed', String(b.dataset.guide === guide)); });
       const g = GUIDES[guide];
       $('guide-body').innerHTML = `
         <div class="stage-top">
@@ -362,7 +386,8 @@
           <p>${g.lead}</p>
         </div>
         <ol class="step-list">${g.steps.map((s,i)=>`<li><span class="num">0${i+1}</span><div><strong>${s[0]}</strong><p>${s[1]}</p></div></li>`).join('')}</ol>
-        <button class="next" data-view="${guide==='learn'?'chapters':guide==='speed'?'skills':guide==='layout'?'chapters':'templates'}"><span>下一步：${guide==='learn'?'进入章节导航':guide==='speed'?'打开随书技能':guide==='layout'?'对照一章结构':'使用指令模板'}</span><span>→</span></button>`;
+        ${guide==='layout' ? `<div class="chips" aria-label="按任务进入章节">${[[4,'写文档、会议纪要'],[5,'制作汇报PPT'],[6,'整理表格、分析数据'],[7,'查资料、写调研报告'],[10,'制作图片、视频'],[11,'连接飞书协作']].map(([n,label])=>`<button class="chip" data-goto="${n}">${label}<small>第${n}章 →</small></button>`).join('')}</div>` : ''}
+        <button class="next" data-view="${guide==='learn'?'chapters':guide==='speed'?'skills':guide==='layout'?'chapters':'templates'}"><span>下一步：${guide==='learn'?'进入章节导航':guide==='speed'?'打开随书技能':guide==='layout'?'查看全部章节':'使用指令模板'}</span><span>→</span></button>`;
     }
     function renderParts() {
       const parts = ['all', ...Array.from(new Set(D.chapters.map(c => c.part)))];
@@ -388,7 +413,9 @@
         <div class="group"><h3>概念列表</h3>
           <div class="chips">${concepts.length ? concepts.map(x => `<button class="concept-chip" data-concept="${x.id}">${x.name}${x.aka ? ' · ' + x.aka : ''}</button>`).join('') : '<span class="meta">可到术语速查查看相关概念。</span>'}</div>
         </div>
-        <figure style="margin:24px 0"><a href="${c.map}" target="_blank" rel="noopener" aria-label="放大查看${c.title}导图"><img src="${c.map}" alt="${c.title}思维导图" loading="lazy" style="display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line)"></a><figcaption class="meta" style="margin-top:8px">本章知识导图 · 点击图片放大查看</figcaption></figure>
+        <figure class="chapter-map ${c.generatedMap ? 'generated-map' : ''}"><a href="${c.map}" target="_blank" rel="noopener" aria-label="放大查看${c.title}导图"><img src="${c.map}" alt="${c.title}思维导图" loading="lazy"></a>
+          <div class="map-outline" aria-label="本章导图文字版">${(c.outline || []).map(s => `<details open><summary>${s.title}</summary><ul>${s.children.map(t => `<li>${t}</li>`).join('')}</ul></details>`).join('')}</div>
+          <figcaption class="meta" style="margin-top:8px">本章结构导图 · <a href="${c.map}" target="_blank" rel="noopener">打开高清大图</a></figcaption></figure>
         <p class="meta">${c.skill} · ${c.skillBrief}</p>
         <div class="actions">
           <a class="btn" href="${c.map}">本章导图</a>
@@ -421,8 +448,8 @@
         <article class="item">
           <div class="meta">第${String(v.chapter).padStart(2,'0')}章</div>
           <h3>${v.title}</h3>
-          <p>${v.url ? '点击观看本章讲解。' : '片源准备中，更新后可在本页直接观看。'}</p>
-          ${v.url ? `<a class="next" href="${v.url}" target="_blank" rel="noopener"><span>观看视频</span><span>↗</span></a>` : '<span class="status">' + v.status + '</span>'}
+          <p>${v.url ? '点击观看本章讲解。' : '视频上线后可在这里观看，当前可先阅读本章。'}</p>
+          ${v.url ? `<a class="next" href="${v.url}" target="_blank" rel="noopener"><span>观看视频</span><span>↗</span></a>` : '<span class="status">' + (v.status || '待上线') + '</span>'}
           <button class="next secondary" data-goto="${v.chapter}" style="background:transparent;border:1px solid var(--line);color:var(--muted)"><span>查看本章</span><span>→</span></button>
         </article>`).join('');
     }
@@ -513,6 +540,8 @@
       renderGuide();
     });
     $('guide-body').addEventListener('click', e => {
+      const task = e.target.closest('[data-goto]');
+      if (task) { gotoChapter(Number(task.dataset.goto)); return; }
       const b = e.target.closest('[data-view]');
       if (b) setView(b.dataset.view);
     });

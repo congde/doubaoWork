@@ -1,6 +1,7 @@
 from pathlib import Path
 import json, re
 from PIL import Image
+import xml.etree.ElementTree as ET
 
 root = Path(__file__).resolve().parents[1]
 data = json.loads(re.sub(r';\s*$', '', re.sub(r'^window.BOOK_DATA\s*=\s*', '', (root/'guide-data.js').read_text(encoding='utf-8'))))
@@ -8,9 +9,17 @@ checked = 0
 for c in data['chapters']:
     p = root / c['map']
     assert p.exists(), p
-    with Image.open(p) as im:
-        assert im.width >= 1536 and im.height >= 1024, (p, im.size)
-        im.verify()
+    if p.suffix == '.svg':
+        svg = ET.parse(p).getroot()
+        assert int(svg.attrib['width']) >= 1536
+        text = ''.join(svg.itertext())
+        for section in c['outline']:
+            for title in [section['title'], *section['children']]:
+                assert title in text, (p, title)
+    else:
+        with Image.open(p) as im:
+            assert im.width >= 1536 and im.height >= 1024, (p, im.size)
+            im.verify()
     checked += 1
 refs = 0
 for p in (root/'resources').rglob('*.html'):

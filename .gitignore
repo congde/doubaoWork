@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local proof extraction and browser screenshots
+.qa/latest-pdf/
+.qa/display/

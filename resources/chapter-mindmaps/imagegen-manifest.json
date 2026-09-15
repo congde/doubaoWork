@@ -1,0 +1,128 @@
+{
+  "source": "70750 未转曲.pdf",
+  "sourcePages": 255,
+  "sourceSha256": "f7258b92156ec211ef7bcc80860fda7b4260b0d871f26ce72f10dbe756804a2e",
+  "generator": "imagegen",
+  "assets": [
+    {
+      "chapter": 1,
+      "title": "第1章　认识豆包工作：产品定位与能力边界",
+      "file": "ch01-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "adc514e0d9c060d41381a71573f8bcfdf7833b68786d84c83ac24287ccb84114"
+    },
+    {
+      "chapter": 2,
+      "title": "第2章　快速上手：完成第一个办公任务",
+      "file": "ch02-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8429e22939c85c55c913c80f7dd7a01454ac43fd51b7df5cace15e9d980b587"
+    },
+    {
+      "chapter": 3,
+      "title": "第3章　核心概念：理解智能体的工作方式",
+      "file": "ch03-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8060d54d5d79db2020f80142d048523d9430566b296d41f1821a537c2e84740e"
+    },
+    {
+      "chapter": 4,
+      "title": "第4章　文档写作：从材料整理到正式成稿",
+      "file": "ch04-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5232939ed815e11227c98b31a6a4dd7cd86f17a90d01c1d67cb55affb0a2670a"
+    },
+    {
+      "chapter": 5,
+      "title": "第5章　PPT制作：从汇报目标到现场表达",
+      "file": "ch05-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5c9f13181b69e3042b6690199f39f0b8d1c3f34d3fc2a4fed936a3191050504f"
+    },
+    {
+      "chapter": 6,
+      "title": "第6章　表格与数据分析：从数据整理到分析结论",
+      "file": "ch06-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "69a3080d5ceb6977db08f0643e0b4d7895793d7816451167b6ae1ab4006a4e0b"
+    },
+    {
+      "chapter": 7,
+      "title": "第7章　深度调研与专业分析：从检索到研究报告",
+      "file": "ch07-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2bd60169292e0e3624592e768173b210a13872692e430a4eb723390dc9d798e6"
+    },
+    {
+      "chapter": 8,
+      "title": "第8章　操作电脑与浏览器：让跨软件任务保持可控",
+      "file": "ch08-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "87ffb8069cf5eac324a13fbf29118e139dafcae29f3a04dc816091e7641077f2"
+    },
+    {
+      "chapter": 9,
+      "title": "第9章　定时任务与流程自动化：让重复工作按规则运行",
+      "file": "ch09-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c3bf1eb55d09844f5bb81bdc0657c7dc3aba75ec9239fbb17796882a6fdaee0e"
+    },
+    {
+      "chapter": 10,
+      "title": "第10章　创意内容生成：从图像、视频到交互原型",
+      "file": "ch10-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "916e479f8718954afae6357bf550da9d216bb7c9cc2f30f216e8f0bc498dca8a"
+    },
+    {
+      "chapter": 11,
+      "title": "第11章　连接飞书：让企业上下文进入任务",
+      "file": "ch11-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b1fe400c5e1571b74d600e783ddb6903c5ab988475ae45001c930a4d26bd055d"
+    },
+    {
+      "chapter": 12,
+      "title": "第12章　生态扩展：从技能复用到多智能体协作",
+      "file": "ch12-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7ca0ad6ff13e087f9ccf9e8381e59b77efb48aa63d885e7173a2330222167a61"
+    },
+    {
+      "chapter": 13,
+      "title": "第13章　安全与隐私：从个人授权到组织治理",
+      "file": "ch13-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d6e857310e3d39cf836ca1ad28b7a69dda8ec63b9c796d903c3c785410450526"
+    },
+    {
+      "chapter": 14,
+      "title": "第14章　岗位与业务场景：典型工作的AI协作流程",
+      "file": "ch14-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4658351a72490385cf0c430b5560bd68d48865405cedefe147b13e148a6a00a0"
+    },
+    {
+      "chapter": 15,
+      "title": "第15章　未来展望：从生成内容到完成工作",
+      "file": "ch15-imagegen-20260915.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cf589c1db2b5ff20ed3c46ce96231e769254d25aeaf9d85727ab779edd0dd131"
+    }
+  ]
+}

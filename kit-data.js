@@ -488,98 +488,98 @@ window.KIT_DATA = {
       "title": "第1章讲解：认识豆包工作",
       "chapter": 1,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 2,
       "title": "第2章讲解：快速上手",
       "chapter": 2,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 3,
       "title": "第3章讲解：核心概念",
       "chapter": 3,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 4,
       "title": "第4章讲解：文档写作",
       "chapter": 4,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 5,
       "title": "第5章讲解：PPT制作",
       "chapter": 5,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 6,
       "title": "第6章讲解：表格与数据分析",
       "chapter": 6,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 7,
       "title": "第7章讲解：深度调研",
       "chapter": 7,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 8,
       "title": "第8章讲解：操作电脑与浏览器",
       "chapter": 8,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 9,
       "title": "第9章讲解：定时任务与流程自动化",
       "chapter": 9,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 10,
       "title": "第10章讲解：创意内容生成",
       "chapter": 10,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 11,
       "title": "第11章讲解：连接飞书",
       "chapter": 11,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 12,
       "title": "第12章讲解：生态扩展",
       "chapter": 12,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 13,
       "title": "第13章讲解：安全与隐私",
       "chapter": 13,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     },
     {
       "n": 14,
       "title": "第14章讲解：岗位与业务场景",
       "chapter": 14,
       "url": "",
-      "status": "持续更新中"
+      "status": "待上线"
     }
   ]
 };
