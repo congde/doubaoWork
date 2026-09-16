@@ -156,6 +156,24 @@
     @media(max-width:1120px){.guide-options{grid-template-columns:1fr 1fr}}
     @media(max-width:360px){.guide-options{grid-template-columns:1fr}}
     .chapter-map.generated-map>a{display:block}
+    .glossary-toolbar{display:grid;gap:14px;margin:0 0 18px}
+    .glossary-groups{display:flex;flex-wrap:wrap;gap:8px}
+    .glossary-groups button{background:#fff;border:1px solid #e4e8ef;border-radius:999px;padding:7px 14px;font-size:13px;color:#55677a}
+    .glossary-groups button.on{background:#0071e3;border-color:#0071e3;color:#fff}
+    .glossary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+    .glossary-card{background:#fff;border:1px solid #e4e8ef;border-radius:18px;padding:20px 20px 16px;text-align:left;display:flex;flex-direction:column;gap:8px;min-height:198px;width:100%;white-space:normal}
+    .glossary-card:hover{border-color:#93bde8;box-shadow:0 6px 18px #345b8010}
+    .glossary-card.on{border-color:#afcae5;background:#f8fbff}
+    .glossary-card h3{margin:0;font-size:18px;line-height:1.4}
+    .glossary-card .aka{color:var(--accent);font-size:13px;margin:0}
+    .glossary-card .blurb{color:#516276;font-size:14px;line-height:1.7;margin:0;flex:1}
+    .glossary-card mark,.drawer mark{background:#fff2a8;color:inherit;padding:0 2px;border-radius:3px}
+    .glossary-empty{grid-column:1/-1;background:#fff;border:1px dashed #d5dbe3;border-radius:18px;padding:28px}
+    .glossary-empty p{margin:0 0 12px;color:#516276}
+    .drawer .aka{color:var(--accent);font-size:15px;margin:0 0 8px}
+    .drawer .alias{background:#f4f8fc;border-radius:999px;padding:4px 10px;font-size:13px;color:#4a647d}
+    .drawer .related-skill{margin-top:8px}
+    @media(max-width:600px){.glossary-card{min-height:0}}
   </style>
 </head>
 <body>
@@ -225,7 +243,7 @@
     <section id="view-chapters" class="panel">
       <div class="book-guide-notice">
         <strong>章节导航</strong>
-        <p>每张卡片给出本章概括入口。点开后可看主干提要和概念列表；概念可继续点进所属章节。</p>
+        <p>每张卡片给出本章概括入口。点开后可看主干提要、概念列表和本章导图。练习用的即用技能在「随书技能」。</p>
       </div>
       <div class="part-row" id="part-row"></div>
       <div class="chapter-grid" id="ch-list"></div>
@@ -233,7 +251,7 @@
     </section>
 
     <section id="view-skills" class="panel">
-      <p class="count">封面收录 11 个技能，本页已按 15 章补全。点开即用页可复制示例。</p>
+      <p class="count">15 个即用技能集中在这里。选一个任务，复制示例或换成自己的材料。</p>
       <div class="item-grid" id="skill-grid"></div>
     </section>
 
@@ -253,9 +271,16 @@
     </section>
 
     <section id="view-concepts" class="panel">
-      <p class="count">附录 C · 24 个核心术语。点击即可查看通俗解释和所属章节。</p>
-      <input class="search" id="concept-q" type="search" placeholder="输入概念名称，例如：办公Agent、证据链、最小权限" aria-label="检索概念">
-      <div class="chips" id="concept-grid"></div>
+      <div class="book-guide-notice">
+        <strong>术语速查</strong>
+        <p>先看大白话，再回到所属章节。附录 C.3 的 24 个核心术语都在这里；PPT、定时任务、岗位流程一并收录，方便对照章节。也可搜英文、别名或解释里的词，例如 Prompt、LLM、权限、口径。完整原文见 <a href="appendices/appendix-c.html">附录 C</a>。</p>
+      </div>
+      <div class="glossary-toolbar">
+        <input class="search" id="concept-q" type="search" placeholder="搜索术语、英文、别名或解释，例如：Prompt、LLM、证据、权限" aria-label="检索术语" autocomplete="off">
+        <div class="glossary-groups" id="concept-groups" role="tablist" aria-label="按主题筛选术语"></div>
+        <p class="count" id="concept-count">附录 C.3 · 24 个核心术语</p>
+      </div>
+      <div class="glossary-grid" id="concept-grid"></div>
     </section>
 
     <section id="view-appendix" class="panel">
@@ -264,34 +289,34 @@
         <p>一份完整 PDF：20 条指令模板、20 个常见问题解答、24 个核心术语速查。可在本页预览，也可下载后离线使用。</p>
       </div>
       <div class="appendix-toolbar">
-        <a class="btn" href="appendices/附录-20条指令模版+20个常见问题解答+24个核心术语速查.pdf?v=20260914" download="附录-20条指令模版+20个常见问题解答+24个核心术语速查.pdf">下载附录 PDF</a>
+        <a class="btn" href="appendices/book-appendix.pdf?v=20260914" download="book-appendix.pdf">下载附录 PDF</a>
         <a class="btn ghost" href="appendices/appendix-a.html">阅读附录 A</a>
         <a class="btn ghost" href="appendices/appendix-b.html">阅读附录 B</a>
         <a class="btn ghost" href="appendices/appendix-c.html">阅读附录 C</a>
       </div>
-      <iframe class="pdf-frame" title="附录 PDF 预览" src="appendices/附录-20条指令模版+20个常见问题解答+24个核心术语速查.pdf?v=20260914"></iframe>
+      <iframe class="pdf-frame" title="附录 PDF 预览" src="appendices/book-appendix.pdf?v=20260914"></iframe>
     </section>
     <section id="view-materials" class="panel">
       <div class="item-grid" id="materials-grid">
         <article class="m-card">
           <h3>全面思维导图</h3>
           <p>概念关系、产品功能和全书 15 章技能在同一页。</p>
-          <a class="next" href="resources/豆包工作全面思维导图/打开全面思维导图.html"><span>打开全面导图</span><span>↗</span></a>
+          <a class="next" href="resources/overview/index.html"><span>打开全面导图</span><span>↗</span></a>
         </article>
         <article class="m-card">
-          <h3>章节技能 · 即用版</h3>
-          <p>选一个任务，复制示例马上试用；也可换成自己的材料。</p>
-          <a class="next" href="resources/章节技能_即用版/打开这里.html"><span>打开技能入口</span><span>↗</span></a>
+          <h3>技能文件包</h3>
+          <p>15 个技能的离线压缩包。日常练习请用顶部「随书技能」。</p>
+          <a class="next" href="resources/skill-kit/index.html"><span>打开技能文件</span><span>↗</span></a>
         </article>
         <article class="m-card">
           <h3>思维导图与章节技能</h3>
           <p>完整配套文件，含 WPS / MindLine 可编辑格式。</p>
-          <a class="next" href="resources/思维导图与章节技能/打开这里.html"><span>打开完整配套</span><span>↗</span></a>
+          <a class="next" href="resources/companion/index.html"><span>打开完整配套</span><span>↗</span></a>
         </article>
         <article class="m-card">
           <h3>全书整体思维导图</h3>
           <p>覆盖 5 篇 15 章结构，点击标题查看正文摘录。</p>
-          <a class="next" href="resources/豆包Word整体思维导图/打开全书思维导图.html"><span>打开全书导图</span><span>↗</span></a>
+          <a class="next" href="resources/book-map/index.html"><span>打开全书导图</span><span>↗</span></a>
         </article>
         <article class="m-card">
           <h3>书籍附录</h3>
@@ -306,20 +331,34 @@
   </footer>
   <div id="backdrop" class="detail-backdrop hidden"></div>
   <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
-  <script src="guide-data.js?v=20260916-imagegen-all"></script>
-  <script src="kit-data.js?v=20260915-proof"></script>
+  <script src="guide-data.js?v=20260916-glossary"></script>
+  <script src="kit-data.js?v=20260916-glossary"></script>
   <script>
     const D = window.BOOK_DATA;
     const K = window.KIT_DATA;
     const $ = id => document.getElementById(id);
     const chapterByN = n => D.chapters.find(c => c.n === n);
     const conceptById = id => D.concepts.find(c => c.id === id);
-    const CORE_TERMS = D.concepts.filter(c => Number(c.id.slice(1)) <= 24);
+    const CORE_TERMS = D.concepts.filter(c => c.core !== false);
+    const CONCEPT_GROUPS = [
+      { id: 'all', name: '全部' },
+      { id: 'core', name: '附录 C.3' },
+      { id: 'base', name: '认识基础' },
+      { id: 'task', name: '任务说明' },
+      { id: 'run', name: '执行与接管' },
+      { id: 'extend', name: '技能与协作' },
+      { id: 'govern', name: '安全与核验' },
+      { id: 'deliver', name: '岗位交付' }
+    ];
+    const GROUP_NAME = Object.fromEntries(CONCEPT_GROUPS.map(g => [g.id, g.name]));
     const VIEWS = ['guide','chapters','skills','videos','templates','faq','concepts','appendix','materials'];
     let view = 'guide';
     let guide = 'learn';
     let chN = 1;
     let partFilter = 'all';
+    let conceptGroup = 'all';
+    let conceptQuery = '';
+    let activeConcept = '';
 
     const GUIDES = {
       learn: {
@@ -336,7 +375,7 @@
         lead: '效率来自可验收的小任务，而不是一次开放全部权限。',
         steps: [
           ['用 14 天路线选练习', '附录 C.2 提供可选路线，不要求连续打卡，也不承诺速成。'],
-          ['先跑通技能示例', '每章一个即用技能：复制示例，再换成允许使用的自己的材料。'],
+          ['先跑通技能示例', '到「随书技能」选一个任务：复制示例，再换成允许使用的自己的材料。'],
           ['把模板当骨架', '附录 A 只提供任务骨架。仍要补真实材料、权限范围和验收标准，并在发送、发布、覆盖前确认。']
         ]
       },
@@ -354,7 +393,7 @@
         lead: '材料跟着当前任务走，不必一次读完。',
         steps: [
           ['先定位章节', '用章节导航确认任务落在哪一章，再打开概括和主干提要。'],
-          ['再取导图和技能', '本章导图看结构；即用技能复制示例或填写自己的材料。'],
+          ['再取导图和技能', '本章导图看结构；要动手练习，打开「随书技能」。'],
           ['附录按需取用', '附录 A 取指令骨架，附录 B 排查版本和故障，附录 C 回查术语与 14 天路线。']
         ]
       }
@@ -362,7 +401,9 @@
 
     function viewUrl(name) {
       if (name === 'guide') return location.pathname + location.search;
-      return '#' + name + (name === 'chapters' ? '-' + chN : '');
+      if (name === 'chapters') return '#chapters-' + chN;
+      if (name === 'concepts' && activeConcept) return '#concepts-' + activeConcept;
+      return '#' + name;
     }
     function setView(name) {
       view = name;
@@ -370,7 +411,10 @@
       document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'view-' + name));
       history.replaceState(null, '', viewUrl(name));
       if (name === 'chapters') { renderParts(); renderChList(); renderChapter(); }
-      if (name === 'concepts') renderConcepts($('concept-q').value);
+      if (name === 'concepts') {
+        renderConceptGroups();
+        renderConcepts();
+      }
       if (name === 'skills') renderSkills();
       if (name === 'videos') renderVideos();
       if (name === 'templates') renderTemplates();
@@ -399,7 +443,6 @@
         <button class="chapter-btn ${c.n===chN?'on':''}" data-n="${c.n}">
           <b>第${String(c.n).padStart(2,'0')}章</b>
           ${c.short}
-          <div class="count">${c.skill}</div>
         </button>`).join('');
     }
     function renderChapter() {
@@ -415,24 +458,93 @@
         </div>
         <figure class="chapter-map ${c.generatedMap ? 'generated-map' : ''}"><a href="${c.map}" target="_blank" rel="noopener" aria-label="放大查看${c.title}导图"><img src="${c.map}" alt="${c.title}思维导图" loading="lazy"></a>
           <div class="map-outline" aria-label="本章导图文字版">${(c.outline || []).map(s => `<details open><summary>${s.title}</summary><ul>${s.children.map(t => `<li>${t}</li>`).join('')}</ul></details>`).join('')}</div>
-          <figcaption class="meta" style="margin-top:8px">本章结构导图 · <a href="${c.map}" target="_blank" rel="noopener">打开高清大图</a></figcaption></figure>
-        <p class="meta">${c.skill} · ${c.skillBrief}</p>
-        <div class="actions">
-          <a class="btn" href="${c.map}">本章导图</a>
-          <a class="btn ghost" href="${c.skillPage}">打开技能入口</a>
-        </div>`;
+          <figcaption class="meta" style="margin-top:8px">本章结构导图 · <a href="${c.map}" target="_blank" rel="noopener">打开高清大图</a></figcaption></figure>`;
       document.querySelectorAll('#ch-list .chapter-btn').forEach(b => b.classList.toggle('on', Number(b.dataset.n) === chN));
     }
-    function renderConcepts(q) {
-      const key = (q || '').trim().toLowerCase();
-      const list = CORE_TERMS.filter(c => {
-        if (!key) return true;
-        return [c.name, c.aka, ...(c.aliases || [])].join(' ').toLowerCase().includes(key);
-      });
+    function esc(s) {
+      return String(s || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+    }
+    function mark(text, key) {
+      const t = esc(text);
+      const q = (key || '').trim();
+      if (!q) return t;
+      const safe = esc(q).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return t.replace(new RegExp(safe, 'ig'), m => '<mark>' + m + '</mark>');
+    }
+    function conceptHaystack(c) {
+      const chText = (c.chapters || []).map(n => {
+        const ch = chapterByN(n);
+        return ['第' + n + '章', 'ch' + n, ch ? ch.short : '', ch ? ch.title : ''].join(' ');
+      }).join(' ');
+      return [c.name, c.aka, c.en, c.text, ...(c.aliases || []), chText].join('\n').toLowerCase();
+    }
+    function conceptScore(c, key) {
+      if (!key) return 1;
+      const name = (c.name || '').toLowerCase();
+      const aka = (c.aka || '').toLowerCase();
+      const en = (c.en || '').toLowerCase();
+      const aliases = (c.aliases || []).map(a => a.toLowerCase());
+      if (name === key || aka === key || en === key || aliases.includes(key)) return 100;
+      if (name.startsWith(key) || aka.startsWith(key)) return 90;
+      if (name.includes(key) || aka.includes(key)) return 80;
+      if (en.includes(key) || aliases.some(a => a.includes(key))) return 65;
+      if ((c.text || '').toLowerCase().includes(key)) return 40;
+      if (conceptHaystack(c).includes(key)) return 20;
+      return 0;
+    }
+    function visibleConcepts() {
+      const key = conceptQuery.trim().toLowerCase();
+      return D.concepts.filter(c => {
+        if (conceptGroup === 'core' && c.core === false) return false;
+        if (conceptGroup !== 'all' && conceptGroup !== 'core' && c.group !== conceptGroup) return false;
+        return conceptScore(c, key) > 0;
+      }).sort((a, b) => conceptScore(b, key) - conceptScore(a, key) || a.id.localeCompare(b.id));
+    }
+    function renderConceptGroups() {
+      $('concept-groups').innerHTML = CONCEPT_GROUPS.map(g =>
+        `<button type="button" data-concept-group="${g.id}" class="${conceptGroup===g.id?'on':''}" role="tab" aria-selected="${conceptGroup===g.id}">${esc(g.name)}</button>`
+      ).join('');
+    }
+    function renderConcepts() {
+      const key = conceptQuery.trim();
+      const list = visibleConcepts();
+      const coreShown = list.filter(c => c.core !== false).length;
+      $('concept-count').textContent = key || conceptGroup !== 'all'
+        ? `显示 ${list.length} 个术语 · 其中 ${coreShown} 个来自附录 C.3`
+        : `共 ${D.concepts.length} 个术语 · ${CORE_TERMS.length} 个来自附录 C.3`;
+      if (!list.length) {
+        $('concept-grid').innerHTML = `<div class="glossary-empty"><p>没有匹配“${esc(key)}”的术语。</p><p class="meta">可试试 Prompt、LLM、MCP、权限、口径、PPT，或改选上方主题。</p></div>`;
+        return;
+      }
       $('concept-grid').innerHTML = list.map(c => {
-        const chs = c.chapters.map(n => '第' + n + '章').join('、');
-        return `<button class="concept-chip" data-concept="${c.id}">${c.name}${c.aka ? ' · ' + c.aka : ''} <small>${chs}</small></button>`;
-      }).join('') || '<p class="meta">没有匹配的术语。</p>';
+        const chs = (c.chapters || []).map(n => '第' + n + '章').join('、');
+        const aka = [c.aka, c.en].filter((x, i, arr) => x && arr.indexOf(x) === i && x !== c.name).join(' · ');
+        return `<button type="button" class="glossary-card ${c.id===activeConcept?'on':''}" data-concept="${c.id}" aria-pressed="${c.id===activeConcept}">
+          <div class="meta">${esc(GROUP_NAME[c.group] || '')}${c.core === false ? ' · 章节补充' : ''}</div>
+          <h3>${mark(c.name, key)}</h3>
+          ${aka ? `<p class="aka">${mark(aka, key)}</p>` : ''}
+          <p class="blurb">${mark(c.text, key)}</p>
+          <div class="meta">${esc(chs)}</div>
+        </button>`;
+      }).join('');
+    }
+    function conceptCopyText(c) {
+      const aka = [c.aka, c.en].filter(Boolean).join(' / ');
+      const chs = (c.chapters || []).map(n => {
+        const ch = chapterByN(n);
+        return '第' + n + '章' + (ch ? ' ' + ch.short : '');
+      }).join('；');
+      return `${c.name}${aka ? '（' + aka + '）' : ''}\n${c.text}\n所属章节：${chs}`;
+    }
+    function copyConcept(id) {
+      const c = conceptById(id);
+      if (!c) return;
+      const text = conceptCopyText(c);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
+      } else fallbackCopy(text);
+      const btn = document.querySelector('[data-copy-concept="'+id+'"]');
+      if (btn) { const old = btn.textContent; btn.textContent = '已复制'; setTimeout(() => btn.textContent = old, 1600); }
     }
     function renderSkills() {
       $('skill-grid').innerHTML = K.skills.map(s => `
@@ -493,30 +605,56 @@
       try { document.execCommand('copy'); } catch (e) {}
       t.remove();
     }
-    function openConcept(id) {
+    function openConcept(id, fromHash) {
       const c = conceptById(id);
       if (!c) return;
+      activeConcept = id;
+      const key = conceptQuery.trim();
+      const akaBits = [c.aka, c.en].filter((x, i, arr) => x && arr.indexOf(x) === i && x !== c.name);
+      const aliases = (c.aliases || []).filter(a => a && a !== c.name && !akaBits.includes(a));
+      const related = (c.related || []).map(conceptById).filter(Boolean);
+      const skills = (c.chapters || []).map(n => (K.skills || []).find(s => s.n === n)).filter(Boolean);
+      const uniqueSkills = skills.filter((s, i) => skills.findIndex(x => x.n === s.n) === i);
       $('drawer').innerHTML = `
         <button type="button" class="close" id="close-drawer" aria-label="关闭">×</button>
-        <div class="eyebrow">概念详情</div>
-        <h2>${c.name}${c.aka ? ' · ' + c.aka : ''}</h2>
+        <div class="eyebrow">${esc(GROUP_NAME[c.group] || '术语')}${c.core === false ? ' · 章节补充' : ' · 附录 C.3'}</div>
+        <h2>${mark(c.name, key)}</h2>
+        ${akaBits.length ? `<p class="aka">${mark(akaBits.join(' · '), key)}</p>` : ''}
         <div class="definition">
           <label>通俗解释</label>
-          <p>${c.text}</p>
+          <p>${mark(c.text, key)}</p>
+          <div class="actions"><button type="button" class="btn" data-copy-concept="${c.id}">复制解释</button></div>
         </div>
+        ${aliases.length ? `<div class="definition"><label>也叫</label><div class="alias-list">${aliases.map(a => `<span class="alias">${mark(a, key)}</span>`).join('')}</div></div>` : ''}
         <div class="definition">
-          <label>所属章节</label>
-          <div class="chips" style="margin-top:12px">${c.chapters.map(n => {
+          <label>回到章节</label>
+          <p class="meta">术语速查只建立直觉。真正理解要回到场景、步骤和边界。</p>
+          <div class="chips" style="margin-top:12px">${(c.chapters || []).map(n => {
             const ch = chapterByN(n);
-            return `<button class="concept-chip" data-goto="${n}">第${n}章 <small>${ch ? ch.short : ''}</small></button>`;
+            return `<button type="button" class="concept-chip" data-goto="${n}">第${n}章 <small>${esc(ch ? ch.short : '')}</small></button>`;
           }).join('')}</div>
-        </div>`;
+          ${uniqueSkills.length ? uniqueSkills.map(s => `<a class="next related-skill" href="${esc(s.page)}"><span>本章技能：${esc(s.name)}</span><span>↗</span></a>`).join('') : ''}
+        </div>
+        ${related.length ? `<div class="definition"><label>相关术语</label><div class="chips" style="margin-top:12px">${related.map(x => `<button type="button" class="concept-chip" data-concept="${x.id}">${esc(x.name)}${x.aka ? ' · ' + esc(x.aka) : ''}</button>`).join('')}</div></div>` : ''}`;
       $('drawer').classList.remove('hidden');
       $('backdrop').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      if (view === 'concepts') {
+        renderConcepts();
+        if (!fromHash) history.replaceState(null, '', '#concepts-' + id);
+      }
     }
     function closeDrawer() {
       $('drawer').classList.add('hidden');
       $('backdrop').classList.add('hidden');
+      document.body.style.overflow = '';
+      if (view === 'concepts' && activeConcept) {
+        activeConcept = '';
+        renderConcepts();
+        history.replaceState(null, '', '#concepts');
+      } else {
+        activeConcept = '';
+      }
     }
     function gotoChapter(n) {
       chN = n;
@@ -568,7 +706,22 @@
       const b = e.target.closest('[data-concept]');
       if (b) openConcept(b.dataset.concept);
     });
-    $('concept-q').addEventListener('input', e => renderConcepts(e.target.value));
+    $('concept-groups').addEventListener('click', e => {
+      const b = e.target.closest('[data-concept-group]');
+      if (!b) return;
+      conceptGroup = b.dataset.conceptGroup;
+      renderConceptGroups();
+      renderConcepts();
+    });
+    $('concept-q').addEventListener('input', e => {
+      conceptQuery = e.target.value;
+      renderConcepts();
+    });
+    $('concept-q').addEventListener('keydown', e => {
+      if (e.key !== 'Enter') return;
+      const first = $('concept-grid').querySelector('[data-concept]');
+      if (first) openConcept(first.dataset.concept);
+    });
     $('faq-q').addEventListener('input', e => renderFaq(e.target.value));
     $('tpl-box').addEventListener('click', e => {
       const b = e.target.closest('[data-copy]');
@@ -589,14 +742,27 @@
     $('backdrop').addEventListener('click', closeDrawer);
     $('drawer').addEventListener('click', e => {
       if (e.target.id === 'close-drawer') closeDrawer();
+      const copy = e.target.closest('[data-copy-concept]');
+      if (copy) { copyConcept(copy.dataset.copyConcept); return; }
+      const next = e.target.closest('[data-concept]');
+      if (next) { openConcept(next.dataset.concept); return; }
       const g = e.target.closest('[data-goto]');
       if (g) gotoChapter(Number(g.dataset.goto));
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !$('drawer').classList.contains('hidden')) closeDrawer();
     });
 
     function bootFromHash() {
       const h = location.hash.replace(/^#/, '');
-      const m = h.match(/^chapters-(\d+)/);
-      if (m) { chN = Math.min(15, Math.max(1, Number(m[1]))); setView('chapters'); return; }
+      const chapterMatch = h.match(/^chapters-(\d+)/);
+      if (chapterMatch) { chN = Math.min(15, Math.max(1, Number(chapterMatch[1]))); setView('chapters'); return; }
+      const conceptMatch = h.match(/^concepts-([a-z0-9]+)/i);
+      if (conceptMatch) {
+        setView('concepts');
+        openConcept(conceptMatch[1], true);
+        return;
+      }
       if (!h || h === 'guide') { setView('guide'); return; }
       if (VIEWS.includes(h)) { setView(h); return; }
     }
@@ -604,7 +770,8 @@
     renderParts();
     renderChList();
     renderChapter();
-    renderConcepts('');
+    renderConceptGroups();
+    renderConcepts();
     renderSkills();
     renderVideos();
     renderTemplates();

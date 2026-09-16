@@ -351,135 +351,135 @@ window.KIT_DATA = {
       "name": "办公任务试点筛选",
       "file": "doubao-task-fit",
       "brief": "根据工作清单的材料、频率、验收方式和错误后果，筛选适合AI辅助的首个办公试点。用于决定从哪项工作开始。",
-      "md": "resources/思维导图与章节技能/skills/doubao-task-fit/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-task-fit/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-task-fit/SKILL.md",
+      "examples": "resources/companion/skills/doubao-task-fit/examples.md",
+      "page": "resources/skill-kit/index.html#ch1"
     },
     {
       "n": 2,
       "name": "首次会议纪要交付",
       "file": "doubao-meeting-minutes",
       "brief": "将一份会议文字记录整理为带来源的决议、行动项和待确认事项，用于初次练习会议纪要交付。",
-      "md": "resources/思维导图与章节技能/skills/doubao-meeting-minutes/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-meeting-minutes/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-meeting-minutes/SKILL.md",
+      "examples": "resources/companion/skills/doubao-meeting-minutes/examples.md",
+      "page": "resources/skill-kit/index.html#ch2"
     },
     {
       "n": 3,
       "name": "可执行任务书整理",
       "file": "doubao-task-contract",
       "brief": "把含糊的办公需求改写为有输入、依赖、交付标准和检查点的任务书，用于委托Agent前的任务定义。",
-      "md": "resources/思维导图与章节技能/skills/doubao-task-contract/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-task-contract/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-task-contract/SKILL.md",
+      "examples": "resources/companion/skills/doubao-task-contract/examples.md",
+      "page": "resources/skill-kit/index.html#ch3"
     },
     {
       "n": 4,
       "name": "材料驱动的报告起草",
       "file": "doubao-evidence-report",
       "brief": "依据给定材料起草有事实依据、问题边界和修改记录的内部报告，用于从零散材料形成可复核正文。",
-      "md": "resources/思维导图与章节技能/skills/doubao-evidence-report/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-evidence-report/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-evidence-report/SKILL.md",
+      "examples": "resources/companion/skills/doubao-evidence-report/examples.md",
+      "page": "resources/skill-kit/index.html#ch4"
     },
     {
       "n": 5,
       "name": "汇报页面脚本制作",
       "file": "doubao-presentation-storyboard",
       "brief": "根据汇报目标、时长和事实材料制作逐页标题、证据、视觉建议与讲述要点，用于制作PPT前的页面设计。",
-      "md": "resources/思维导图与章节技能/skills/doubao-presentation-storyboard/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-presentation-storyboard/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-presentation-storyboard/SKILL.md",
+      "examples": "resources/companion/skills/doubao-presentation-storyboard/examples.md",
+      "page": "resources/skill-kit/index.html#ch5"
     },
     {
       "n": 6,
       "name": "订单清洗与销售汇总",
       "file": "doubao-sales-table-audit",
       "brief": "按明确订单口径检查重复、缺失和状态，再汇总销售额并提供复算依据。用于小型订单表清洗与描述性分析。",
-      "md": "resources/思维导图与章节技能/skills/doubao-sales-table-audit/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-sales-table-audit/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-sales-table-audit/SKILL.md",
+      "examples": "resources/companion/skills/doubao-sales-table-audit/examples.md",
+      "page": "resources/skill-kit/index.html#ch6"
     },
     {
       "n": 7,
       "name": "择校资料证据核查",
       "file": "doubao-school-evidence-check",
       "brief": "检查给定择校资料中院校、专业、年度和招生口径是否一致，生成来源表与待核验问题。用于择校研究的证据整理。",
-      "md": "resources/思维导图与章节技能/skills/doubao-school-evidence-check/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-school-evidence-check/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-school-evidence-check/SKILL.md",
+      "examples": "resources/companion/skills/doubao-school-evidence-check/examples.md",
+      "page": "resources/skill-kit/index.html#ch7"
     },
     {
       "n": 8,
       "name": "网页资料登记与断点交接",
       "file": "doubao-page-register",
       "brief": "按指定页面和字段只读提取资料，记录成功、缺失、失败与断点，用于可核对的浏览器资料整理任务。",
-      "md": "resources/思维导图与章节技能/skills/doubao-page-register/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-page-register/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-page-register/SKILL.md",
+      "examples": "resources/companion/skills/doubao-page-register/examples.md",
+      "page": "resources/skill-kit/index.html#ch8"
     },
     {
       "n": 9,
       "name": "竞品更新监控单次执行",
       "file": "doubao-monitor-run",
       "brief": "比较指定来源的本次与上次快照，输出有证据的变化、来源失败和状态记录。用于定时监控中的一次运行。",
-      "md": "resources/思维导图与章节技能/skills/doubao-monitor-run/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-monitor-run/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-monitor-run/SKILL.md",
+      "examples": "resources/companion/skills/doubao-monitor-run/examples.md",
+      "page": "resources/skill-kit/index.html#ch9"
     },
     {
       "n": 10,
       "name": "活动多模态创作任务单",
       "file": "doubao-content-brief",
       "brief": "以同一事实底稿生成海报文案、短视频分镜和网页内容结构，用于活动宣传材料的多模态制作准备。",
-      "md": "resources/思维导图与章节技能/skills/doubao-content-brief/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-content-brief/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-content-brief/SKILL.md",
+      "examples": "resources/companion/skills/doubao-content-brief/examples.md",
+      "page": "resources/skill-kit/index.html#ch10"
     },
     {
       "n": 11,
       "name": "团队行动项增量整理",
       "file": "doubao-team-action-merge",
       "brief": "将项目会议与聊天中的已确认行动合并到现有台账草稿，保留来源、版本与冲突。用于飞书等团队上下文的只读整理。",
-      "md": "resources/思维导图与章节技能/skills/doubao-team-action-merge/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-team-action-merge/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-team-action-merge/SKILL.md",
+      "examples": "resources/companion/skills/doubao-team-action-merge/examples.md",
+      "page": "resources/skill-kit/index.html#ch11"
     },
     {
       "n": 12,
       "name": "项目周报校验",
       "file": "doubao-weekly-report-check",
       "brief": "核对单项目单周纪要、任务清单与指标表，生成带来源的周报初稿和缺失冲突清单。用于复用稳定周报流程。",
-      "md": "resources/思维导图与章节技能/skills/doubao-weekly-report-check/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-weekly-report-check/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-weekly-report-check/SKILL.md",
+      "examples": "resources/companion/skills/doubao-weekly-report-check/examples.md",
+      "page": "resources/skill-kit/index.html#ch12"
     },
     {
       "n": 13,
       "name": "任务最小权限核对",
       "file": "doubao-permission-review",
       "brief": "将办公任务实际需要的数据和动作与拟申请权限逐项对照，输出权限缩减建议和验证方案。用于任务授权前的范围检查。",
-      "md": "resources/思维导图与章节技能/skills/doubao-permission-review/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-permission-review/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-permission-review/SKILL.md",
+      "examples": "resources/companion/skills/doubao-permission-review/examples.md",
+      "page": "resources/skill-kit/index.html#ch13"
     },
     {
       "n": 14,
       "name": "岗位任务流程卡",
       "file": "doubao-role-workflow-card",
       "brief": "把一个具体岗位任务整理为触发、输入、人机分工、交付、异常和验收组成的流程卡，用于岗位场景迁移与小范围试点。",
-      "md": "resources/思维导图与章节技能/skills/doubao-role-workflow-card/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-role-workflow-card/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-role-workflow-card/SKILL.md",
+      "examples": "resources/companion/skills/doubao-role-workflow-card/examples.md",
+      "page": "resources/skill-kit/index.html#ch14"
     },
     {
       "n": 15,
       "name": "AI流程试点成效复盘",
       "file": "doubao-pilot-evaluation",
       "brief": "比较同口径人工与AI协作的时间、质量和维护投入，形成继续、调整或暂停试点的证据化建议。用于评估一个已试跑办公流程。",
-      "md": "resources/思维导图与章节技能/skills/doubao-pilot-evaluation/SKILL.md",
-      "examples": "resources/思维导图与章节技能/skills/doubao-pilot-evaluation/examples.md",
-      "page": "resources/章节技能_即用版/打开这里.html"
+      "md": "resources/companion/skills/doubao-pilot-evaluation/SKILL.md",
+      "examples": "resources/companion/skills/doubao-pilot-evaluation/examples.md",
+      "page": "resources/skill-kit/index.html#ch15"
     }
   ],
   "videos": [

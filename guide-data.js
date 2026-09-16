@@ -16,7 +16,7 @@ window.BOOK_DATA = {
       "skill": "办公任务试点筛选",
       "skillBrief": "根据材料、频率和错误后果，选出适合AI辅助的首个试点。",
       "map": "resources/chapter-mindmaps/ch01-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch1",
       "conceptIds": [
         "c01",
         "c03",
@@ -73,7 +73,7 @@ window.BOOK_DATA = {
       "skill": "首次会议纪要交付",
       "skillBrief": "把会议文字记录整理为带来源的决议、行动项和待确认事项。",
       "map": "resources/chapter-mindmaps/ch02-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch2",
       "conceptIds": [
         "c05"
       ],
@@ -142,7 +142,7 @@ window.BOOK_DATA = {
       "skill": "可执行任务书整理",
       "skillBrief": "把含糊需求改写成有输入、交付标准和检查点的任务书。",
       "map": "resources/chapter-mindmaps/ch03-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch3",
       "conceptIds": [
         "c01",
         "c03",
@@ -222,7 +222,7 @@ window.BOOK_DATA = {
       "skill": "材料驱动的报告起草",
       "skillBrief": "依据给定材料起草有事实依据和修改记录的内部报告。",
       "map": "resources/chapter-mindmaps/ch04-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch4",
       "conceptIds": [
         "c02",
         "c12"
@@ -291,7 +291,7 @@ window.BOOK_DATA = {
       "skill": "汇报页面脚本制作",
       "skillBrief": "按汇报目标制作逐页标题、证据、视觉建议和讲述要点。",
       "map": "resources/chapter-mindmaps/ch05-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch5",
       "conceptIds": [
         "c25"
       ],
@@ -354,7 +354,7 @@ window.BOOK_DATA = {
       "skill": "订单清洗与销售汇总",
       "skillBrief": "在保留原件的前提下清洗样本订单并核对汇总口径。",
       "map": "resources/chapter-mindmaps/ch06-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch6",
       "conceptIds": [
         "c24"
       ],
@@ -411,7 +411,7 @@ window.BOOK_DATA = {
       "skill": "择校资料证据核查",
       "skillBrief": "给择校结论补来源、区分事实与推断，标出无法核验项。",
       "map": "resources/chapter-mindmaps/ch07-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch7",
       "conceptIds": [
         "c02",
         "c23"
@@ -469,7 +469,7 @@ window.BOOK_DATA = {
       "skill": "网页资料登记与断点交接",
       "skillBrief": "把一次网页查阅整理成可交接的来源登记和断点说明。",
       "map": "resources/chapter-mindmaps/ch08-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch8",
       "conceptIds": [
         "c08",
         "c10",
@@ -544,7 +544,7 @@ window.BOOK_DATA = {
       "skill": "竞品更新监控单次执行",
       "skillBrief": "按既定来源跑一轮监控，区分新增、重复和待核信息。",
       "map": "resources/chapter-mindmaps/ch09-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch9",
       "conceptIds": [
         "c09",
         "c26"
@@ -605,7 +605,7 @@ window.BOOK_DATA = {
       "skill": "活动多模态创作任务单",
       "skillBrief": "把活动目标写成可核验的多产物任务书和验收口径。",
       "map": "resources/chapter-mindmaps/ch10-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch10",
       "conceptIds": [
         "c02",
         "c07"
@@ -663,7 +663,7 @@ window.BOOK_DATA = {
       "skill": "团队行动项增量整理",
       "skillBrief": "在授权范围内合并行动项，不覆盖已确认结论。",
       "map": "resources/chapter-mindmaps/ch11-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch11",
       "conceptIds": [
         "c06"
       ],
@@ -715,7 +715,7 @@ window.BOOK_DATA = {
       "skill": "项目周报校验",
       "skillBrief": "按固定字段检查周报缺项、口径冲突和待确认事项。",
       "map": "resources/chapter-mindmaps/ch12-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch12",
       "conceptIds": [
         "c16",
         "c17",
@@ -778,7 +778,7 @@ window.BOOK_DATA = {
       "skill": "任务最小权限核对",
       "skillBrief": "只保留完成本次任务所需的账号、目录和操作。",
       "map": "resources/chapter-mindmaps/ch13-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch13",
       "conceptIds": [
         "c15",
         "c21",
@@ -846,7 +846,7 @@ window.BOOK_DATA = {
       "skill": "岗位任务流程卡",
       "skillBrief": "把高频工作拆成输入、执行、检查和交付，标明人机职责。",
       "map": "resources/chapter-mindmaps/ch14-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch14",
       "conceptIds": [
         "c09",
         "c27"
@@ -915,7 +915,7 @@ window.BOOK_DATA = {
       "skill": "AI流程试点成效复盘",
       "skillBrief": "对照基线记录质量、风险和是否值得继续使用。",
       "map": "resources/chapter-mindmaps/ch15-imagegen-20260915.png",
-      "skillPage": "resources/章节技能_即用版/打开这里.html",
+      "skillPage": "resources/skill-kit/index.html#ch15",
       "conceptIds": [
         "c01",
         "c12",
@@ -969,84 +969,171 @@ window.BOOK_DATA = {
       "id": "c01",
       "name": "人工智能",
       "aka": "AI",
-      "text": "泛指让计算机完成识别、生成、预测、规划等任务的技术集合。书中的AI不是具有统一意图的“人”，不同模型和产品必须分别核验。",
+      "text": "泛指让计算机完成识别、生成、预测、规划等任务的技术集合。书中的AI不是具有统一意图的“人”，不同模型、工具和产品必须分别核验。",
       "chapters": [
         1,
         3,
         15
       ],
       "aliases": [
-        "AI"
+        "AI",
+        "Artificial Intelligence",
+        "A.I.",
+        "人工智慧"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Artificial Intelligence",
+      "related": [
+        "c02",
+        "c03",
+        "c04"
       ]
     },
     {
       "id": "c02",
       "name": "生成式AI",
       "aka": "",
-      "text": "根据输入和既有模式生成文字、图像、音频、视频或代码的系统。输出流畅不等于事实正确。",
+      "text": "根据输入和既有模式生成文字、图像、音频、视频或代码的系统。它擅长形成候选内容，但输出流畅不等于事实正确。",
       "chapters": [
         4,
         7,
         10
       ],
-      "aliases": []
+      "aliases": [
+        "Generative AI",
+        "AIGC",
+        "生成式人工智能",
+        "文生图",
+        "文生视频"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Generative AI",
+      "related": [
+        "c01",
+        "c03",
+        "c07"
+      ]
     },
     {
       "id": "c03",
       "name": "大模型",
-      "aka": "",
-      "text": "通过大规模数据和计算训练、能处理多类语言或内容任务的基础模型。它不是实时更新的事实数据库。",
-      "chapters": [
-        1,
-        3
-      ],
-      "aliases": []
-    },
-    {
-      "id": "c04",
-      "name": "智能体",
-      "aka": "Agent",
-      "text": "围绕目标规划步骤，并在条件允许时调用工具推进任务的系统。能执行多步操作不等于可以独立承担责任。",
+      "aka": "LLM",
+      "text": "通过大规模数据和计算训练、能处理多类语言或内容任务的基础模型。它提供理解与生成能力，但不是实时更新的事实数据库，也不能替代来源核验。",
       "chapters": [
         1,
         3
       ],
       "aliases": [
-        "Agent"
+        "LLM",
+        "Large Language Model",
+        "大语言模型",
+        "基础模型"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Large Model",
+      "related": [
+        "c01",
+        "c02",
+        "c04"
+      ]
+    },
+    {
+      "id": "c04",
+      "name": "智能体",
+      "aka": "Agent",
+      "text": "围绕目标规划步骤，并在条件允许时调用工具推进任务的系统。能执行多步操作不等于可以独立承担判断和责任。",
+      "chapters": [
+        1,
+        3
+      ],
+      "aliases": [
+        "Agent",
+        "代理",
+        "智能代理",
+        "自主代理"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Agent",
+      "related": [
+        "c05",
+        "c08",
+        "c06"
       ]
     },
     {
       "id": "c05",
       "name": "办公Agent",
       "aka": "",
-      "text": "本书对面向办公任务、能读取材料、调用办公工具并形成交付物的一类智能体系统的统称。强调任务链，而不是某一个按钮。",
+      "text": "本书对面向办公任务、能读取材料、调用办公工具并形成交付物的一类智能体系统的统称。强调任务链，而不是某一个按钮或模型。",
       "chapters": [
         1,
         2,
         3
       ],
-      "aliases": []
+      "aliases": [
+        "办公智能体",
+        "办公代理",
+        "Office Agent",
+        "豆包工作"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Office Agent",
+      "related": [
+        "c04",
+        "c11",
+        "c12"
+      ]
     },
     {
       "id": "c06",
       "name": "上下文",
-      "aka": "",
-      "text": "系统理解当前任务所需的背景，包括指令、材料、身份、历史状态和组织规则。材料错误或越权会把任务带偏。",
+      "aka": "Context",
+      "text": "系统理解当前任务所需的背景，包括指令、材料、身份、历史状态和组织规则。上下文越多不一定越好，错误、过期或越权材料会把任务带偏。",
       "chapters": [
         3,
         11
       ],
-      "aliases": []
+      "aliases": [
+        "Context",
+        "背景信息",
+        "企业上下文",
+        "任务上下文"
+      ],
+      "group": "task",
+      "core": true,
+      "en": "Context",
+      "related": [
+        "c11",
+        "c05",
+        "c18"
+      ]
     },
     {
       "id": "c07",
       "name": "多模态",
       "aka": "",
-      "text": "能够处理文字之外的图片、语音、音频或视频。支持某种格式不等于识别、事实和版权自动正确。",
+      "text": "能够处理文字之外的图片、语音、音频或视频。支持某种格式只说明系统能够读取或生成，并不保证识别、事实和版权状态自动正确。",
       "chapters": [
         10
       ],
-      "aliases": []
+      "aliases": [
+        "Multimodal",
+        "多模态生成",
+        "图文",
+        "音视频"
+      ],
+      "group": "base",
+      "core": true,
+      "en": "Multimodal",
+      "related": [
+        "c02",
+        "c25"
+      ]
     },
     {
       "id": "c08",
@@ -1057,53 +1144,119 @@ window.BOOK_DATA = {
         3,
         8
       ],
-      "aliases": []
+      "aliases": [
+        "Tool Use",
+        "Function Calling",
+        "function calling",
+        "调用工具",
+        "工具使用"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Tool Use",
+      "related": [
+        "c04",
+        "c10",
+        "c21"
+      ]
     },
     {
       "id": "c09",
       "name": "工作流",
       "aka": "",
-      "text": "为完成一项工作而组织起来的步骤、交接关系和检查规则。要说明输入、异常、责任和交付标准。",
+      "text": "为完成一项工作而组织起来的步骤、交接关系和检查规则。它不只是一串操作，还要说明输入、异常、责任和交付标准。",
       "chapters": [
         9,
         14
       ],
-      "aliases": []
+      "aliases": [
+        "Workflow",
+        "流程",
+        "业务流程",
+        "协作流程"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Workflow",
+      "related": [
+        "c13",
+        "c26",
+        "c27"
+      ]
     },
     {
       "id": "c10",
       "name": "执行环境",
       "aka": "",
-      "text": "任务实际运行并接触文件或系统的位置，例如本地电脑、云端或浏览器。环境不同，数据和风险也不同。",
+      "text": "任务实际运行并接触文件或系统的位置，例如本地电脑、云端或浏览器。环境不同，可访问的数据、持续时间和风险也不同。",
       "chapters": [
         3,
         8
       ],
-      "aliases": []
+      "aliases": [
+        "Runtime",
+        "运行环境",
+        "本地",
+        "云端",
+        "浏览器"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Runtime",
+      "related": [
+        "c08",
+        "c21",
+        "c15"
+      ]
     },
     {
       "id": "c11",
       "name": "指令",
       "aka": "",
-      "text": "用户对一次任务的说明，至少交代目标、材料和期望结果；长任务还要补充边界、检查点和失败处理。",
+      "text": "用户对一次任务的说明，至少交代目标、材料和期望结果；长任务还要补充边界、检查点和失败处理。指令不是免除核验责任的“口令”。",
       "chapters": [
         3
       ],
       "aliases": [
-        "指令模板"
+        "Prompt",
+        "prompt",
+        "提示词",
+        "指令模板",
+        "任务说明"
+      ],
+      "group": "task",
+      "core": true,
+      "en": "Instruction",
+      "related": [
+        "c06",
+        "c12",
+        "c05"
       ]
     },
     {
       "id": "c12",
       "name": "验收标准",
       "aka": "",
-      "text": "判断成果是否可以采用的一组可观察条件，例如数字能复算、文档无遗漏、格式正确、外发对象已确认。",
+      "text": "判断成果是否可以采用的一组可观察条件，例如数字能复算、文档无遗漏、格式正确、外发对象已确认。标准越具体，返工和争议越容易定位。",
       "chapters": [
         3,
         4,
         15
       ],
-      "aliases": []
+      "aliases": [
+        "Acceptance Criteria",
+        "验收",
+        "完成标准",
+        "核对标准"
+      ],
+      "group": "task",
+      "core": true,
+      "en": "Acceptance Criteria",
+      "related": [
+        "c11",
+        "c13",
+        "c23"
+      ]
     },
     {
       "id": "c13",
@@ -1114,63 +1267,137 @@ window.BOOK_DATA = {
         3,
         8
       ],
-      "aliases": []
+      "aliases": [
+        "Checkpoint",
+        "检查节点",
+        "确认点",
+        "中间检查"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Checkpoint",
+      "related": [
+        "c14",
+        "c15",
+        "c12"
+      ]
     },
     {
       "id": "c14",
       "name": "人工接管",
-      "aka": "",
-      "text": "系统遇到登录验证、歧义、异常或高影响决定时，把控制交回给人。接管是受控流程的一部分。",
+      "aka": "HITL",
+      "text": "系统遇到登录验证、歧义、异常或高影响决定时，把控制交回给人。接管不是自动化失败，而是受控流程的一部分。",
       "chapters": [
         3,
         8
       ],
-      "aliases": []
+      "aliases": [
+        "HITL",
+        "Human-in-the-loop",
+        "人工确认",
+        "接管",
+        "人机协同"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Human Takeover",
+      "related": [
+        "c13",
+        "c15",
+        "c21"
+      ]
     },
     {
       "id": "c15",
       "name": "回滚与恢复",
       "aka": "",
-      "text": "回滚是退回到此前状态；恢复是让业务在异常后重新可用。发送和公开发布未必能完全回滚。",
+      "text": "回滚是退回到此前状态；恢复是让业务在异常后重新可用。发送和公开发布未必能完全回滚，因此执行前仍需确认。",
       "chapters": [
         8,
         13
       ],
       "aliases": [
+        "Rollback",
         "回滚",
-        "恢复"
+        "恢复",
+        "还原",
+        "undo"
+      ],
+      "group": "run",
+      "core": true,
+      "en": "Rollback and Recovery",
+      "related": [
+        "c13",
+        "c14",
+        "c22"
       ]
     },
     {
       "id": "c16",
       "name": "技能",
-      "aka": "",
-      "text": "把验证过的输入条件、处理步骤、异常分支和验收标准封装为可复用方法。一次偶然成功还不能称为稳定技能。",
+      "aka": "Skill",
+      "text": "把验证过的输入条件、处理步骤、异常分支和验收标准封装为可复用方法。一次偶然成功的指令还不能称为稳定技能。",
       "chapters": [
         12
       ],
-      "aliases": []
+      "aliases": [
+        "Skill",
+        "SKILL.md",
+        "自定义技能",
+        "技能包"
+      ],
+      "group": "extend",
+      "core": true,
+      "en": "Skill",
+      "related": [
+        "c11",
+        "c12",
+        "c17"
+      ]
     },
     {
       "id": "c17",
       "name": "连接器",
       "aka": "",
-      "text": "让任务在授权范围内读取或写入外部系统的连接能力。同时引入账号、权限、接口变化和退出管理问题。",
+      "text": "让任务在授权范围内读取或写入外部系统的连接能力。连接器缩短数据搬运，却同时引入账号、权限、接口变化和退出管理问题。",
       "chapters": [
         12
       ],
-      "aliases": []
+      "aliases": [
+        "Connector",
+        "连接",
+        "外部系统",
+        "系统接入"
+      ],
+      "group": "extend",
+      "core": true,
+      "en": "Connector",
+      "related": [
+        "c18",
+        "c21",
+        "c16"
+      ]
     },
     {
       "id": "c18",
       "name": "模型上下文协议",
       "aka": "MCP",
-      "text": "让AI应用以相对统一的方式发现和使用外部工具或数据源的协议。协议不会自动解决认证、权限和合规。",
+      "text": "让AI应用以相对统一的方式发现和使用外部工具或数据源的协议。协议解决连接方式，不会自动解决认证、权限和合规。",
       "chapters": [
         12
       ],
       "aliases": [
-        "MCP"
+        "MCP",
+        "Model Context Protocol",
+        "模型上下文协议"
+      ],
+      "group": "extend",
+      "core": true,
+      "en": "Model Context Protocol",
+      "related": [
+        "c17",
+        "c08",
+        "c21"
       ]
     },
     {
@@ -1181,7 +1408,20 @@ window.BOOK_DATA = {
       "chapters": [
         12
       ],
-      "aliases": []
+      "aliases": [
+        "Partner",
+        "伙伴",
+        "专业角色",
+        "角色化智能体"
+      ],
+      "group": "extend",
+      "core": true,
+      "en": "Work Partner",
+      "related": [
+        "c20",
+        "c16",
+        "c05"
+      ]
     },
     {
       "id": "c20",
@@ -1191,18 +1431,44 @@ window.BOOK_DATA = {
       "chapters": [
         12
       ],
-      "aliases": []
+      "aliases": [
+        "Squad",
+        "多智能体",
+        "工作队",
+        "协作智能体"
+      ],
+      "group": "extend",
+      "core": true,
+      "en": "Work Squad",
+      "related": [
+        "c19",
+        "c09",
+        "c12"
+      ]
     },
     {
       "id": "c21",
       "name": "最小权限",
       "aka": "",
-      "text": "只授予完成当前任务所必需的账号、目录、数据和操作能力，并限定范围与时间。",
+      "text": "只授予完成当前任务所必需的账号、目录、数据和操作能力，并限定范围与时间。权限越大并不代表任务越容易成功。",
       "chapters": [
         8,
         13
       ],
-      "aliases": []
+      "aliases": [
+        "Least Privilege",
+        "最小授权",
+        "权限最小化",
+        "授权范围"
+      ],
+      "group": "govern",
+      "core": true,
+      "en": "Least Privilege",
+      "related": [
+        "c10",
+        "c22",
+        "c17"
+      ]
     },
     {
       "id": "c22",
@@ -1213,8 +1479,19 @@ window.BOOK_DATA = {
         13
       ],
       "aliases": [
+        "Audit",
+        "审计",
         "操作留痕",
-        "审计"
+        "日志",
+        "追溯"
+      ],
+      "group": "govern",
+      "core": true,
+      "en": "Audit Trail",
+      "related": [
+        "c21",
+        "c15",
+        "c12"
       ]
     },
     {
@@ -1225,17 +1502,43 @@ window.BOOK_DATA = {
       "chapters": [
         7
       ],
-      "aliases": []
+      "aliases": [
+        "Evidence",
+        "证据",
+        "来源追溯",
+        "可追溯",
+        "交叉核验"
+      ],
+      "group": "govern",
+      "core": true,
+      "en": "Evidence Chain",
+      "related": [
+        "c12",
+        "c24",
+        "c02"
+      ]
     },
     {
       "id": "c24",
       "name": "数据口径",
       "aka": "",
-      "text": "一个指标的定义、时间范围、统计对象、计算方法和排除规则。名称相同但口径不同的数字不能直接合并。",
+      "text": "一个指标的定义、时间范围、统计对象、计算方法和排除规则。名称相同但口径不同的数字不能直接比较或合并。",
       "chapters": [
         6
       ],
-      "aliases": []
+      "aliases": [
+        "口径",
+        "指标定义",
+        "统计口径",
+        "数据定义"
+      ],
+      "group": "govern",
+      "core": true,
+      "en": "Metric Definition",
+      "related": [
+        "c23",
+        "c12"
+      ]
     },
     {
       "id": "c25",
@@ -1247,7 +1550,17 @@ window.BOOK_DATA = {
       ],
       "aliases": [
         "PPT",
-        "PowerPoint"
+        "PowerPoint",
+        "幻灯片",
+        "演示稿",
+        "汇报材料"
+      ],
+      "group": "deliver",
+      "core": false,
+      "en": "Presentation",
+      "related": [
+        "c07",
+        "c12"
       ]
     },
     {
@@ -1259,7 +1572,19 @@ window.BOOK_DATA = {
         9
       ],
       "aliases": [
-        "自动化"
+        "Cron",
+        "自动化",
+        "周期任务",
+        "定时",
+        "调度"
+      ],
+      "group": "run",
+      "core": false,
+      "en": "Scheduled Task",
+      "related": [
+        "c09",
+        "c14",
+        "c21"
       ]
     },
     {
@@ -1272,7 +1597,18 @@ window.BOOK_DATA = {
         15
       ],
       "aliases": [
-        "流程卡"
+        "流程卡",
+        "岗位工作流",
+        "岗位卡片",
+        "业务场景"
+      ],
+      "group": "deliver",
+      "core": false,
+      "en": "Job Workflow",
+      "related": [
+        "c09",
+        "c12",
+        "c16"
       ]
     }
   ]

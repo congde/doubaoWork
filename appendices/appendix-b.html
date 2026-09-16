@@ -1,42 +1,40 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>附录B：常见问题与排查20问 · 豆包工作</title>
-<style>
-:root { font-family: "Microsoft YaHei","PingFang SC",system-ui,sans-serif; color:#1f353b; background:#f4f6f3; line-height:1.75; font-size:16px; }
-* { box-sizing:border-box; }
-body { margin:0; }
-header { background:#163e36; color:#fff; padding:36px max(5vw,24px) 28px; }
-.eyebrow { font-size:13px; letter-spacing:.12em; color:#dfbd80; }
-header h1 { font-size:clamp(24px,3.5vw,36px); margin:8px 0 10px; }
-.nav a { color:#f1e3c7; text-decoration:none; margin-right:16px; font-size:14px; }
-.wrap { max-width:860px; margin:28px auto 64px; padding:8px 24px 40px; background:#fff; border:1px solid #dfe6df; border-radius:16px; }
-.wrap > h1:first-child { color:#163e36; font-size:28px; }
-.wrap h2 { color:#163e36; margin-top:1.6em; }
-.wrap h3 { color:#1d6553; }
-.wrap a { color:#1d6553; }
-.wrap blockquote { margin:12px 0; padding:10px 16px; background:#f5f7f3; border-left:4px solid #1d6553; color:#213a32; }
-.wrap table { border-collapse:collapse; width:100%; margin:16px 0; font-size:14px; overflow-x:auto; display:block; }
-.wrap th,.wrap td { border:1px solid #dfe6df; padding:8px 10px; vertical-align:top; }
-.wrap th { background:#e4f1e9; text-align:left; }
-.wrap img { max-width:100%; height:auto; display:block; margin:12px 0; }
-.wrap code { background:#eef3ef; padding:1px 5px; border-radius:4px; }
-.wrap hr { border:0; border-top:1px solid #e0e8e1; margin:28px 0; }
-.wrap p { margin:0.7em 0; }
-.wrap li { margin:0.25em 0; }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>附录B：常见问题与排查20问 · 豆包工作</title>
+  <link rel="stylesheet" href="../site.css">
+  <style>
+.wrap{max-width:860px;margin:28px auto 64px;padding:28px 24px 40px;background:var(--panel);border:1px solid var(--line);border-radius:20px}
+.wrap > h1:first-child{color:var(--text);font-size:28px;letter-spacing:-.4px}
+.wrap h2{color:var(--text);margin-top:1.6em}
+.wrap h3{color:var(--accent)}
+.wrap a{color:var(--accent)}
+.wrap blockquote{margin:12px 0;padding:10px 16px;background:#f4f8fc;border-left:4px solid var(--accent);color:#394554}
+.wrap table{border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;overflow-x:auto;display:block}
+.wrap th,.wrap td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}
+.wrap th{background:var(--soft);text-align:left}
+.wrap img{max-width:100%;height:auto;display:block;margin:12px 0}
+.wrap code{background:#f4f8fc;padding:1px 5px;border-radius:4px}
+.wrap hr{border:0;border-top:1px solid var(--line);margin:28px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:21px;margin-bottom:14px}
+.card h2{margin:0 0 8px;font-size:20px}
+.card p{margin:0 0 12px;color:var(--muted)}
 </style>
 </head>
 <body>
-<header>
-  <div class="eyebrow">豆包工作 · 读者配套资源</div>
-  <h1>附录B：常见问题与排查20问</h1>
-  <div class="nav">
-    <a href="../">资源首页</a>
-    <a href="./">附录目录</a>
-  </div>
+<header class="top">
+  <a class="brand" href="../index.html">
+    <div class="mark" aria-hidden="true">豆</div>
+    <div><strong>豆包工作</strong><small>书籍附录</small></div>
+  </a>
+  <div class="top-actions"><a href="../index.html">返回阅读指南</a><a href="./">附录目录</a></div>
 </header>
+<div class="page-intro">
+  <div class="eyebrow">书籍附录</div>
+  <h1>附录B：常见问题与排查20问</h1>
+</div>
 <main class="wrap">
 <h1>附录B　常见问题与排查：20问</h1>
 <p>本附录收录豆包工作使用中的20个常见问题（Frequently Asked Questions，FAQ），按产品与版本、安装与登录、功能使用、数据与安全、套餐与付费、故障排查和进阶使用七类编排。</p>

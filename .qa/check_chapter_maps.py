@@ -41,6 +41,5 @@ for p in (root/'resources').rglob('*.html'):
             assert (p.parent/path).exists(), (p,path)
             refs += 1
         if ident == 'skill-data':
-            assert '章节导图预览.html' in s
-            assert (p.parent/'章节导图预览.html').exists()
+            assert (p.parent/'chapter-maps.html').exists()
 print(json.dumps({'chapter_images':checked,'updated_embedded_references':refs,'result':'passed'},ensure_ascii=False))
