@@ -8,10 +8,10 @@
   <meta name="description" content="《豆包工作14天玩转AI办公》：阅读指南、章节导航、随书技能、指令模板、常见问题与核心术语速查。">
   <link rel="canonical" href="http://agentc.com.cn/">
   <style>
-    :root{color-scheme:light;--bg:#f5f5f7;--panel:#fff;--line:#e3e6eb;--muted:#6e6e73;--text:#1d1d1f;--accent:#0071e3}
+    :root{color-scheme:light;--bg:#eef2f7;--panel:#fff;--line:#e2e8f0;--muted:#66717d;--text:#141920;--accent:#0b6bcb;--ink:#102033}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth;scroll-padding-top:90px}
-    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif;-webkit-font-smoothing:antialiased}
+    body{margin:0;background:radial-gradient(1000px 420px at 8% -8%,#d9e8ff 0%,transparent 58%),radial-gradient(820px 380px at 100% 0%,#e4edf6 0%,transparent 52%),var(--bg);color:var(--text);font:16px/1.75 -apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif;-webkit-font-smoothing:antialiased}
     button,input{font:inherit}button{color:inherit;cursor:pointer;border:0;background:none}
     button,a{-webkit-tap-highlight-color:transparent}
     button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #0088ee80;outline-offset:4px}
@@ -22,29 +22,40 @@
     .brand strong{font-size:20px;letter-spacing:.4px;display:block}
     .brand small{display:block;color:var(--muted);font-size:12px;letter-spacing:.2px;line-height:1.45}
     .top-actions a{color:#515157;font-size:14px}
-    main{max-width:1510px;margin:auto;padding:48px 4vw 76px}
-    .intro{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:28px;flex-wrap:wrap}
+    main{max-width:1240px;margin:auto;padding:36px 4vw 76px}
+    .hero{margin-bottom:22px}
+    .hero-copy{background:#fff;border:1px solid #e6edf5;border-radius:28px;padding:36px 40px 30px;box-shadow:0 12px 40px #1a33500c}
     .eyebrow{font-size:13px;letter-spacing:1px;color:var(--accent);font-weight:600}
-    h1{font-size:40px;line-height:1.35;margin:9px 0 13px;letter-spacing:-1.2px}
+    h1{font-size:clamp(32px,4vw,44px);line-height:1.22;margin:10px 0 16px;letter-spacing:-1.4px;font-weight:650}
     h2{font-size:30px;line-height:1.4;letter-spacing:-.6px;margin:0 0 16px}
     h3{font-size:20px;line-height:1.5;margin:0 0 12px}
     p{margin:0 0 18px}
-    .intro p{font-size:16px;color:var(--muted);margin:0;max-width:640px}
-    .intro-scope{max-width:660px;font-size:13px;line-height:1.9;color:#7a8794;margin-top:13px}
-    .stats{display:flex;gap:34px;text-align:right}
-    .stats b{display:block;font-size:29px;line-height:1.4;letter-spacing:-1px;font-weight:500}
+    .lede{font-size:17px;line-height:1.8;color:var(--muted);margin:0;max-width:640px}
+    .intro-scope{max-width:640px;font-size:13px;line-height:1.85;color:#7b8694;margin:12px 0 0}
+    .stats{display:flex;flex-wrap:wrap;gap:0;margin-top:28px;padding-top:22px;border-top:1px solid #e8edf3;text-align:left}
+    .stats>div{padding-right:28px;margin-right:28px;border-right:1px solid #e8edf3}
+    .stats>div:last-child{border:0;margin:0;padding:0}
+    .stats b{display:block;font-size:28px;line-height:1.2;letter-spacing:-1px;font-weight:600}
     .stats span{font-size:12px;color:var(--muted)}
-    .view-nav{display:flex;border-bottom:1px solid #d8dce3;margin-bottom:28px;gap:28px;overflow:auto;white-space:nowrap;scrollbar-width:none}
+    .community{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:36px;background:linear-gradient(180deg,#1a3a58 0%,#102033 100%);color:#d7e3ee;border-radius:28px;padding:28px 32px;box-shadow:0 16px 40px #10203324}
+    .community-kicker{margin:0 0 6px;font-size:12px;letter-spacing:1.5px;color:#8fb7dd;font-weight:600}
+    .community-title{display:block;color:#fff;font-size:28px;line-height:1.3;letter-spacing:-.4px;font-weight:650}
+    .community-desc{margin:10px 0 0;font-size:15px;line-height:1.7;color:#b7c7d6;max-width:520px}
+    .community figure{margin:0;flex:none;width:176px;background:#fff;border-radius:18px;padding:8px 8px 6px}
+    .community img{display:block;width:100%;height:auto;border-radius:12px;background:#fff}
+    .community figcaption{margin:4px 0 2px;text-align:center;font-size:11px;color:#7e8b99}
+    .view-nav{display:flex;border:1px solid #e6edf5;background:#fff;border-radius:18px;margin-bottom:22px;gap:4px;padding:6px;overflow:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 8px 24px #1a335008}
     .view-nav::-webkit-scrollbar{display:none}
-    .view-nav button{color:var(--muted);font-size:15px;padding:14px 0;border-bottom:2px solid transparent;flex:none}
-    .view-nav button.active{color:var(--text);border-color:var(--text);font-weight:600}
+    .view-nav button{color:var(--muted);font-size:14px;padding:10px 14px;border-radius:13px;flex:none}
+    .view-nav button.active{color:#fff;background:var(--ink);font-weight:600}
     .panel{display:none}.panel.active{display:block}
-    .application-intro{display:flex;align-items:center;justify-content:space-between;gap:26px;background:#f0f5fb;border:1px solid #e0eaf4;border-radius:17px;padding:23px 27px;margin:0 0 28px}
-    .application-intro p{font-size:17px;line-height:1.9;color:#4a647d;margin:0;max-width:900px}
-    .kit-list{display:flex;flex-wrap:wrap;gap:18px 28px}
-    .kit-list button{text-align:left}
-    .kit-list b{display:block;color:var(--accent);font-size:22px;font-weight:500;letter-spacing:-.6px}
-    .kit-list span{font-size:13px;color:var(--muted)}
+    .application-intro{display:flex;align-items:center;justify-content:space-between;gap:26px;background:#fff;border:1px solid #e6edf5;border-radius:22px;padding:22px 26px;margin:0 0 22px;box-shadow:0 8px 30px #1a335008}
+    .application-intro p{font-size:16px;line-height:1.8;color:#4a647d;margin:0;max-width:900px}
+    .kit-list{display:flex;flex-wrap:wrap;gap:10px}
+    .kit-list button{text-align:left;background:#f6f9fc;border:1px solid #e6edf5;border-radius:14px;padding:10px 14px 11px;min-width:108px}
+    .kit-list button:hover{border-color:#b9d4f0;background:#fff}
+    .kit-list b{display:block;color:var(--accent);font-size:22px;font-weight:600;letter-spacing:-.6px}
+    .kit-list span{font-size:12px;color:var(--muted)}
     .workspace{display:grid;grid-template-columns:370px minmax(0,1fr);gap:32px;align-items:start}
     .loop-panel{border:1px solid #e6e9ee;border-radius:26px;background:radial-gradient(ellipse at 50% 40%,#e8f3ff,transparent 68%),#fff;overflow:hidden;position:sticky;top:100px;box-shadow:0 6px 24px #21365505}
     .panel-label{padding:22px 24px 0;display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
@@ -125,9 +136,9 @@
     .book-guide-notice>strong{font-size:17px;font-weight:600;color:#355571}
     .appendix-toolbar{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 22px}
     .pdf-frame{width:100%;height:min(78vh,920px);border:1px solid #e4e8ef;border-radius:18px;background:#fff}
-    footer{max-width:1510px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:flex-end;border-top:1px solid #dddfe6}
-    @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}.stats{display:none}}
-    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:29px 20px 50px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.kit-list{gap:14px 20px}.application-intro{display:block;padding:21px 23px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}}
+    footer{max-width:1240px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:flex-end;border-top:1px solid #dddfe6}
+    @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:22px 16px 50px}.hero-copy{padding:24px 22px 22px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.application-intro{display:block;padding:18px 18px 16px}.kit-list{margin-top:14px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}.community{flex-direction:column;align-items:flex-start;padding:22px 20px}.community figure{width:min(240px,86vw);margin-inline:auto}.stats>div{padding-right:18px;margin-right:18px}.view-nav button{min-height:44px}}
 
     .item-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
     .item,.m-card,.chapter-btn,.step-list li>div{min-width:0;overflow-wrap:anywhere}
@@ -139,7 +150,7 @@
     @media(max-width:600px){
       .top{padding:10px 16px;gap:10px}.brand{gap:9px}.top-actions a{font-size:12px}
       main{padding:26px 16px 40px}h1{font-size:30px}h2{font-size:25px}
-      .view-nav{gap:22px;scrollbar-width:thin}.view-nav button{min-height:48px}
+      .view-nav{scrollbar-width:thin}.view-nav button{min-height:48px}
       .chapter-grid{grid-template-columns:1fr}.detail-card,.method{padding:20px}
       .concept-chip{flex-wrap:wrap;gap:4px 10px;max-width:100%}.concept-chip small{white-space:normal}
       .loop-panel{border-radius:20px}.panel-label,.loop-note{padding-left:18px;padding-right:18px}
@@ -190,19 +201,19 @@
     </div>
   </header>
   <main>
-    <div class="intro">
-      <div>
-        <div class="eyebrow">《豆包工作14天玩转AI办公》</div>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">《豆包工作14天玩转AI办公》配套页</div>
         <h1>把办公任务，做得可验收。</h1>
-        <p>先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
+        <p class="lede">先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
         <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
+        <div class="stats">
+          <div><b>05</b><span>全书篇目</span></div>
+          <div><b>15</b><span>全书章节</span></div>
+          <div><b>24</b><span>核心术语</span></div>
+        </div>
       </div>
-      <div class="stats">
-        <div><b>05</b><span>全书篇目</span></div>
-        <div><b>15</b><span>全书章节</span></div>
-        <div><b>24</b><span>核心术语</span></div>
-      </div>
-    </div>
+    </section>
     <nav class="view-nav" aria-label="内容视图">
       <button data-view="guide" class="active">阅读指南</button>
       <button data-view="chapters">章节导航</button>
@@ -325,6 +336,17 @@
         </article>
       </div>
     </section>
+    <aside class="community" aria-label="读者交流群">
+      <div>
+        <p class="community-kicker">读者交流群</p>
+        <strong class="community-title">扫码进群一起用</strong>
+        <p class="community-desc">微信扫一扫，加入「9.6豆包工作AI开放麦」。</p>
+      </div>
+      <figure>
+        <img src="resources/community/wechat-group-qr-square.png?v=20260916" width="335" height="335" alt="微信群二维码：9.6豆包工作AI开放麦，9月23日前有效">
+        <figcaption>9月23日前有效</figcaption>
+      </figure>
+    </aside>
   </main>
   <footer>
     <span>《豆包工作14天玩转AI办公》</span>
