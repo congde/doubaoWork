@@ -31,21 +31,21 @@
 
 | 章节 | 配套技能 | 使用入口 | 导图 |
 | --- | --- | --- | --- |
-| 第1章 | 办公任务试点筛选 | [技能文件](skills/doubao-task-fit/SKILL.md) · [试用样本](skills/doubao-task-fit/examples.md) | [思维导图](../chapter-mindmaps/ch01.png) |
-| 第2章 | 首次会议纪要交付 | [技能文件](skills/doubao-meeting-minutes/SKILL.md) · [试用样本](skills/doubao-meeting-minutes/examples.md) | [思维导图](../chapter-mindmaps/ch02.png) |
-| 第3章 | 可执行任务书整理 | [技能文件](skills/doubao-task-contract/SKILL.md) · [试用样本](skills/doubao-task-contract/examples.md) | [思维导图](../chapter-mindmaps/ch03.png) |
-| 第4章 | 材料驱动的报告起草 | [技能文件](skills/doubao-evidence-report/SKILL.md) · [试用样本](skills/doubao-evidence-report/examples.md) | [思维导图](../chapter-mindmaps/ch04.png) |
-| 第5章 | 汇报页面脚本制作 | [技能文件](skills/doubao-presentation-storyboard/SKILL.md) · [试用样本](skills/doubao-presentation-storyboard/examples.md) | [思维导图](../chapter-mindmaps/ch05.png) |
-| 第6章 | 订单清洗与销售汇总 | [技能文件](skills/doubao-sales-table-audit/SKILL.md) · [试用样本](skills/doubao-sales-table-audit/examples.md) | [思维导图](../chapter-mindmaps/ch06.png) |
-| 第7章 | 择校资料证据核查 | [技能文件](skills/doubao-school-evidence-check/SKILL.md) · [试用样本](skills/doubao-school-evidence-check/examples.md) | [思维导图](../chapter-mindmaps/ch07.png) |
-| 第8章 | 网页资料登记与断点交接 | [技能文件](skills/doubao-page-register/SKILL.md) · [试用样本](skills/doubao-page-register/examples.md) | [思维导图](../chapter-mindmaps/ch08.png) |
-| 第9章 | 竞品更新监控单次执行 | [技能文件](skills/doubao-monitor-run/SKILL.md) · [试用样本](skills/doubao-monitor-run/examples.md) | [思维导图](../chapter-mindmaps/ch09.png) |
-| 第10章 | 活动多模态创作任务单 | [技能文件](skills/doubao-content-brief/SKILL.md) · [试用样本](skills/doubao-content-brief/examples.md) | [思维导图](../chapter-mindmaps/ch10.png) |
-| 第11章 | 团队行动项增量整理 | [技能文件](skills/doubao-team-action-merge/SKILL.md) · [试用样本](skills/doubao-team-action-merge/examples.md) | [思维导图](../chapter-mindmaps/ch11.png) |
-| 第12章 | 项目周报校验 | [技能文件](skills/doubao-weekly-report-check/SKILL.md) · [试用样本](skills/doubao-weekly-report-check/examples.md) | [思维导图](../chapter-mindmaps/ch12.png) |
-| 第13章 | 任务最小权限核对 | [技能文件](skills/doubao-permission-review/SKILL.md) · [试用样本](skills/doubao-permission-review/examples.md) | [思维导图](../chapter-mindmaps/ch13.png) |
-| 第14章 | 岗位任务流程卡 | [技能文件](skills/doubao-role-workflow-card/SKILL.md) · [试用样本](skills/doubao-role-workflow-card/examples.md) | [思维导图](../chapter-mindmaps/ch14.png) |
-| 第15章 | AI流程试点成效复盘 | [技能文件](skills/doubao-pilot-evaluation/SKILL.md) · [试用样本](skills/doubao-pilot-evaluation/examples.md) | [思维导图](../chapter-mindmaps/ch15.png) |
+| 第1章 | 办公任务试点筛选 | [技能文件](skills/doubao-task-fit/SKILL.md) · [试用样本](skills/doubao-task-fit/examples.md) | [思维导图](../chapter-mindmaps/ch01-imagegen-20260915.png) |
+| 第2章 | 首次会议纪要交付 | [技能文件](skills/doubao-meeting-minutes/SKILL.md) · [试用样本](skills/doubao-meeting-minutes/examples.md) | [思维导图](../chapter-mindmaps/ch02-imagegen-20260915.png) |
+| 第3章 | 可执行任务书整理 | [技能文件](skills/doubao-task-contract/SKILL.md) · [试用样本](skills/doubao-task-contract/examples.md) | [思维导图](../chapter-mindmaps/ch03-imagegen-20260915.png) |
+| 第4章 | 材料驱动的报告起草 | [技能文件](skills/doubao-evidence-report/SKILL.md) · [试用样本](skills/doubao-evidence-report/examples.md) | [思维导图](../chapter-mindmaps/ch04-imagegen-20260915.png) |
+| 第5章 | 汇报页面脚本制作 | [技能文件](skills/doubao-presentation-storyboard/SKILL.md) · [试用样本](skills/doubao-presentation-storyboard/examples.md) | [思维导图](../chapter-mindmaps/ch05-imagegen-20260915.png) |
+| 第6章 | 订单清洗与销售汇总 | [技能文件](skills/doubao-sales-table-audit/SKILL.md) · [试用样本](skills/doubao-sales-table-audit/examples.md) | [思维导图](../chapter-mindmaps/ch06-imagegen-20260915.png) |
+| 第7章 | 择校资料证据核查 | [技能文件](skills/doubao-school-evidence-check/SKILL.md) · [试用样本](skills/doubao-school-evidence-check/examples.md) | [思维导图](../chapter-mindmaps/ch07-imagegen-20260915.png) |
+| 第8章 | 网页资料登记与断点交接 | [技能文件](skills/doubao-page-register/SKILL.md) · [试用样本](skills/doubao-page-register/examples.md) | [思维导图](../chapter-mindmaps/ch08-imagegen-20260915.png) |
+| 第9章 | 竞品更新监控单次执行 | [技能文件](skills/doubao-monitor-run/SKILL.md) · [试用样本](skills/doubao-monitor-run/examples.md) | [思维导图](../chapter-mindmaps/ch09-imagegen-20260915.png) |
+| 第10章 | 活动多模态创作任务单 | [技能文件](skills/doubao-content-brief/SKILL.md) · [试用样本](skills/doubao-content-brief/examples.md) | [思维导图](../chapter-mindmaps/ch10-imagegen-20260915.png) |
+| 第11章 | 团队行动项增量整理 | [技能文件](skills/doubao-team-action-merge/SKILL.md) · [试用样本](skills/doubao-team-action-merge/examples.md) | [思维导图](../chapter-mindmaps/ch11-imagegen-20260915.png) |
+| 第12章 | 项目周报校验 | [技能文件](skills/doubao-weekly-report-check/SKILL.md) · [试用样本](skills/doubao-weekly-report-check/examples.md) | [思维导图](../chapter-mindmaps/ch12-imagegen-20260915.png) |
+| 第13章 | 任务最小权限核对 | [技能文件](skills/doubao-permission-review/SKILL.md) · [试用样本](skills/doubao-permission-review/examples.md) | [思维导图](../chapter-mindmaps/ch13-imagegen-20260915.png) |
+| 第14章 | 岗位任务流程卡 | [技能文件](skills/doubao-role-workflow-card/SKILL.md) · [试用样本](skills/doubao-role-workflow-card/examples.md) | [思维导图](../chapter-mindmaps/ch14-imagegen-20260915.png) |
+| 第15章 | AI流程试点成效复盘 | [技能文件](skills/doubao-pilot-evaluation/SKILL.md) · [试用样本](skills/doubao-pilot-evaluation/examples.md) | [思维导图](../chapter-mindmaps/ch15-imagegen-20260915.png) |
 
 ## 导图格式
 

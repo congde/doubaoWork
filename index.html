@@ -220,10 +220,10 @@
         <p>1 个配套网页，内含随书技能、讲解视频、指令模板、常见问题和核心术语。点击数字进入对应栏目，材料持续更新。</p>
         <div class="kit-list">
           <button data-view="skills"><b id="n-skills">15</b><span>个随书技能</span></button>
-          <button data-view="videos"><b>14</b><span>个讲解视频</span></button>
-          <button data-view="templates"><b>20</b><span>条指令模板</span></button>
-          <button data-view="faq"><b>20</b><span>个常见问题</span></button>
-          <button data-view="concepts"><b>24</b><span>个核心术语</span></button>
+          <button data-view="videos"><b id="n-videos">14</b><span>个讲解视频</span></button>
+          <button data-view="templates"><b id="n-templates">20</b><span>条指令模板</span></button>
+          <button data-view="faq"><b id="n-faq">20</b><span>个常见问题</span></button>
+          <button data-view="concepts"><b id="n-concepts">24</b><span>个核心术语</span></button>
         </div>
       </div>
       <div class="workspace">
@@ -359,6 +359,7 @@
     let conceptGroup = 'all';
     let conceptQuery = '';
     let activeConcept = '';
+    let lastFocus = null;
 
     const GUIDES = {
       learn: {
@@ -406,6 +407,7 @@
       return '#' + name;
     }
     function setView(name) {
+      if (name !== view) closeDrawer({ keepHash: true });
       view = name;
       document.querySelectorAll('.view-nav button').forEach(b => b.classList.toggle('active', b.dataset.view === name));
       document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'view-' + name));
@@ -419,6 +421,7 @@
       if (name === 'videos') renderVideos();
       if (name === 'templates') renderTemplates();
       if (name === 'faq') renderFaq($('faq-q').value);
+      window.scrollTo(0, 0);
     }
     function renderGuide() {
       document.querySelectorAll('#guide-orbit .node').forEach(b => { b.classList.toggle('active', b.dataset.guide === guide); b.setAttribute('aria-pressed', String(b.dataset.guide === guide)); });
@@ -447,6 +450,7 @@
     }
     function renderChapter() {
       const c = chapterByN(chN);
+      if (!c) return;
       const concepts = (c.conceptIds || []).map(conceptById).filter(Boolean);
       $('ch-detail').innerHTML = `
         <div class="stage-number">${c.part}</div>
@@ -608,6 +612,7 @@
     function openConcept(id, fromHash) {
       const c = conceptById(id);
       if (!c) return;
+      if (document.activeElement && document.activeElement !== document.body) lastFocus = document.activeElement;
       activeConcept = id;
       const key = conceptQuery.trim();
       const akaBits = [c.aka, c.en].filter((x, i, arr) => x && arr.indexOf(x) === i && x !== c.name);
@@ -639,25 +644,40 @@
       $('drawer').classList.remove('hidden');
       $('backdrop').classList.remove('hidden');
       document.body.style.overflow = 'hidden';
+      const closeBtn = $('close-drawer');
+      if (closeBtn) closeBtn.focus();
       if (view === 'concepts') {
         renderConcepts();
         if (!fromHash) history.replaceState(null, '', '#concepts-' + id);
       }
     }
-    function closeDrawer() {
+    function closeDrawer(opts) {
+      const keepHash = opts && opts.keepHash;
+      const wasOpen = !$('drawer').classList.contains('hidden');
       $('drawer').classList.add('hidden');
       $('backdrop').classList.add('hidden');
       document.body.style.overflow = '';
+      if (wasOpen && lastFocus) {
+        try { lastFocus.focus(); } catch (e) {}
+        lastFocus = null;
+      }
       if (view === 'concepts' && activeConcept) {
         activeConcept = '';
         renderConcepts();
-        history.replaceState(null, '', '#concepts');
+        if (!keepHash) history.replaceState(null, '', '#concepts');
       } else {
         activeConcept = '';
       }
     }
-    function gotoChapter(n) {
+    function revealChapter(n) {
+      const c = chapterByN(n);
+      if (!c) return false;
       chN = n;
+      if (partFilter !== 'all' && c.part !== partFilter) partFilter = 'all';
+      return true;
+    }
+    function gotoChapter(n) {
+      if (!revealChapter(n)) return;
       closeDrawer();
       setView('chapters');
       $('ch-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -687,6 +707,12 @@
       const b = e.target.closest('[data-part]');
       if (!b) return;
       partFilter = b.dataset.part;
+      const list = D.chapters.filter(c => partFilter === 'all' || c.part === partFilter);
+      if (list.length && !list.some(c => c.n === chN)) {
+        chN = list[0].n;
+        history.replaceState(null, '', '#chapters-' + chN);
+        renderChapter();
+      }
       renderParts();
       renderChList();
     });
@@ -750,19 +776,34 @@
       if (g) gotoChapter(Number(g.dataset.goto));
     });
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape' && !$('drawer').classList.contains('hidden')) closeDrawer();
+      if ($('drawer').classList.contains('hidden')) return;
+      if (e.key === 'Escape') { closeDrawer(); return; }
+      if (e.key !== 'Tab') return;
+      const nodes = [...$('drawer').querySelectorAll('button, a, [href], [tabindex]:not([tabindex="-1"])')].filter(n => !n.disabled && n.offsetParent !== null);
+      if (!nodes.length) return;
+      const first = nodes[0], last = nodes[nodes.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      else if (!$('drawer').contains(document.activeElement)) { e.preventDefault(); first.focus(); }
     });
 
     function bootFromHash() {
       const h = location.hash.replace(/^#/, '');
       const chapterMatch = h.match(/^chapters-(\d+)/);
-      if (chapterMatch) { chN = Math.min(15, Math.max(1, Number(chapterMatch[1]))); setView('chapters'); return; }
+      if (chapterMatch) {
+        revealChapter(Math.min(15, Math.max(1, Number(chapterMatch[1]))));
+        closeDrawer({ keepHash: true });
+        setView('chapters');
+        $('ch-detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
       const conceptMatch = h.match(/^concepts-([a-z0-9]+)/i);
       if (conceptMatch) {
         setView('concepts');
         openConcept(conceptMatch[1], true);
         return;
       }
+      closeDrawer({ keepHash: true });
       if (!h || h === 'guide') { setView('guide'); return; }
       if (VIEWS.includes(h)) { setView(h); return; }
     }
@@ -777,6 +818,10 @@
     renderTemplates();
     renderFaq('');
     $('n-skills').textContent = String(K.skills.length);
+    $('n-videos').textContent = String(K.videos.length);
+    $('n-templates').textContent = String(K.templates.reduce((n, cat) => n + cat.items.length, 0));
+    $('n-faq').textContent = String(K.faqs.reduce((n, cat) => n + cat.items.length, 0));
+    $('n-concepts').textContent = String(CORE_TERMS.length);
     bootFromHash();
     window.addEventListener('hashchange', bootFromHash);
   </script>

@@ -6,6 +6,6 @@
 - [逐章放大查看与下载](../companion/chapter-maps.html#ch1)
 - [生成提示词](prompts.json)
 
-`ch01.png` 至 `ch15.png` 为新版阅读图片。原 `companion/mindmaps/` 中的 PNG、SVG、drawio 保留为旧版素材，不是新版图片的可编辑源文件。
+`ch01-imagegen-20260915.png` 至 `ch15-imagegen-20260915.png` 为当前阅读图。`ch01.png` 至 `ch15.png` 以及 `companion/mindmaps/` 中的 PNG、SVG、drawio 保留为旧版素材，不是新版图片的可编辑源文件。
 
 在 GitHub 下载整个仓库 ZIP 并解压后，打开根目录 `index.html`，可离线阅读。请保留目录结构。
