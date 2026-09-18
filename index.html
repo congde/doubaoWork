@@ -37,11 +37,14 @@
     .stats>div:last-child{border:0;margin:0;padding:0}
     .stats b{display:block;font-size:28px;line-height:1.2;letter-spacing:-1px;font-weight:600}
     .stats span{font-size:12px;color:var(--muted)}
-    .community{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:36px;background:linear-gradient(180deg,#1a3a58 0%,#102033 100%);color:#d7e3ee;border-radius:28px;padding:28px 32px;box-shadow:0 16px 40px #10203324}
-    .community-title{display:block;color:#fff;font-size:28px;line-height:1.3;letter-spacing:-.4px;font-weight:650}
-    .community figure{margin:0;flex:none;width:176px;background:#fff;border-radius:18px;padding:8px 8px 6px}
-    .community img{display:block;width:100%;height:auto;border-radius:12px;background:#fff}
-    .community figcaption{margin:4px 0 2px;text-align:center;font-size:11px;color:#7e8b99}
+    .community{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch;margin-top:36px}
+    .community-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;background:linear-gradient(180deg,#1a3a58 0%,#102033 100%);color:#d7e3ee;border-radius:28px;padding:24px 22px 20px;box-shadow:0 16px 40px #10203324}
+    .community-title{display:flex;align-items:center;justify-content:center;min-height:2.8em;color:#fff;font-size:20px;line-height:1.4;letter-spacing:-.3px;font-weight:650}
+    .community figure{margin:0;width:200px;flex:none;background:#fff;border-radius:18px;padding:10px 10px 8px}
+    .community-qr{width:180px;height:180px}
+    .community img{display:block;width:180px;height:180px;object-fit:contain;object-position:center;background:#fff}
+    .community img.is-sticker{padding:12px;box-sizing:border-box}
+    .community figcaption{margin:6px 0 0;text-align:center;font-size:11px;line-height:1.4;color:#7e8b99;min-height:1.4em}
     .view-nav{display:flex;border:1px solid #e6edf5;background:#fff;border-radius:18px;margin-bottom:22px;gap:4px;padding:6px;overflow:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 8px 24px #1a335008}
     .view-nav::-webkit-scrollbar{display:none}
     .view-nav button{color:var(--muted);font-size:14px;padding:10px 14px;border-radius:13px;flex:none}
@@ -136,7 +139,7 @@
     .pdf-frame{width:100%;height:min(78vh,920px);border:1px solid #e4e8ef;border-radius:18px;background:#fff}
     footer{max-width:1240px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:flex-end;border-top:1px solid #dddfe6}
     @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}}
-    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:22px 16px 50px}.hero-copy{padding:24px 22px 22px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.application-intro{display:block;padding:18px 18px 16px}.kit-list{margin-top:14px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}.community{flex-direction:column;align-items:flex-start;padding:22px 20px}.community figure{width:min(240px,86vw);margin-inline:auto}.stats>div{padding-right:18px;margin-right:18px}.view-nav button{min-height:44px}}
+    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:22px 16px 50px}.hero-copy{padding:24px 22px 22px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.application-intro{display:block;padding:18px 18px 16px}.kit-list{margin-top:14px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}.community{grid-template-columns:1fr}.community-item{padding:22px 20px}.community-title{font-size:18px}.stats>div{padding-right:18px;margin-right:18px}.view-nav button{min-height:44px}}
 
     .item-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
     .item,.m-card,.chapter-btn,.step-list li>div{min-width:0;overflow-wrap:anywhere}
@@ -334,14 +337,25 @@
         </article>
       </div>
     </section>
-    <aside class="community" aria-label="《豆包工作14天玩转AI办公》-读者群">
-      <div>
+    <aside class="community" aria-label="读者群与配套表情包">
+      <div class="community-item">
         <strong class="community-title">《豆包工作14天玩转AI办公》-读者群</strong>
+        <figure>
+          <div class="community-qr">
+            <img src="resources/community/wechat-group-qr-square.png?v=20260916" width="180" height="180" alt="微信群二维码：《豆包工作14天玩转AI办公》-读者群，9月23日前有效">
+          </div>
+          <figcaption>9月23日前有效</figcaption>
+        </figure>
       </div>
-      <figure>
-        <img src="resources/community/wechat-group-qr-square.png?v=20260916" width="335" height="335" alt="微信群二维码：《豆包工作14天玩转AI办公》-读者群，9月23日前有效">
-        <figcaption>9月23日前有效</figcaption>
-      </figure>
+      <div class="community-item">
+        <strong class="community-title">配套表情包</strong>
+        <figure>
+          <div class="community-qr">
+            <img class="is-sticker" src="resources/community/wechat-sticker-qr.jpg?v=20260918" width="180" height="180" alt="微信表情包二维码：豆包工作配套表情包">
+          </div>
+          <figcaption>微信扫码添加</figcaption>
+        </figure>
+      </div>
     </aside>
   </main>
   <footer>
