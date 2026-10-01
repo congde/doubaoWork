@@ -24,7 +24,11 @@
     .top-actions a{color:#515157;font-size:14px}
     main{max-width:1240px;margin:auto;padding:36px 4vw 76px}
     .hero{margin-bottom:22px}
-    .hero-copy{background:#fff;border:1px solid #e6edf5;border-radius:28px;padding:36px 40px 30px;box-shadow:0 12px 40px #1a33500c}
+    .hero-copy{display:flex;align-items:center;justify-content:space-between;gap:36px;background:#fff;border:1px solid #e6edf5;border-radius:28px;padding:36px 40px 30px;box-shadow:0 12px 40px #1a33500c}
+    .hero-main{min-width:0;flex:1}
+    .hero-buy{margin:0;flex:none;display:flex;flex-direction:column;align-items:center;gap:8px}
+    .hero-buy img{display:block;width:152px;height:152px;object-fit:contain;background:#fff;border-radius:12px;border:1px solid #eef2f6}
+    .hero-buy figcaption{margin:0;text-align:center;font-size:12px;line-height:1.4;color:#7b8694}
     .eyebrow{font-size:13px;letter-spacing:1px;color:var(--accent);font-weight:600}
     h1{font-size:clamp(32px,4vw,44px);line-height:1.22;margin:10px 0 16px;letter-spacing:-1.4px;font-weight:650}
     h2{font-size:30px;line-height:1.4;letter-spacing:-.6px;margin:0 0 16px}
@@ -32,12 +36,12 @@
     p{margin:0 0 18px}
     .lede{font-size:17px;line-height:1.8;color:var(--muted);margin:0;max-width:640px}
     .intro-scope{max-width:640px;font-size:13px;line-height:1.85;color:#7b8694;margin:12px 0 0}
-    .stats{display:flex;flex-wrap:wrap;gap:0;margin-top:28px;padding-top:22px;border-top:1px solid #e8edf3;text-align:left}
+    .stats{display:flex;flex-wrap:wrap;gap:14px 0;margin-top:28px;padding-top:22px;border-top:1px solid #e8edf3;text-align:left}
     .stats>div{padding-right:28px;margin-right:28px;border-right:1px solid #e8edf3}
     .stats>div:last-child{border:0;margin:0;padding:0}
-    .stats b{display:block;font-size:28px;line-height:1.2;letter-spacing:-1px;font-weight:600}
+    .stats b{display:block;font-size:28px;line-height:1.2;letter-spacing:-1px;font-weight:600;font-variant-numeric:tabular-nums}
     .stats span{font-size:12px;color:var(--muted)}
-    .community{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch;margin-top:36px}
+    .community{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch;margin-top:36px}
     .community-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;background:linear-gradient(180deg,#1a3a58 0%,#102033 100%);color:#d7e3ee;border-radius:28px;padding:24px 22px 20px;box-shadow:0 16px 40px #10203324}
     .community-title{display:flex;align-items:center;justify-content:center;min-height:2.8em;color:#fff;font-size:20px;line-height:1.4;letter-spacing:-.3px;font-weight:650}
     .community figure{margin:0;width:200px;flex:none;background:#fff;border-radius:18px;padding:10px 10px 8px}
@@ -45,6 +49,12 @@
     .community img{display:block;width:180px;height:180px;object-fit:contain;object-position:center;background:#fff}
     .community img.is-sticker{padding:12px;box-sizing:border-box}
     .community figcaption{margin:6px 0 0;text-align:center;font-size:11px;line-height:1.4;color:#7e8b99;min-height:1.4em}
+    .community-music{width:200px;flex:none;background:#fff;border-radius:18px;padding:16px 12px 12px;display:flex;flex-direction:column;align-items:center;gap:8px;color:#394554}
+    .community-disc{width:88px;height:88px;border-radius:50%;background:radial-gradient(circle at 50% 50%,#1b1f24 0 16%,#7ec8ff 17% 20%,#0b6bcb 21% 36%,#102033 37% 68%,#36a3ed 69% 76%,#0b3d73 77%);box-shadow:0 8px 18px #10203326}
+    .community-track{margin:4px 0 0;font-size:15px;line-height:1.4;font-weight:650;color:#102033}
+    .community-credit{margin:0;font-size:11px;line-height:1.4;color:#7e8b99}
+    .community-music audio{width:176px;height:36px}
+    .community-music a{font-size:13px;color:var(--accent)}
     .view-nav{display:flex;border:1px solid #e6edf5;background:#fff;border-radius:18px;margin-bottom:22px;gap:4px;padding:6px;overflow:auto;white-space:nowrap;scrollbar-width:none;box-shadow:0 8px 24px #1a335008}
     .view-nav::-webkit-scrollbar{display:none}
     .view-nav button{color:var(--muted);font-size:14px;padding:10px 14px;border-radius:13px;flex:none}
@@ -139,7 +149,7 @@
     .pdf-frame{width:100%;height:min(78vh,920px);border:1px solid #e4e8ef;border-radius:18px;background:#fff}
     footer{max-width:1240px;margin:auto;padding:26px 4vw;font-size:12px;color:#888e97;display:flex;justify-content:flex-end;border-top:1px solid #dddfe6}
     @media(max-width:1120px){.workspace{grid-template-columns:1fr}.loop-panel{position:relative;top:0;margin-bottom:24px}.chapter-grid{grid-template-columns:repeat(3,1fr)}}
-    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:22px 16px 50px}.hero-copy{padding:24px 22px 22px}h1{font-size:32px}.chapter-grid{grid-template-columns:1fr 1fr}.application-intro{display:block;padding:18px 18px 16px}.kit-list{margin-top:14px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}.community{grid-template-columns:1fr}.community-item{padding:22px 20px}.community-title{font-size:18px}.stats>div{padding-right:18px;margin-right:18px}.view-nav button{min-height:44px}}
+    @media(max-width:800px){.top{min-height:66px;height:auto;padding:10px 20px}main{padding:22px 16px 50px}.hero-copy{padding:24px 22px 22px;gap:20px;align-items:flex-start}h1{font-size:32px}.hero-buy img{width:120px;height:120px}.chapter-grid{grid-template-columns:1fr 1fr}.application-intro{display:block;padding:18px 18px 16px}.kit-list{margin-top:14px}footer{display:block;padding:24px 20px}.drawer{padding:28px 22px}.brand strong{font-size:18px}.brand small{font-size:11px}.community{grid-template-columns:1fr}.community-item{padding:22px 20px}.community-title{font-size:18px}.stats>div{padding-right:18px;margin-right:18px}.stats>div:last-child{border:0;margin:0;padding:0}.view-nav button{min-height:44px}}}
 
     .item-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
     .item,.m-card,.chapter-btn,.step-list li>div{min-width:0;overflow-wrap:anywhere}
@@ -151,6 +161,7 @@
     @media(max-width:600px){
       .top{padding:10px 16px;gap:10px}.brand{gap:9px}.top-actions a{font-size:12px}
       main{padding:26px 16px 40px}h1{font-size:30px}h2{font-size:25px}
+      .hero-copy{flex-direction:column;align-items:stretch}.hero-buy{align-self:center;padding-top:4px}.hero-buy img{width:148px;height:148px}
       .view-nav{scrollbar-width:thin}.view-nav button{min-height:48px}
       .chapter-grid{grid-template-columns:1fr}.detail-card,.method{padding:20px}
       .concept-chip{flex-wrap:wrap;gap:4px 10px;max-width:100%}.concept-chip small{white-space:normal}
@@ -204,15 +215,25 @@
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <div class="eyebrow">《豆包工作14天玩转AI办公》配套页</div>
-        <h1>把办公任务，做得可验收。</h1>
-        <p class="lede">先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
-        <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
-        <div class="stats">
-          <div><b>05</b><span>全书篇目</span></div>
-          <div><b>15</b><span>全书章节</span></div>
-          <div><b>24</b><span>核心术语</span></div>
+        <div class="hero-main">
+          <div class="eyebrow">《豆包工作14天玩转AI办公》配套页</div>
+          <h1>把办公任务，做得可验收。</h1>
+          <p class="lede">先看方法，再按章节进入主干提要；点开陌生概念，就能回到所属章节。</p>
+          <p class="intro-scope">本页是全书框架与配套材料的入口。完整案例与边界说明，请对照纸书正文。</p>
+          <div class="stats">
+            <div><b>05</b><span>全书篇目</span></div>
+            <div><b>15</b><span>全书章节</span></div>
+            <div><b>24</b><span>核心术语</span></div>
+            <div id="visit-stat" title="页面打开次数">
+              <b id="visit-count">—</b>
+              <span>累计访问</span>
+            </div>
+          </div>
         </div>
+        <figure class="hero-buy">
+          <img src="resources/community/book-sales-qr.png?v=20260920" width="152" height="152" alt="购书二维码：扫码购买《豆包工作14天玩转AI办公》纸书">
+          <figcaption>扫码购买纸书</figcaption>
+        </figure>
       </div>
     </section>
     <nav class="view-nav" aria-label="内容视图">
@@ -231,7 +252,7 @@
       <div class="application-intro kit">
         <p>1 个配套网页，内含随书技能、讲解视频、指令模板、常见问题和核心术语。点击数字进入对应栏目，材料持续更新。</p>
         <div class="kit-list">
-          <button data-view="skills"><b id="n-skills">15</b><span>个随书技能</span></button>
+          <button data-view="skills"><b id="n-skills">213</b><span>个随书技能</span></button>
           <button data-view="videos"><b id="n-videos">14</b><span>个讲解视频</span></button>
           <button data-view="templates"><b id="n-templates">20</b><span>条指令模板</span></button>
           <button data-view="faq"><b id="n-faq">20</b><span>个常见问题</span></button>
@@ -263,13 +284,13 @@
     </section>
 
     <section id="view-skills" class="panel">
-      <p class="count">15 个即用技能集中在这里。选一个任务，复制示例或换成自己的材料。</p>
+      <p class="count" id="skill-count">选一个任务，复制示例或换成自己的材料。</p>
+      <p class="count" id="skill-more"></p>
       <div class="item-grid" id="skill-grid"></div>
     </section>
 
     <section id="view-videos" class="panel">
-      <p class="count">14 个章节讲解按第 1—14 章排列。片源持续更新，更新后可在本页观看。</p>
-      <div class="item-grid" id="video-grid"></div>
+      <div class="book-guide-notice" id="video-source"></div>
     </section>
 
     <section id="view-templates" class="panel">
@@ -317,7 +338,7 @@
         </article>
         <article class="m-card">
           <h3>技能文件包</h3>
-          <p>15 个技能的离线压缩包。日常练习请用顶部「随书技能」。</p>
+          <p id="pack-blurb">技能的离线压缩包。日常练习请用顶部「随书技能」。</p>
           <a class="next" href="resources/skill-kit/index.html"><span>打开技能文件</span><span>↗</span></a>
         </article>
         <article class="m-card">
@@ -337,14 +358,14 @@
         </article>
       </div>
     </section>
-    <aside class="community" aria-label="读者群与配套表情包">
+    <aside class="community" aria-label="读者群、配套表情包与配套音乐">
       <div class="community-item">
         <strong class="community-title">《豆包工作14天玩转AI办公》-读者群</strong>
         <figure>
           <div class="community-qr">
-            <img src="resources/community/wechat-group-qr-square.png?v=20260916" width="180" height="180" alt="微信群二维码：《豆包工作14天玩转AI办公》-读者群，9月23日前有效">
+            <img src="resources/community/wechat-group-qr-square.png?v=20261001" width="180" height="180" alt="微信群二维码：《豆包工作14天玩转AI办公》-读者群，10月8日前有效">
           </div>
-          <figcaption>9月23日前有效</figcaption>
+          <figcaption>10月8日前有效</figcaption>
         </figure>
       </div>
       <div class="community-item">
@@ -356,6 +377,18 @@
           <figcaption>微信扫码添加</figcaption>
         </figure>
       </div>
+      <div class="community-item">
+        <strong class="community-title">配套音乐</strong>
+        <div class="community-music">
+          <div class="community-disc" aria-hidden="true"></div>
+          <p class="community-track">《豆包工作不加班》</p>
+          <p class="community-credit">萧尘制作 · 豆包生成</p>
+          <audio controls preload="metadata" src="resources/community/doubao-work-no-overtime.mp3?v=20260922" aria-label="试听《豆包工作不加班》">
+            浏览器不支持音频播放，请下载 MP3。
+          </audio>
+          <a href="resources/community/doubao-work-no-overtime.mp3?v=20260922" download="原创-豆包工作不加班-萧尘制作.mp3">下载 MP3</a>
+        </div>
+      </div>
     </aside>
   </main>
   <footer>
@@ -364,7 +397,9 @@
   <div id="backdrop" class="detail-backdrop hidden"></div>
   <section id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="概念详情"></section>
   <script src="guide-data.js?v=20260916-glossary"></script>
-  <script src="kit-data.js?v=20260916-glossary"></script>
+  <script src="kit-data.js?v=20260919-videos2"></script>
+  <script src="poju-data.js?v=20260918"></script>
+  <script src="skill-release.js?v=20261001"></script>
   <script>
     const D = window.BOOK_DATA;
     const K = window.KIT_DATA;
@@ -582,24 +617,30 @@
       const btn = document.querySelector('[data-copy-concept="'+id+'"]');
       if (btn) { const old = btn.textContent; btn.textContent = '已复制'; setTimeout(() => btn.textContent = old, 1600); }
     }
+    function visibleSkills() {
+      return SKILL_RELEASE.filter(window.POJU_SKILLS || []);
+    }
     function renderSkills() {
-      $('skill-grid').innerHTML = K.skills.map(s => `
+      const open = visibleSkills();
+      $('skill-count').textContent = open.length + ' 个即用技能集中在这里。选一个任务，下载技能包后使用。';
+      const more = SKILL_RELEASE.readerNote((window.POJU_SKILLS || []).length);
+      $('skill-more').textContent = more;
+      $('skill-more').hidden = !more;
+      $('skill-grid').innerHTML = open.map(s => `
         <article class="item">
-          <div class="meta">第${String(s.n).padStart(2,'0')}章</div>
-          <h3>${s.name}</h3>
-          <p>${s.brief}</p>
-          <a class="next" href="${s.page}"><span>打开即用页</span><span>↗</span></a>
+          <div class="meta">${esc(s.cat || '')}</div>
+          <h3>${esc(s.name)}</h3>
+          <p>${esc(s.brief)}</p>
+          <a class="next" href="${esc(s.page)}"><span>查看并下载</span><span>↗</span></a>
         </article>`).join('');
     }
     function renderVideos() {
-      $('video-grid').innerHTML = K.videos.map(v => `
-        <article class="item">
-          <div class="meta">第${String(v.chapter).padStart(2,'0')}章</div>
-          <h3>${v.title}</h3>
-          <p>${v.url ? '点击观看本章讲解。' : '视频上线后可在这里观看，当前可先阅读本章。'}</p>
-          ${v.url ? `<a class="next" href="${v.url}" target="_blank" rel="noopener"><span>观看视频</span><span>↗</span></a>` : '<span class="status">' + (v.status || '待上线') + '</span>'}
-          <button class="next secondary" data-goto="${v.chapter}" style="background:transparent;border:1px solid var(--line);color:var(--muted)"><span>查看本章</span><span>→</span></button>
-        </article>`).join('');
+      const src = K.videoSource || {};
+      const box = $('video-source');
+      if (!box) return;
+      box.innerHTML = src.url
+        ? `<strong>${esc(src.title || '随书视频')}</strong><p>${esc(src.note || '')}</p><div class="appendix-toolbar"><a class="btn" href="${esc(src.url)}" target="_blank" rel="noopener">打开飞书合集</a></div>`
+        : '<strong>讲解视频</strong><p>片源持续更新，更新后可在本页观看。</p>';
     }
     function renderTemplates() {
       $('tpl-box').innerHTML = K.templates.map(cat => `
@@ -650,7 +691,7 @@
       const akaBits = [c.aka, c.en].filter((x, i, arr) => x && arr.indexOf(x) === i && x !== c.name);
       const aliases = (c.aliases || []).filter(a => a && a !== c.name && !akaBits.includes(a));
       const related = (c.related || []).map(conceptById).filter(Boolean);
-      const skills = (c.chapters || []).map(n => (K.skills || []).find(s => s.n === n)).filter(Boolean);
+      const skills = (c.chapters || []).map(n => (K.skills || []).find(s => s.chapter === n)).filter(Boolean);
       const uniqueSkills = skills.filter((s, i) => skills.findIndex(x => x.n === s.n) === i);
       $('drawer').innerHTML = `
         <button type="button" class="close" id="close-drawer" aria-label="关闭">×</button>
@@ -670,7 +711,7 @@
             const ch = chapterByN(n);
             return `<button type="button" class="concept-chip" data-goto="${n}">第${n}章 <small>${esc(ch ? ch.short : '')}</small></button>`;
           }).join('')}</div>
-          ${uniqueSkills.length ? uniqueSkills.map(s => `<a class="next related-skill" href="${esc(s.page)}"><span>本章技能：${esc(s.name)}</span><span>↗</span></a>`).join('') : ''}
+          ${uniqueSkills.filter(s => SKILL_RELEASE.isReleased(s.n, K.skills.length)).map(s => `<a class="next related-skill" href="${esc(s.page)}"><span>本章技能：${esc(s.name)}</span><span>↗</span></a>`).join('')}
         </div>
         ${related.length ? `<div class="definition"><label>相关术语</label><div class="chips" style="margin-top:12px">${related.map(x => `<button type="button" class="concept-chip" data-concept="${x.id}">${esc(x.name)}${x.aka ? ' · ' + esc(x.aka) : ''}</button>`).join('')}</div></div>` : ''}`;
       $('drawer').classList.remove('hidden');
@@ -789,10 +830,6 @@
       const b = e.target.closest('[data-faq]');
       if (b) b.parentElement.classList.toggle('open');
     });
-    $('video-grid').addEventListener('click', e => {
-      const g = e.target.closest('[data-goto]');
-      if (g) gotoChapter(Number(g.dataset.goto));
-    });
     $('materials-grid').addEventListener('click', e => {
       const b = e.target.closest('[data-view]');
       if (b) { e.preventDefault(); setView(b.dataset.view); }
@@ -849,13 +886,41 @@
     renderVideos();
     renderTemplates();
     renderFaq('');
-    $('n-skills').textContent = String(K.skills.length);
-    $('n-videos').textContent = String(K.videos.length);
+    $('n-skills').textContent = String(visibleSkills().length);
+    const packBlurb = $('pack-blurb');
+    if (packBlurb) {
+      packBlurb.textContent = '技能的离线压缩包。日常练习请用顶部「随书技能」。';
+    }
+    $('n-videos').textContent = String((K.videoSource && K.videoSource.count) || 14);
     $('n-templates').textContent = String(K.templates.reduce((n, cat) => n + cat.items.length, 0));
     $('n-faq').textContent = String(K.faqs.reduce((n, cat) => n + cat.items.length, 0));
     $('n-concepts').textContent = String(CORE_TERMS.length);
     bootFromHash();
     window.addEventListener('hashchange', bootFromHash);
+    (function loadVisits() {
+      const el = $('visit-count');
+      const box = $('visit-stat');
+      if (!el) return;
+      fetch('/api/visits', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { Accept: 'application/json' },
+        keepalive: true
+      }).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+        const pv = Number(d && d.pv);
+        el.textContent = Number.isFinite(pv) ? String(Math.floor(pv)) : '—';
+        if (box) {
+          const today = Number(d.today_pv);
+          const uv = Number(d.uv);
+          const bits = [];
+          if (Number.isFinite(today)) bits.push('今日 ' + Math.floor(today) + ' 次');
+          if (Number.isFinite(uv)) bits.push('独立访客 ' + Math.floor(uv));
+          if (bits.length) box.title = bits.join(' · ');
+        }
+      }).catch(() => {
+        el.textContent = '—';
+      });
+    })();
   </script>
 </body>
 </html>

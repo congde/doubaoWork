@@ -18,25 +18,30 @@
 <div class="page-intro">
   <div class="eyebrow">随书技能</div>
   <h1>技能文件包</h1>
-  <p>每个压缩包含技能规则、试用样本和说明。可整套下载，也可按章取用。</p>
+  <p>每个压缩包含技能规则和相关文件。可按技能取用。</p>
+  <p class="count" id="skill-more"></p>
 </div>
-<main class="wrap"><ul>
-<li><a href="all-skills.zip" download>all-skills.zip</a></li>
-<li><a href="ch01-task-fit.zip" download>ch01-task-fit.zip</a></li>
-<li><a href="ch02-meeting-minutes.zip" download>ch02-meeting-minutes.zip</a></li>
-<li><a href="ch03-task-contract.zip" download>ch03-task-contract.zip</a></li>
-<li><a href="ch04-evidence-report.zip" download>ch04-evidence-report.zip</a></li>
-<li><a href="ch05-presentation-storyboard.zip" download>ch05-presentation-storyboard.zip</a></li>
-<li><a href="ch06-sales-table-audit.zip" download>ch06-sales-table-audit.zip</a></li>
-<li><a href="ch07-school-evidence-check.zip" download>ch07-school-evidence-check.zip</a></li>
-<li><a href="ch08-page-register.zip" download>ch08-page-register.zip</a></li>
-<li><a href="ch09-monitor-run.zip" download>ch09-monitor-run.zip</a></li>
-<li><a href="ch10-content-brief.zip" download>ch10-content-brief.zip</a></li>
-<li><a href="ch11-team-action-merge.zip" download>ch11-team-action-merge.zip</a></li>
-<li><a href="ch12-weekly-report-check.zip" download>ch12-weekly-report-check.zip</a></li>
-<li><a href="ch13-permission-review.zip" download>ch13-permission-review.zip</a></li>
-<li><a href="ch14-role-workflow-card.zip" download>ch14-role-workflow-card.zip</a></li>
-<li><a href="ch15-pilot-evaluation.zip" download>ch15-pilot-evaluation.zip</a></li>
-</ul></main>
+<main class="wrap">
+  <ul id="pack-list"></ul>
+</main>
+<script src="../../../skill-release.js?v=20261001"></script>
+<script src="../../../poju-data.js?v=20260918"></script>
+<script>
+const all = window.POJU_SKILLS || [];
+const open = SKILL_RELEASE.filter(all);
+const moreEl = document.getElementById('skill-more');
+const more = SKILL_RELEASE.readerNote(all.length);
+if (moreEl) {
+  moreEl.textContent = more;
+  moreEl.hidden = !more;
+}
+const list = document.getElementById('pack-list');
+open.forEach(s => {
+  const li = document.createElement('li');
+  const file = s.zip.split('/').pop();
+  li.innerHTML = '<a href="' + encodeURI(file) + '" download>' + s.name + '</a>';
+  list.append(li);
+});
+</script>
 </body>
 </html>

@@ -65,7 +65,7 @@ body = r'''<header class="top">
   <nav id="list" aria-label="选择章节技能"></nav>
   <p id="empty" hidden>没有找到。试试“纪要”“报告”“PPT”“表格”“调研”或章节编号。</p>
   <p class="hint">第一次使用推荐：会议纪要。</p>
-  <a class="btn" id="all-download" href="packs/all-skills.zip" download="all-skills.zip">下载全部 15 个技能</a>
+  <a class="btn" id="all-download" href="packs/all-skills.zip" download="all-skills.zip">下载全部技能</a>
 </aside>
 <section class="detail" aria-label="技能使用区">
   <div id="chapter" class="meta"></div>
@@ -117,7 +117,7 @@ body = r'''<header class="top">
 </main>
 <footer class="footer">本页可离线使用，不上传材料，也不连接你的账号。下载包已包含使用说明和示例。</footer>
 <noscript>
-  <p class="footer">当前浏览器未启用脚本。请打开 <a href="packs/">skill packs</a> 获取 15 个技能包，或返回 <a href="../../index.html">阅读指南</a>。</p>
+  <p class="footer">当前浏览器未启用脚本。请打开 <a href="packs/">skill packs</a> 获取技能包，或返回 <a href="../../index.html">阅读指南</a>。</p>
 </noscript>
 '''
 
@@ -146,11 +146,45 @@ try {
   skills = JSON.parse($('skill-data').textContent);
 } catch (err) {
   $('title').textContent = '技能数据未能加载';
-  $('description').textContent = '请改用本页左侧的“下载全部 15 个技能”，或打开技能包目录。';
+  $('description').textContent = '请改用本页左侧的下载入口，或打开技能包目录。';
+}
+function openSkills() {
+  return window.SKILL_RELEASE ? SKILL_RELEASE.filter(skills) : skills;
+}
+function upcomingRequested() {
+  const n = chapterFromLocation();
+  return skills.some(s => s.n === n) && window.SKILL_RELEASE && !SKILL_RELEASE.isReleased(n, skills.length);
+}
+function pickSelected() {
+  const open = openSkills();
+  return open.find(s => s.n === chapterFromLocation()) || open.find(s => s.n === 2) || open[0];
 }
 const drafts = new Map();
-let selected = skills.find(s => s.n === chapterFromLocation()) || skills.find(s => s.n === 2) || skills[0];
+let selected = pickSelected();
 let mode = 'trial';
+function setWorkbench(on) {
+  const tabs = document.querySelector('.tabs');
+  if (tabs) tabs.hidden = !on;
+  $('copy').hidden = !on;
+  $('download').hidden = !on;
+  document.querySelectorAll('.detail details').forEach(d => { d.hidden = !on; });
+  if (!on) {
+    $('trial-pane').hidden = true;
+    $('own-pane').hidden = true;
+  }
+}
+function syncReleaseNote() {
+  const open = openSkills();
+  const allBtn = $('all-download');
+  if (!allBtn) return;
+  if (open.length >= skills.length) {
+    allBtn.hidden = false;
+    allBtn.textContent = '下载全部 ' + skills.length + ' 个技能';
+    allBtn.setAttribute('download', 'all-skills.zip');
+  } else {
+    allBtn.hidden = true;
+  }
+}
 
 function chapterFromLocation() {
   const hash = (location.hash || '').replace(/^#/, '');
@@ -212,7 +246,7 @@ function list() {
   const q = $('search').value.trim().toLowerCase();
   $('list').replaceChildren();
   let count = 0;
-  const ordered = skills.slice().sort((a, b) => score(b, q) - score(a, q) || a.n - b.n);
+  const ordered = openSkills().slice().sort((a, b) => score(b, q) - score(a, q) || a.n - b.n);
   for (const s of ordered) {
     if (q && !score(s, q)) continue;
     const b = document.createElement('button');
@@ -244,7 +278,13 @@ function setMode(value) {
   $('status').textContent = '';
 }
 function render() {
+  syncReleaseNote();
+  if (upcomingRequested()) {
+    selected = pickSelected();
+    if (selected) syncHash();
+  }
   if (!selected) return;
+  setWorkbench(true);
   for (const key of ['title', 'description', 'sample', 'inputs', 'expected', 'output', 'dependency', 'rules']) {
     $(key).textContent = selected[key] || '';
   }
@@ -312,8 +352,16 @@ $('all-download').addEventListener('click', event => {
   $('status').textContent = '已发起整套下载，请到浏览器下载记录查看。';
 });
 window.addEventListener('hashchange', () => {
-  const next = skills.find(s => s.n === chapterFromLocation());
-  if (!next || (selected && next.n === selected.n)) return;
+  if (upcomingRequested()) {
+    selected = pickSelected();
+    render();
+    return;
+  }
+  const next = openSkills().find(s => s.n === chapterFromLocation());
+  if (!next || (selected && next.n === selected.n)) {
+    render();
+    return;
+  }
   storeDraft();
   selected = next;
   render();
@@ -329,6 +377,7 @@ html = (
     + body + '\n'
     + skill_data + '\n'
     + all_zip + '\n'
+    + '<script src="../../skill-release.js?v=20261001"></script>\n'
     + '<script>' + script + '</script></body></html>\n'
 )
 

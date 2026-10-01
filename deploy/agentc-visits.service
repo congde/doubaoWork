@@ -1,0 +1,15 @@
+[Unit]
+Description=agentc.com.cn visit counter
+After=network.target
+
+[Service]
+Type=simple
+User=nginx
+Group=nginx
+WorkingDirectory=/workspace/doubaoWork
+ExecStart=/usr/bin/python3.11 /workspace/doubaoWork/deploy/visit_counter.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
